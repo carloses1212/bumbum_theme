@@ -1,0 +1,262 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 767px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.4em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+  h6 {
+    font-size: 1.1em;
+  }
+  .container {
+    max-width: 990px;
+    margin: 0 auto;
+  }
+  /* Layout */
+  .no-sidebar .main-container {
+    grid-template-columns: 100%;
+  }
+  .sidebar-left .main-container {
+    grid-template-columns: 30% 70%;
+  }
+  .sidebar-right .main-container {
+    grid-template-columns: 70% 30%;
+  }
+  .two-sidebar .main-container {
+    grid-template-columns: 30% 40% 30%;
+  }
+  #main {
+    order: 2;
+  }
+  .sidebar {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+  /* Sidebar */
+  #sidebar-left {
+    order: 1;
+    padding: 0 20px 0 0;
+  }
+  #sidebar-right {
+    order: 3;
+    padding: 0 0 0 20px;
+  }
+  .services,
+  .full,
+  .footer-container,
+  .footer-bottom-last,
+  .flex-container {
+    flex-direction: row;
+  }
+  .full {
+    margin-bottom: 1em;
+  }
+  .item {
+    flex: 1;
+    padding: 0 20px 0 0;
+    margin: 0;
+  }
+  .item-full {
+    flex: 1;
+    padding: 0 0 0 0;
+    margin: 0;
+  }
+  .item:last-child {
+    padding: 0;
+  }
+  .service {
+    margin: 0.5em;
+    flex: 1 1 calc(33.333333% - 1em);
+    max-width: calc(33.333333% - 1em);
+  }
+  /* main */
+  .node-header {
+    font-size: 1em;
+  }
+  li.taxonomy-term a {
+    padding: 8px 20px;
+  }
+  li.node-readmore a {
+    padding: 0.6em 1em;
+  }
+  /* Comment */
+  .comment-user-picture {
+    flex: 0 0 100px;
+    padding: 0 10px;
+  }
+  /* Footer */
+  .footer-bottom-last > * {
+    margin-bottom: 0;
+  }
+  .footer-block {
+    padding-right: 20px;
+  }
+  .last-flex-item, .last-footer-block {
+    padding-right: 0;
+  }
+  .social-icons li {
+    margin: 0;
+  }
+  /* components */
+  .width30 {
+    width: 30%;
+  }
+  .width40 {
+    width: 40%;
+  }
+  .width50 {
+    width: 50%;
+  }
+  .width60 {
+    width: 60%;
+  }
+  .width70 {
+    width: 70%;
+  }
+  .width80 {
+    width: 80%;
+  }
+  .width90 {
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1168px;
+  }
+  th {
+    padding: 10px;
+  }
+  td {
+    padding: 5px 10px;
+  }
+  /* Header */
+  .site-branding img {
+    max-height: 80px;
+  }
+  .site-name {
+    font-size: 1.6em;
+  }
+  .site-slogan {
+    font-size: 0.9em;
+    margin-top: 2px;
+  }
+  .morphist {
+    text-align: left;
+  }
+  .menu-wrap {
+    position: relative;
+    float: right;
+    margin-left: 0;
+    transition: none;
+	margin-right: 50px;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .main-menu {
+    display: block;
+  }
+  .search-box-content .block {
+    width: 70%;
+  }
+  #page-header {
+    padding: 0em 0 0em 0;
+  }
+}
+@media (min-width: 1170px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+@media (min-width: 1920px) {
+  .site-branding img {
+    max-height: 80px;
+    width: 80%;
+  }
+  .container {
+    max-width: 1920px;
+  }
+  .full {
+    margin-bottom: 0em;
+  }
+  .cont-menu{
+	  position: absolute;
+      z-index: 16;
+	  background: rgba(0,0,0,0.2);
+  }
+  ul.main-menu > li {
+	  margin-right: 40px;
+	  text-align: center;
+      min-width: 100px;
+      padding: 0 20px 0 20px;
+  }
+  ul.main-menu > li:last-of-type {
+	  border-radius: 20px;
+	  background: #fdda24;
+  }
+  ul.main-menu > li:last-of-type > a {
+	  color:#272422;
+  }
+  .cont-block{
+	padding: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+  }
+  .page-header .cont-block p{
+	font-size: 2em;
+    text-align: left;
+    color: #272422;
+    font-weight: bold;
+  }
+  .page-header .cont-block{
+	padding: 30px 100px;
+    justify-content: start;
+  }
+  .page-header .item-dos-tercios img{
+	width: 100%;
+	max-height: 500px;
+    object-fit: cover;
+  }
+  .cont-block h1{
+	color: #272422;
+  }
+  .cont-block h2{
+	color: #272422;
+	padding-bottom: 1em;
+  }
+  .cont-block p{
+	font-size: 1em;
+    text-align: justify;
+	color: #272422;
+  }
+  .cont-block a{
+	color: #272422;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 0.6em 3em;
+    border: none;
+	width: fit-content;
+  }
+}
