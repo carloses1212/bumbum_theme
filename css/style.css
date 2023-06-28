@@ -1010,6 +1010,7 @@ hr {
 .cont-somos .item-dos-tercios .cont-block h2{
 	color: #272422;
     margin: 0 40px 0 0;
+	font-weight:bold;
 }
 .cont-somos .item-dos-tercios .cont-block div{
 	flex-flow:column;
@@ -1924,7 +1925,7 @@ ol.breadcrumb-items li {
 #main {
   position: relative;
   padding: 0;
-  margin: 0 0 2em 0;
+  margin: 0 0 0 0;
   width: 100%;
 }
 
