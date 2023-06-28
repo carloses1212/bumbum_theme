@@ -1,0 +1,32 @@
+name: bumbum_theme
+type: theme
+base theme: stable9
+description: 'Theme para el sitio Web del Bum Bum Fest organizado por el Teatro Mayor Julio Mario Santo Domingo en apoyo de Bancolombia'
+core_version_requirement: ^10
+libraries:
+  - bumbum_theme/global-styling # Library for all global css. These css will be loaded on every pages.
+  - bumbum_theme/global-scripts # Library for all global js. These js will be loaded on every pages.
+  - bumbum_theme/slider
+  - bumbum_theme/fontawesome
+
+regions:
+  site_branding: 'Site Branding'
+  primary_menu: 'Primary menu'
+  page_header: 'Page Header'
+  highlighted: Highlighted
+  content: Content
+  content_top: 'Content Top'
+  content_bottom: 'Content Bottom'
+  content_home: 'Homepage Content'
+  sidebar_first: 'Sidebar Left'
+  sidebar_second: 'Sidebar Right'
+  footer_top: 'Footer Top'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_bottom: 'Footer Bottom'
+  hidden_blocks: 'Hidden Blocks'
+version: 10.0.9
+project: bumbum
+datestamp: 1687910400

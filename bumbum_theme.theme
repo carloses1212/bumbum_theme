@@ -1,0 +1,108 @@
+<?php
+use Drupal\file\Entity\File;
+/**
+ * @file
+ * Functions to support theming.
+ */
+
+/**
+  * Sanitise input urls.
+  */
+ function santise_val_url($url) {
+ 	if ($url != '') {
+
+ 		// Sanitise (remove all illegal characters) from url.
+ 		$url = filter_var($url, FILTER_SANITIZE_URL);
+
+ 		// Validate url.
+ 		if (filter_var($url, FILTER_VALIDATE_URL) == TRUE) {
+ 			$url = $url;
+ 		} else {
+ 			$url = '#';
+ 		}
+ 		return $url;
+ 	}
+ }
+
+/* *
+ * BumBum page preprocess.
+ * Define variables for theme settings.
+ */
+function bumbum_preprocess_page(array &$variables) {
+	$config = \Drupal::config('system.site');
+	$variables['site_name'] = $config->get('name');
+	$variables['site_slogan'] = $config->get('slogan');
+	$variables['circle_type'] = theme_get_setting('circle_type', 'bumbum_theme');
+	$variables['slider_show'] = theme_get_setting('slider_show', 'bumbum_theme');
+	$variables['slider_code'] = theme_get_setting('slider_code', 'bumbum_theme');
+	$variables['slider_image'] = theme_get_setting('slider_image', 'bumbum_theme');
+	$variables['all_icons_show'] = theme_get_setting('all_icons_show', 'bumbum_theme');
+	$variables['facebook_url'] = santise_val_url(theme_get_setting('facebook_url', 'bumbum_theme'));
+	$variables['twitter_url'] = santise_val_url(theme_get_setting('twitter_url', 'bumbum_theme'));
+	$variables['instagram_url'] = santise_val_url(theme_get_setting('instagram_url', 'bumbum_theme'));
+	$variables['front_sidebar'] = theme_get_setting('front_sidebar', 'bumbum_theme');
+	$variables['scrolltotop_on'] = theme_get_setting('scrolltotop_on', 'bumbum_theme');
+	$variables['copyright_text'] = theme_get_setting('copyright_text', 'bumbum_theme');
+	$variables['font_icon_fontawesome'] = theme_get_setting('font_icon_fontawesome', 'bumbum_theme');
+	$variables['font_icon_material'] = theme_get_setting('font_icon_material', 'bumbum_theme');
+	$slider_image_id = theme_get_setting('slider_image', 'bumbum_theme');
+	if(!empty($slider_image_id)) {
+		$slider_image_file = File::load($slider_image_id[0]);
+		$slider_image_file->setPermanent();
+		$slider_image_file->save();
+		$slider_image_file_usage = \Drupal::service('file.usage');
+		$slider_image_file_usage->add($slider_image_file, 'bumbum_theme', 'theme', $slider_image_id[0]);
+	}
+	if(!empty($slider_image_file)) {
+		$imageuri = $slider_image_file->getFileUri();
+		$variables['slider_image_path'] = \Drupal::service('file_url_generator')->generateAbsoluteString($imageuri);
+	}
+}
+
+/* *
+ * Node preprocess.
+ */
+function bumbum_preprocess_node(array &$variables) {
+	$variables['node_author_pic'] = theme_get_setting('node_author_pic', 'bumbum_theme');
+	$variables['node_tags'] = theme_get_setting('node_tags', 'bumbum_theme');
+   
+}
+
+/* *
+ * Comment preprocess.
+ */
+function bumbum_preprocess_comment(array &$variables) {
+	$variables['comment_user_pic'] = theme_get_setting('comment_user_pic', 'bumbum_theme');
+}
+
+ /**
+  * Html preprocess for bumbum theme.
+  * Adds body classes if certain regions have content.
+  * Used for creating different page layout.
+  */
+function bumbum_preprocess_html(&$variables) {
+	$variables['base_path'] = base_path();
+	$variables['styling'] = theme_get_setting('styling', 'bumbum_theme');
+	$variables['styling_code'] = theme_get_setting('styling_code', 'bumbum_theme');
+	$slider_home = theme_get_setting('slider_show', 'bumbum_theme');
+	$is_front = \Drupal::service('path.matcher')->isFrontPage();
+	if ($slider_home == 1 and $is_front == 1) {
+		$variables['attributes']['class'][] = 'frontpage';
+	}
+}
+
+/* *
+ * Add current page to breadcrumb.
+ */
+function bumbum_preprocess_breadcrumb(&$variables) {
+	$request = \Drupal::request();
+	$route_match = \Drupal::routeMatch();
+	$page_title = \Drupal::service('title_resolver')->getTitle($request, $route_match->getRouteObject());
+	if (!empty($page_title)) {
+		$variables['breadcrumb'][] = [
+			'text' => $page_title,
+		];
+		// Add cache context based on url.
+		$variables['#cache']['contexts'][] = 'url';
+	}
+}
