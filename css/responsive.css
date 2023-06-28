@@ -141,7 +141,7 @@
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1168px;
+    max-width: 992px;
   }
   th {
     padding: 10px;
@@ -164,7 +164,7 @@
     float: right;
     margin-left: 0;
     transition: none;
-	margin-right: 50px;
+	margin-right: 0px;
   }
   .mobile-menu {
     display: none;
@@ -178,6 +178,15 @@
   #page-header {
     padding: 0em 0 0em 0;
   }
+  .field--name-sb-banner-a-subheadline{
+	  top: 40%;
+  }
+  .field--name-sb-banner-a-caption{
+	top: 50%;
+  }
+  .field--name-sb-banner-a-url{
+	  top: 70%;
+  }
   .site-branding img {
     max-height: 80px;
     width: 125px;
@@ -188,10 +197,10 @@
   .cont-menu{
 	  position: absolute;
       z-index: 16;
-	  background: rgba(0,0,0,0.2);
+	  background: rgba(0,0,0,0.3);
   }
   ul.main-menu > li {
-	  margin-right: 40px;
+	  margin-right: 0px;
 	  text-align: center;
       min-width: 100px;
       padding: 0 20px 0 20px;
@@ -204,11 +213,12 @@
 	  color:#272422;
   }
   .cont-block{
-	padding: 100px;
+	padding: 15px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     height: 100%;
+	margin: 0px;
   }
   .page-header .cont-block p{
 	font-size: 2em;
@@ -227,10 +237,12 @@
   }
   .cont-block h1{
 	color: #272422;
+	font-weight:bold;
   }
   .cont-block h2{
 	color: #272422;
 	padding-bottom: 1em;
+	font-weight:bold;
   }
   .cont-block p{
 	font-size: 1em;
@@ -244,6 +256,15 @@
     padding: 0.6em 3em;
     border: none;
 	width: fit-content;
+  }
+  .owl-carousel .owl-stage-outer {
+    height: 85%;
+  }
+  .owl-theme .owl-nav {
+    margin-top: 0px;
+  }
+  .footer .item-footer .cont-block a {
+    padding: 0em 0em;
   }
 }
 @media (min-width: 1170px) {
@@ -260,10 +281,10 @@
   .cont-menu{
 	  position: absolute;
       z-index: 16;
-	  background: rgba(0,0,0,0.2);
+	  background: rgba(0,0,0,0.3);
   }
   ul.main-menu > li {
-	  margin-right: 40px;
+	  margin-right: 0px;
 	  text-align: center;
       min-width: 100px;
       padding: 0 20px 0 20px;
@@ -276,7 +297,7 @@
 	  color:#272422;
   }
   .cont-block{
-	padding: 100px;
+	padding: 20px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -299,10 +320,12 @@
   }
   .cont-block h1{
 	color: #272422;
+	font-weight:bold;
   }
   .cont-block h2{
 	color: #272422;
 	padding-bottom: 1em;
+	font-weight:bold;
   }
   .cont-block p{
 	font-size: 1em;
@@ -313,9 +336,12 @@
 	color: #272422;
     background: #ffffff;
     border-radius: 20px;
-    padding: 0.6em 3em;
+    padding: 0.6em 2em;
     border: none;
 	width: fit-content;
+  }
+  .footer .item-footer .cont-block{
+	  margin: 10px;
   }
 }
 @media (min-width: 1366px) {
@@ -332,10 +358,10 @@
   .cont-menu{
 	  position: absolute;
       z-index: 16;
-	  background: rgba(0,0,0,0.2);
+	  background: rgba(0,0,0,0.3);
   }
   ul.main-menu > li {
-	  margin-right: 40px;
+	  margin-right: 0px;
 	  text-align: center;
       min-width: 100px;
       padding: 0 20px 0 20px;
@@ -348,7 +374,7 @@
 	  color:#272422;
   }
   .cont-block{
-	padding: 100px;
+	padding: 40px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -371,10 +397,12 @@
   }
   .cont-block h1{
 	color: #272422;
+	font-weight:bold;
   }
   .cont-block h2{
 	color: #272422;
 	padding-bottom: 1em;
+	font-weight:bold;
   }
   .cont-block p{
 	font-size: 1em;
@@ -388,6 +416,14 @@
     padding: 0.6em 3em;
     border: none;
 	width: fit-content;
+  }
+  .footer .item-footer .cont-block {
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
   }
 }
 @media (min-width: 1850px) {
@@ -409,7 +445,7 @@
   .cont-menu{
 	  position: absolute;
       z-index: 16;
-	  background: rgba(0,0,0,0.2);
+	  background: rgba(0,0,0,0.3);
   }
   ul.main-menu > li {
 	  margin-right: 40px;
@@ -448,10 +484,12 @@
   }
   .cont-block h1{
 	color: #272422;
+	font-weight:bold;
   }
   .cont-block h2{
 	color: #272422;
 	padding-bottom: 1em;
+	font-weight:bold;
   }
   .cont-block p{
 	font-size: 1em;
@@ -466,4 +504,24 @@
     border: none;
 	width: fit-content;
   }
+  .full .item-60.white-background{
+	  display: flex;
+  }
+  .item-40 .cont-block{
+	  padding: 40px;
+  }
+  .f-territorios img:first-of-type{
+		object-fit: cover;
+		object-position: right;
+  }
+  .cont-terr {
+	  max-width: 976px;
+  }
+  .f-territorios img:last-of-type{
+	position: absolute;
+    right: -50px;
+    z-index: 17;
+    width: 909px;
+  }
+  
 }
