@@ -1,0 +1,33 @@
+# Social icons
+all_icons_show: 1
+facebook_url: 'https://www.facebook.com/'
+twitter_url: 'https://twitter.com/'
+instagram_url: 'https://www.instagram.com/google'
+youtube_url: 'https://www.youtube.com/user/Google'
+
+#Header
+circle_type: 'circle_border'
+
+#slider
+slider_show: 1
+slider_code: ''
+slider_image: ''
+slider_image_path: ''
+
+# sidebar
+front_sidebar: 0
+
+# Content
+comment_user_pic: 1
+node_author_pic: 0
+node_tags: 0
+font_icon_fontawesome: 0
+font_icon_material: 0
+
+# Footer
+copyright_text: 1
+scrolltotop_on: 1
+
+# Custom styling
+styling: 0
+styling_code: ''

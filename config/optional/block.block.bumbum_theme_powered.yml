@@ -1,0 +1,19 @@
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bumbum_theme
+id: bumbum_powered
+theme: bumbum_theme
+region: hidden_blocks
+weight: -17
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Desarrollado por Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
