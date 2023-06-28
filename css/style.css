@@ -1032,11 +1032,45 @@ hr {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 25%;
   flex: 1 1 25%;
-  max-width: 100%;
+  max-width: 25%;
+}
+.item-40{
+  margin: 0 0 0 0;
+  padding: 50px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40%;
+  flex: 1 1 40%;
+  max-width: 40%;
+}
+.item-40 div{
+	margin-bottom: 2em;
+}
+.item-40 h6.border-round{
+	color: #272422;
+    padding: 0 17px;
+    border: 1px solid #272422;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+  }
+  .item-40 p{
+	margin: 0 20px;
+  }
+  .item-40 p strong{
+	    color: #272422;
+  }
+.item-60{
+  margin: 0 0 0 0;
+  padding: 50px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 60%;
+  flex: 1 1 60%;
+  max-width: 60%;
 }
 .item-un-cuarto h2{
 	text-align: right;
     color: #272422;
+	font-weight:bold;
 }
 .item-un-cuarto div{
 	display: flex;
@@ -1068,7 +1102,7 @@ hr {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 33.3%;
   flex: 1 1 33.3%;
-  max-width: 100%;
+  max-width: 33.3%;
 }
 .item-dos-tercios{
   margin: 0 0 0 0;
@@ -1080,6 +1114,13 @@ hr {
 }
 .cont-block{
 	margin: 30px;
+}
+.cont-fest{
+	margin: 3em;
+    padding: 2em;
+}
+.cont-fest h3, .cont-fest h4{
+	color:#272422;
 }
 
 /* Slider Home
@@ -1530,6 +1571,7 @@ ul.main-menu ul.submenu {
   padding: 0;
   z-index: 30;
   opacity: 0;
+  background: rgba(0,0,0,0.4);
 }
 
 ul.main-menu ul.submenu li {
@@ -1824,13 +1866,14 @@ ol.breadcrumb-items li {
 	grid-column: 1;
     grid-row: 2;
     place-self: center;
-    font-size: 4.6em;
+    font-size: 4em;
     border-radius: 30px;
-    margin-left: 20px;
+    margin-left: 47px;
     position: absolute;
     top: 38%;
     z-index: 16;
     color: white;
+    letter-spacing: 5px;
 }
 
 .field--name-sb-banner-a-caption {
@@ -1843,9 +1886,9 @@ ol.breadcrumb-items li {
     width: 100%;
     padding: 10px;
     border-radius: 30px;
-    font-size: 3em;
+    font-size: 3.5em;
     position: absolute;
-    top: 50%;
+    top: 47%;
 }
 
 /* Buttons */
@@ -1865,6 +1908,9 @@ ol.breadcrumb-items li {
     width: 100%;
     font-size: 1em;
     background: rgba(0,0,0,0.6);
+}
+.field--name-sb-banner-a-url a:hover{
+	color: white;
 }
 .field--name-sb-banner-a-url a::after {
     font-family: 'FontAwesome';
