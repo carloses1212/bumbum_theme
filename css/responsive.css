@@ -566,14 +566,3 @@
     max-width: 16%;
   }
 }
-@media (max-height: 2880px) {
-	.field--name-sb-banner-a-headline {
-		top: 30%;
-	}
-	.field--name-sb-banner-a-subheadline {
-		top: 36%;
-	}
-	.field--name-sb-banner-a-caption {
-		top: 45%;
-	}
-}
