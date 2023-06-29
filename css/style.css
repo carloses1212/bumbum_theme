@@ -1082,6 +1082,40 @@ hr {
   .item-40 p strong{
 	    color: #272422;
   }
+  .item-45{
+  margin: 0 0 0 0;
+  padding: 50px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 45%;
+  flex: 1 1 45%;
+  max-width: 45%;
+}
+  .item-55{
+  margin: 0 0 0 0;
+  padding: 50px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 55%;
+  flex: 1 1 55%;
+  max-width: 55%;
+}
+.item-55 .cont-block {
+	position: relative;
+}
+.item-55 h3{
+	color: #272422;
+    padding: 0 17px;
+    display: block;
+    width: fit-content;
+  }
+  .item-55 p{
+	color:#272422;
+  }
+  .item-55 span{
+	    color: #272422;
+		top: 50px;
+		right: 60px;
+		position: absolute;
+  }
 .item-60{
   margin: 0 0 0 0;
   padding: 50px;
@@ -1104,6 +1138,33 @@ hr {
 	text-align: center;
     color: #242722;
 }
+.ses-head img{
+	object-position: 50% 0%;	
+}
+#block-bumbum-theme-artistassessions2023 .field--name-field-titulo{
+	padding: 50px;
+}
+#block-bumbum-theme-botonessessions{
+	padding: 60px;
+}
+#block-bumbum-theme-artistassessions2023 .layout__region--second .field--name-field-enlace {
+	text-align: center;
+}
+#block-bumbum-theme-artistassessions2023 .layout__region--first .field--name-field-enlace {
+	text-align: right;
+}
+#block-bumbum-theme-artistassessions2023 .layout__region--third .field--name-field-enlace {
+	text-align: left;
+}
+#block-bumbum-theme-artistassessions2023 a {
+	color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+
 .f-territorios img:first-of-type{
 	width: 15%;
 }
@@ -2995,7 +3056,7 @@ ul.social-icons li a:hover {
 	background-color: #ff7f37;
 }
 .purple-background{
-	background-color: #f9164cc;
+	background-color: #9164cc;
 }
 .blue-background{
 	background-color: #00ccea;
