@@ -179,7 +179,7 @@
     padding: 0em 0 0em 0;
   }
   .field--name-sb-banner-a-subheadline{
-	  top: 40%;
+	  top: 42%;
   }
   .field--name-sb-banner-a-caption{
 	top: 50%;
@@ -219,6 +219,9 @@
     justify-content: center;
     height: 100%;
 	margin: 0px;
+  }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	  font-weight: 700;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -267,6 +270,26 @@
   .footer .item-footer .cont-block a {
     padding: 0em 0em;
   }
+  .full .item-60.white-background{
+	  display: flex;
+  }
+  .item-40 .cont-block{
+	  padding: 40px;
+  }
+  .f-territorios img:first-of-type{
+		object-fit: cover;
+		object-position: right;
+		width: 16%;
+  }
+  .cont-terr {
+	  max-width: 998px;
+  }
+  .f-territorios img:last-of-type{
+	position: absolute;
+    right: 0px;
+    z-index: 17;
+    width: 761px;
+  }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
     max-width: 25%;
@@ -282,6 +305,15 @@
   .site-branding img {
     max-height: 80px;
     width: 125px;
+  }
+  .field--name-sb-banner-a-subheadline{
+	  top: 42%;
+  }
+  .field--name-sb-banner-a-caption{
+	top: 50%;
+  }
+  .field--name-sb-banner-a-url{
+	  top: 70%;
   }
   .full {
     margin-bottom: 0em;
@@ -310,6 +342,9 @@
     flex-flow: column;
     justify-content: center;
     height: 100%;
+  }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	  font-weight: 700;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -352,6 +387,26 @@
   .footer .item-footer .cont-block{
 	  margin: 10px;
   }
+  .full .item-60.white-background{
+	  display: flex;
+  }
+  .item-40 .cont-block{
+	  padding: 40px;
+  }
+  .f-territorios img:first-of-type{
+		object-fit: cover;
+		object-position: right;
+		width: 16%;
+  }
+  .cont-terr {
+	  max-width: 998px;
+  }
+  .f-territorios img:last-of-type{
+	position: absolute;
+    right: 0px;
+    z-index: 17;
+    width: 761px;
+  }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
     max-width: 25%;
@@ -367,6 +422,15 @@
   .site-branding img {
     max-height: 80px;
     width: 125px;
+  }
+  .field--name-sb-banner-a-subheadline{
+	  top: 42%;
+  }
+  .field--name-sb-banner-a-caption{
+	top: 50%;
+  }
+  .field--name-sb-banner-a-url{
+	  top: 70%;
   }
   .full {
     margin-bottom: 0em;
@@ -395,6 +459,9 @@
     flex-flow: column;
     justify-content: center;
     height: 100%;
+  }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	  font-weight: 700;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -441,6 +508,26 @@
     justify-content: center;
     height: fit-content;
     width: fit-content;
+  }
+  .full .item-60.white-background{
+	  display: flex;
+  }
+  .item-40 .cont-block{
+	  padding: 40px;
+  }
+  .f-territorios img:first-of-type{
+		object-fit: cover;
+		object-position: right;
+		width: 16%;
+  }
+  .cont-terr {
+	  max-width: 998px;
+  }
+  .f-territorios img:last-of-type{
+	position: absolute;
+    right: 0px;
+    z-index: 17;
+    width: 761px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -490,6 +577,9 @@
     justify-content: center;
     height: 100%;
   }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	  font-weight: 700;
+  }
   .page-header .cont-block p{
 	font-size: 1em;
     text-align: left;
@@ -535,6 +625,26 @@
     justify-content: center;
     height: fit-content;
     width: fit-content;
+  }
+  .full .item-60.white-background{
+	  display: flex;
+  }
+  .item-40 .cont-block{
+	  padding: 40px;
+  }
+  .f-territorios img:first-of-type{
+		object-fit: cover;
+		object-position: right;
+		width: 16%;
+  }
+  .cont-terr {
+	  max-width: 998px;
+  }
+  .f-territorios img:last-of-type{
+	position: absolute;
+    right: 0px;
+    z-index: 17;
+    width: 761px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -582,6 +692,9 @@
     flex-flow: column;
     justify-content: center;
     height: 100%;
+  }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	  font-weight: 700;
   }
   .page-header .cont-block p{
 	font-size: 1em;
