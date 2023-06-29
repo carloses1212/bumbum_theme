@@ -55,7 +55,7 @@ jQuery(document).ready(function ($) {
   var owlb = $('.owl-carousel-banner');
   owlb.owlCarousel({
     margin: 10,
-    nav: false,
+    nav: true,
     loop: true,
     responsive: {
       0: {
