@@ -448,12 +448,15 @@
  }
 }
 @media (min-width: 1920px) {
+  .site-branding {
+    margin: 1em 1.3em;
+  }
   .site-branding img {
     max-height: 80px;
-    width: 125px;
+    width: 100px;
   }
   .container {
-    max-width: 1920px;
+    max-width: 100%;
   }
   .full {
     margin-bottom: 0em;
@@ -562,4 +565,15 @@
     padding: 20px 20px;
     max-width: 16%;
   }
+}
+@media (max-height: 2880px) {
+	.field--name-sb-banner-a-headline {
+		top: 30%;
+	}
+	.field--name-sb-banner-a-subheadline {
+		top: 36%;
+	}
+	.field--name-sb-banner-a-caption {
+		top: 45%;
+	}
 }
