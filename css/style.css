@@ -1077,6 +1077,7 @@ hr {
   }
   .item-40 p{
 	margin: 0 20px;
+	color:#272422;
   }
   .item-40 p strong{
 	    color: #272422;
@@ -1140,6 +1141,9 @@ hr {
 .cont-fest{
 	margin: 3em;
     padding: 2em;
+}
+.cont-fest p{
+	color:#ffffff;
 }
 .cont-fest h3, .cont-fest h4{
 	color:#272422;
