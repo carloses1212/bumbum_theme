@@ -1084,7 +1084,7 @@ hr {
   }
   .item-45{
   margin: 0 0 0 0;
-  padding: 50px;
+  padding: 0px;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 45%;
   flex: 1 1 45%;
@@ -1141,22 +1141,23 @@ hr {
 .ses-head img{
 	object-position: 50% 0%;	
 }
-#block-bumbum-theme-artistassessions2023 .field--name-field-titulo{
+#block-bumbum-theme-botonessessions .field--name-field-titulo{
 	padding: 50px;
 }
 #block-bumbum-theme-botonessessions{
 	padding: 60px;
+	border-bottom: 2px solid #fdda24;
 }
-#block-bumbum-theme-artistassessions2023 .layout__region--second .field--name-field-enlace {
+#block-bumbum-theme-botonessessions .layout__region--second .field--name-field-enlace {
 	text-align: center;
 }
-#block-bumbum-theme-artistassessions2023 .layout__region--first .field--name-field-enlace {
+#block-bumbum-theme-botonessessions .layout__region--first .field--name-field-enlace {
 	text-align: right;
 }
-#block-bumbum-theme-artistassessions2023 .layout__region--third .field--name-field-enlace {
+#block-bumbum-theme-botonessessions .layout__region--third .field--name-field-enlace {
 	text-align: left;
 }
-#block-bumbum-theme-artistassessions2023 a {
+#block-bumbum-theme-botonessessions a {
 	color: #272422;
     background: #fdda24;
     border-radius: 20px;
