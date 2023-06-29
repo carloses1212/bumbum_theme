@@ -274,21 +274,22 @@
 	  display: flex;
   }
   .item-40 .cont-block{
-	  padding: 40px;
+	  padding: 0px;
   }
   .f-territorios img:first-of-type{
-		object-fit: cover;
-		object-position: right;
-		width: 16%;
+		display: none;
+  }
+  .f-territorios .cont-block p{
+	  z-index: 22;
   }
   .cont-terr {
-	  max-width: 998px;
+	  max-width: 620px;
   }
   .f-territorios img:last-of-type{
 	position: absolute;
-    right: 0px;
+    right: -80px;
     z-index: 17;
-    width: 761px;
+    width: 563px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -391,21 +392,24 @@
 	  display: flex;
   }
   .item-40 .cont-block{
-	  padding: 40px;
+	  padding: 15px;
   }
   .f-territorios img:first-of-type{
 		object-fit: cover;
 		object-position: right;
 		width: 16%;
   }
+  .f-territorios .cont-block p{
+	  z-index: 22;
+  }
   .cont-terr {
-	  max-width: 998px;
+	  max-width: 500px;
   }
   .f-territorios img:last-of-type{
 	position: absolute;
-    right: 0px;
+    right: -50px;
     z-index: 17;
-    width: 761px;
+    width: 672px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -513,21 +517,27 @@
 	  display: flex;
   }
   .item-40 .cont-block{
-	  padding: 40px;
+	  padding: 20px;
   }
   .f-territorios img:first-of-type{
 		object-fit: cover;
 		object-position: right;
 		width: 16%;
   }
+  .f-territorios .cont-block{
+	  padding: 40px;
+  }
+  .f-territorios .cont-block p{
+	  z-index: 22;
+  }
   .cont-terr {
-	  max-width: 998px;
+	  max-width: 635px;
   }
   .f-territorios img:last-of-type{
 	position: absolute;
     right: 0px;
     z-index: 17;
-    width: 761px;
+    width: 647px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -705,6 +715,18 @@
   .page-header .cont-block{
 	padding: 30px 100px;
     justify-content: start;
+  }
+  .ses-head .cont-block{
+	padding: 100px;
+  }
+  .ses-head .cont-block h2{
+	text-align: left;
+    max-width: 50px;
+    line-height: initial;
+  }
+  .ses-head .cont-block p{
+	font-size: 1em;
+	font-weight: 200;
   }
   .rev-head .cont-block{
 	padding: 100px;
