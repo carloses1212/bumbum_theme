@@ -30,7 +30,9 @@ jQuery(document).ready(function ($) {
   $('.scrolltop').click(function () {
     $('html, body').animate( { scrollTop: 0 }, 'slow');
   });
-  
+  $(".field--name-sb-banner-a-url a").click(function(){
+	  $(".homepage-content").show();
+  });
   //Carrusel
   var owl = $('.revive');
   owl.owlCarousel({

@@ -513,15 +513,16 @@
   .f-territorios img:first-of-type{
 		object-fit: cover;
 		object-position: right;
+		width: 16%;
   }
   .cont-terr {
-	  max-width: 976px;
+	  max-width: 998px;
   }
   .f-territorios img:last-of-type{
 	position: absolute;
-    right: -50px;
+    right: 0px;
     z-index: 17;
-    width: 909px;
+    width: 761px;
   }
   
 }
