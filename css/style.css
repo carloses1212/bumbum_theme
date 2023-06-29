@@ -1912,6 +1912,9 @@ ol.breadcrumb-items li {
 .field--name-sb-banner-a-url a:hover{
 	color: white;
 }
+.homepage-content{
+	display:block;
+}
 .field--name-sb-banner-a-url a::after {
     font-family: 'FontAwesome';
     color: #fff;
