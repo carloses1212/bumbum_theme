@@ -1201,7 +1201,7 @@ hr {
 	color:#272422;
 }
 #block-bumbum-theme-artista01reproductor .block-content{
-	padding: 100px;
+	padding: 40px;
 }
 #block-bumbum-theme-artista01reproductor .block-content img{
 	width: 100%;
@@ -1218,14 +1218,19 @@ hr {
 }
 #block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content{
 	margin: 115px;
-    top: 70%;
+    position: absolute;
+    top: 50%;
     max-width: 75%;
     background: #fdda24;
     padding: 50px 100px;
 }
+#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content .block-content{
+	padding: 0px;
+}
 #block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type{
-	margin: 100px;
+	padding: 200px;
     height: 40px;
+    border-bottom: 2px solid #fdda24;
 }
 #block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type .layout__region--content{
 	padding: 100px;
@@ -1244,13 +1249,13 @@ hr {
 #block-bumbum-theme-artista01reproductor .field--name-field-titulo h1{
 	color: #272422;
 }
-#block-bumbum-theme-artista01reproductor .field--name-field-titulo .field--name-body{
+#block-bumbum-theme-artista01reproductor .field--name-body{
 	width: 85%;
     text-align: center;
     margin-bottom: 1em;
     margin: 0 auto 2em auto;
 }
-#block-bumbum-theme-artista01reproductor .field--name-field-titulo .field--name-body p{
+#block-bumbum-theme-artista01reproductor .field--name-body p{
 	color: #272422;
 }
 #block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type a {
