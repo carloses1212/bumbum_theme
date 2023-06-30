@@ -548,7 +548,7 @@
 	position: absolute;
     right: 0px;
     z-index: 17;
-    width: 647px;
+    width: 675px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -662,14 +662,17 @@
 		width: 16%;
 		display:block;
   }
+  .f-territorios .cont-block{
+	  padding: 100px;
+  }
   .cont-terr {
-	  max-width: 998px;
+	  max-width: 934px;
   }
   .f-territorios img:last-of-type{
 	position: absolute;
     right: 0px;
     z-index: 17;
-    width: 761px;
+    width: 787px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -807,13 +810,13 @@
 		display:block;
   }
   .cont-terr {
-	  max-width: 998px;
+	  max-width: 996px;
   }
   .f-territorios img:last-of-type{
 	position: absolute;
     right: 0px;
     z-index: 17;
-    width: 761px;
+    width: 789px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;

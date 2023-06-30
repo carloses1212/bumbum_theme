@@ -1022,6 +1022,9 @@ hr {
   flex: 1 1 100%;
   max-width: 100%;
 }
+#somos strong{
+	color: #272422;
+}
 .cont-somos .item-un-tercio img{
 	height: 100%;
 	object-fit:cover;
@@ -1040,6 +1043,12 @@ hr {
 .cont-somos .item-dos-tercios .cont-block div p strong{
 	color: #272422;
 	font-weight:bolder;
+}
+#block-bumbum-theme-lineup .layout__region{
+	padding-right: 100px;
+}
+#block-bumbum-theme-artistasfestival2023{
+	padding: 50px 100px;
 }
 .item-full {
   margin: 0 0 0 0;
