@@ -1141,23 +1141,31 @@ hr {
 .ses-head img{
 	object-position: 50% 0%;	
 }
-#block-bumbum-theme-botonessessions .field--name-field-titulo{
+#block-bumbum-theme-artistassessions2023 .field--name-field-titulo,
+#block-bumbum-theme-talleresbogota2022 .field--name-field-titulo {
 	padding: 50px;
 }
-#block-bumbum-theme-botonessessions{
+#block-bumbum-theme-botonessessions, #block-bumbum-theme-botonesartistas2022, #block-bumbum-theme-botonestalleres{
 	padding: 60px;
 	border-bottom: 2px solid #fdda24;
 }
-#block-bumbum-theme-botonessessions .layout__region--second .field--name-field-enlace {
+#block-bumbum-theme-botonessessions .layout__region--second .field--name-field-enlace2,
+#block-bumbum-theme-botonesartistas2022 .layout__region--second .field--name-field-enlace2,
+#block-bumbum-theme-botonestalleres .layout__region--second .field--name-field-enlace2 {
 	text-align: center;
 }
-#block-bumbum-theme-botonessessions .layout__region--first .field--name-field-enlace {
+#block-bumbum-theme-botonessessions .layout__region--first .field--name-field-enlace,
+#block-bumbum-theme-botonesartistas2022 .layout__region--second .field--name-field-enlace,
+#block-bumbum-theme-botonestalleres .layout__region--second .field--name-field-enlace {
 	text-align: right;
 }
-#block-bumbum-theme-botonessessions .layout__region--third .field--name-field-enlace {
+#block-bumbum-theme-botonessessions .layout__region--third .field--name-field-enlace3,
+#block-bumbum-theme-botonesartistas2022 .layout__region--second .field--name-field-enlace3,
+#block-bumbum-theme-botonestalleres .layout__region--second .field--name-field-enlace3 {
 	text-align: left;
 }
-#block-bumbum-theme-botonessessions a {
+#block-bumbum-theme-botonessessions a, #block-bumbum-theme-botonesartistas2022 a,
+#block-bumbum-theme-botonestalleres a {
 	color: #272422;
     background: #fdda24;
     border-radius: 20px;
@@ -1165,7 +1173,58 @@ hr {
     border: none;
     width: fit-content;
 }
-
+#block-bumbum-theme-lineup{
+	background: #00ccea;
+	padding: 80px;
+}
+#block-bumbum-theme-lineup h2{
+	color:#272422;
+	line-height: 1.2;
+	margin-bottom: 2em;
+}
+#block-bumbum-theme-lineup h3{
+	color:#272422;
+}
+#block-bumbum-theme-talleres2022{
+	background: #ff7f37;
+	padding: 80px;
+}
+#block-bumbum-theme-talleres2022 h2{
+	color:#272422;
+	line-height: 1.2;
+	margin-bottom: 2em;
+}
+#block-bumbum-theme-talleres2022 .layout__region{
+	padding: 0 60px 0 0px;
+}
+#block-bumbum-theme-talleres2022 h3{
+	color:#272422;
+}
+.field--name-field-hora1 p, .field--name-field-hora2 p, .field--name-field-hora3 p,
+.field--name-field-hora4 p, .field--name-field-hora5 p, .field--name-field-hora6 p,
+.field--name-field-hora7 p, .field--name-field-hora8 p{
+	color:#272422;
+	font-weight: 700;
+	line-height: 1.2;
+}
+.field--name-field-hora1 p span, .field--name-field-hora2 p span, .field--name-field-hora3 p span,
+.field--name-field-hora4 p span, .field--name-field-hora5 p span, .field--name-field-hora6 p span,
+.field--name-field-hora7 p span, .field--name-field-hora8 p span{
+	font-size: 0.8em;
+}
+.field--name-field-descripcionline1 p, .field--name-field-descripcionline2 p, .field--name-field-descripcionline3 p,
+.field--name-field-descripcionline4 p, .field--name-field-descripcionline5 p, .field--name-field-descripcionline6 p,
+.field--name-field-descripcionline7 p, .field--name-field-descripcionline8 p{
+	color:#272422;
+	line-height: 1.2;
+	margin: 0 0 2em 0;
+}
+.field--name-field-descripcionline1 strong, .field--name-field-descripcionline2 strong, .field--name-field-descripcionline3 strong,
+.field--name-field-descripcionline4 strong, .field--name-field-descripcionline5 strong, .field--name-field-descripcionline6 strong,
+.field--name-field-descripcionline7 strong, .field--name-field-descripcionline8 strong{
+	color:#272422;
+	font-size: 1.1em;
+}
 .f-territorios img:first-of-type{
 	width: 15%;
 }
