@@ -1037,6 +1037,10 @@ hr {
 .cont-somos .item-dos-tercios .cont-block div{
 	flex-flow:column;
 }
+.cont-somos .item-dos-tercios .cont-block div p strong{
+	color: #272422;
+	font-weight:bolder;
+}
 .item-full {
   margin: 0 0 0 0;
   padding: 0;
@@ -2097,7 +2101,7 @@ ol.breadcrumb-items li {
 }
 .field--name-sb-banner-a-headline h1{
 	font-size: 6em;
-    line-height: .6;
+    line-height: .8;
     margin: 0;
     padding: 0;
 }
@@ -2111,6 +2115,7 @@ ol.breadcrumb-items li {
 .field--name-sb-banner-a-headline p{
 	margin: 0 0 0em 0;
     font-weight: 200;
+	line-height: .7;
 }
 .field--name-sb-banner-a-headline h3{
 	font-size: 3em;
