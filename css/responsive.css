@@ -221,7 +221,10 @@
 	margin: 0px;
   }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
-	  font-weight: 700;
+	font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1;
+    padding-top: 30px;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -345,7 +348,10 @@
     height: 100%;
   }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
-	  font-weight: 700;
+	font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1;
+    padding-top: 30px;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -398,6 +404,7 @@
 		object-fit: cover;
 		object-position: right;
 		width: 16%;
+		display:block;
   }
   .f-territorios .cont-block p{
 	  z-index: 22;
@@ -465,7 +472,10 @@
     height: 100%;
   }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
-	  font-weight: 700;
+	font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1;
+    padding-top: 30px;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -523,6 +533,7 @@
 		object-fit: cover;
 		object-position: right;
 		width: 16%;
+		display:block;
   }
   .f-territorios .cont-block{
 	  padding: 40px;
@@ -588,7 +599,10 @@
     height: 100%;
   }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
-	  font-weight: 700;
+	font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1;
+    padding-top: 30px;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -646,6 +660,7 @@
 		object-fit: cover;
 		object-position: right;
 		width: 16%;
+		display:block;
   }
   .cont-terr {
 	  max-width: 998px;
@@ -696,6 +711,9 @@
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
   }
+  .f-territorios .cont-block{
+	padding: 100px;
+  }
   .cont-block{
 	padding: 100px;
     display: flex;
@@ -704,7 +722,10 @@
     height: 100%;
   }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
-	  font-weight: 700;
+	font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1;
+    padding-top: 30px;
   }
   .page-header .cont-block p{
 	font-size: 1em;
@@ -783,6 +804,7 @@
 		object-fit: cover;
 		object-position: right;
 		width: 16%;
+		display:block;
   }
   .cont-terr {
 	  max-width: 998px;
