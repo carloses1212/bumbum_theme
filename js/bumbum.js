@@ -69,8 +69,12 @@ jQuery(document).ready(function ($) {
       }
     }
   })
-  
+   
   
 /* End document
 --------------------------*/
+});
+var lightbox = GLightbox();
+    lightbox.on('open', (target) => {
+                
 });
