@@ -1275,6 +1275,7 @@ hr {
 .audio-platforms p{
 	float: left;
     margin: 0 2em;
+	color:#272422;
 }
 .audio-platforms a{
 	background: #272422;
@@ -2088,14 +2089,34 @@ ol.breadcrumb-items li {
     grid-column: 1;
     grid-row: 2;
     place-self: center;
-    font-size: 7em;
     border-radius: 30px;
     margin-left: 20px;
     position: absolute;
-    top: 28%;
+    top: 25%;
     z-index: 16;
 }
-
+.field--name-sb-banner-a-headline h1{
+	font-size: 6em;
+    line-height: .6;
+    margin: 0;
+    padding: 0;
+}
+.field--name-sb-banner-a-headline h2{
+	font-size: 3.8em;
+    line-height: 1;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding-left: 21px;
+}
+.field--name-sb-banner-a-headline p{
+	margin: 0 0 0em 0;
+    font-weight: 200;
+}
+.field--name-sb-banner-a-headline h3{
+	font-size: 3em;
+    line-height: 1;
+    font-weight: 300;
+}
 .field--name-sb-banner-a-subheadline {
 	grid-column: 1;
     grid-row: 2;
@@ -2132,7 +2153,7 @@ ol.breadcrumb-items li {
     grid-row: 3;
     width: 100%;
     position: absolute;
-    top: 66%;
+    top: 65%;
 }
 
 .field--name-sb-banner-a-url a {
