@@ -1200,6 +1200,88 @@ hr {
 #block-bumbum-theme-talleres2022 h3{
 	color:#272422;
 }
+#block-bumbum-theme-artista01reproductor .block-content{
+	padding: 100px;
+}
+#block-bumbum-theme-artista01reproductor .block-content img{
+	width: 100%;
+    object-fit: cover;
+}
+#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2){
+	margin: 70px;
+    width: 100%;
+    height: fit-content;
+    z-index: 16;
+    padding: 50px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content{
+	margin: 115px;
+    top: 70%;
+    max-width: 75%;
+    background: #fdda24;
+    padding: 50px 100px;
+}
+#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type{
+	margin: 100px;
+    height: 40px;
+}
+#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type .layout__region--content{
+	padding: 100px;
+	text-align: center;
+}
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo-lugar-1{
+	color: #272422;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1em;
+}
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo{
+	text-align: center;
+    margin-bottom: 1em;
+}
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo h1{
+	color: #272422;
+}
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo .field--name-body{
+	width: 85%;
+    text-align: center;
+    margin-bottom: 1em;
+    margin: 0 auto 2em auto;
+}
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo .field--name-body p{
+	color: #272422;
+}
+#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type a {
+	color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+.audio-platforms{
+	display: inline-flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.audio-platforms p{
+	float: left;
+    margin: 0 2em;
+}
+.audio-platforms a{
+	background: #272422;
+    border-radius: 50%;
+    font-size: 0.7em;
+    margin: 0 1em;
+    padding: 0 0.7em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fdda24;
+}
 .field--name-field-hora1 p, .field--name-field-hora2 p, .field--name-field-hora3 p,
 .field--name-field-hora4 p, .field--name-field-hora5 p, .field--name-field-hora6 p,
 .field--name-field-hora7 p, .field--name-field-hora8 p{
