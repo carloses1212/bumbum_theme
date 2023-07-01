@@ -209,9 +209,9 @@
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  ul.main-menu > li:last-of-type > a {
+  /*ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }
+  }*/
   .cont-block{
 	padding: 15px;
     display: flex;
@@ -337,9 +337,9 @@
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  ul.main-menu > li:last-of-type > a {
+  /*ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }
+  }*/
   .cont-block{
 	padding: 20px;
     display: flex;
@@ -461,9 +461,9 @@
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  ul.main-menu > li:last-of-type > a {
+  /*ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }
+  }*/
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -484,7 +484,7 @@
     font-weight: 200;
   }
   .page-header .cont-block{
-	padding: 65px 60px;
+	padding: 60px 60px;
     justify-content: start;
   }
   .page-header .item-dos-tercios img{
@@ -529,6 +529,9 @@
   .item-40 .cont-block{
 	  padding: 20px;
   }
+  .item-60 .item-40{
+	padding: 18px;
+}
   .f-territorios img:first-of-type{
 		object-fit: cover;
 		object-position: right;
@@ -536,7 +539,7 @@
 		display:block;
   }
   .f-territorios .cont-block{
-	  padding: 40px;
+	  padding: 30px 70px 40px 30px;
   }
   .f-territorios .cont-block p{
 	  z-index: 22;
@@ -548,7 +551,7 @@
 	position: absolute;
     right: 0px;
     z-index: 17;
-    width: 675px;
+    width: 658px;
   }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
@@ -588,9 +591,9 @@
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  ul.main-menu > li:last-of-type > a {
+  /*ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }
+  }*/
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -600,7 +603,7 @@
   }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
 	font-weight: 400;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1;
     padding-top: 30px;
   }
@@ -711,9 +714,9 @@
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  ul.main-menu > li:last-of-type > a {
+  /*ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }
+  }*/
   .f-territorios .cont-block{
 	padding: 100px;
   }
