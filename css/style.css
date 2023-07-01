@@ -1305,6 +1305,15 @@ div[id*='reproductor'] .layout--onecol:last-of-type a {
     border: none;
     width: fit-content;
 }
+.content-modified{
+	position: relative;
+	top: 0;
+	margin: 20px;
+}
+.content-modified-2{
+	display: flex;
+	justify-content: center;
+}
 .audio-platforms{
 	display: inline-flex;
     width: 100%;
