@@ -1229,10 +1229,18 @@ hr {
 #block-bumbum-theme-talleres2022 h3, #block-bumbum-theme-talleres2022cali h3{
 	color:#272422;
 }
-#block-bumbum-theme-artista01reproductor .block-content, 
+/*#block-bumbum-theme-artista01reproductor .block-content, 
 #block-bumbum-theme-latinlatasreproductor .block-content,
 #block-bumbum-theme-nuevafilarmoniareproductor .block-content{
-	padding: 40px;
+	padding: 0px;
+}*/
+div[id*='reproductor']{
+	padding: 0px;
+}
+#block-bumbum-theme-artista01reproductor .taxonomy-term, 
+#block-bumbum-theme-latinlatasreproductor .taxonomy-term,
+#block-bumbum-theme-nuevafilarmoniareproductor .taxonomy-term{
+	width: 100%;
 }
 #block-bumbum-theme-artista01reproductor .block-content img, 
 #block-bumbum-theme-latinlatasreproductor .block-content img,
@@ -1242,8 +1250,8 @@ hr {
 }
 #block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2), 
 #block-bumbum-theme-latinlatasreproductor .layout--onecol:nth-child(2),
-#block-bumbum-theme-nuevafilarmoniareproductor .block-content img{
-	margin: 70px;
+#block-bumbum-theme-nuevafilarmoniareproductor .layout--onecol:nth-child(2){
+	margin: 0px;
     width: 100%;
     height: fit-content;
     z-index: 16;
