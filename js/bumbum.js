@@ -70,12 +70,10 @@ jQuery(document).ready(function ($) {
     }
   })
   if( $.trim( $("div[id*='reproductor'] > .layout--onecol:nth-child(1) > .layout__region--content").text() ).length == 0 ) {
-	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2)").css("display", "flex");
+	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2)").css("display": "flex");
 	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2)").css("justify-content", "center");
-	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2) > .layout__region--content").css("position", "relative");
-	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2) > .layout__region--content").css("top", "0");
-	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2) > .layout__region--content").css("margin", "20px");
-	  $("div[id*='reproductor'] > .layout--onecol:last-of-type").css("padding", "0 0 80px 0");
+	  $("div[id*='reproductor'] > .layout--onecol:nth-child(2) > .layout__region--content").css("position": "relative","top": "0","margin": "20px");
+	  $("div[id*='reproductor'] > .layout--onecol:last-of-type").css("padding": "0 0 80px 0");
   }
   
 /* End document
