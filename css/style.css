@@ -1229,14 +1229,20 @@ hr {
 #block-bumbum-theme-talleres2022 h3, #block-bumbum-theme-talleres2022cali h3{
 	color:#272422;
 }
-#block-bumbum-theme-artista01reproductor .block-content{
+#block-bumbum-theme-artista01reproductor .block-content, 
+#block-bumbum-theme-latinlatasreproductor .block-content,
+#block-bumbum-theme-nuevafilarmoniareproductor .block-content{
 	padding: 40px;
 }
-#block-bumbum-theme-artista01reproductor .block-content img{
+#block-bumbum-theme-artista01reproductor .block-content img, 
+#block-bumbum-theme-latinlatasreproductor .block-content img,
+#block-bumbum-theme-nuevafilarmoniareproductor .block-content img{
 	width: 100%;
     object-fit: cover;
 }
-#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2){
+#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2), 
+#block-bumbum-theme-latinlatasreproductor .layout--onecol:nth-child(2),
+#block-bumbum-theme-nuevafilarmoniareproductor .block-content img{
 	margin: 70px;
     width: 100%;
     height: fit-content;
@@ -1245,7 +1251,9 @@ hr {
     grid-row-start: 1;
     grid-column-start: 1;
 }
-#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content{
+#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content, 
+#block-bumbum-theme-latinlatasreproductor .layout--onecol:nth-child(2) .layout__region--content,
+#block-bumbum-theme-nuevafilarmoniareproductor .layout--onecol:nth-child(2) .layout__region--content{
 	margin: 115px;
     position: absolute;
     top: 50%;
@@ -1253,41 +1261,59 @@ hr {
     background: #fdda24;
     padding: 50px 100px;
 }
-#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content .block-content{
+#block-bumbum-theme-artista01reproductor .layout--onecol:nth-child(2) .layout__region--content .block-content, 
+#block-bumbum-theme-latinlatasreproductor .layout--onecol:nth-child(2) .layout__region--content .block-content,
+#block-bumbum-theme-nuevafilarmoniareproductor .layout--onecol:nth-child(2) .layout__region--content .block-content{
 	padding: 0px;
 }
-#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type{
+#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type, 
+#block-bumbum-theme-latinlatasreproductor .layout--onecol:last-of-type,
+#block-bumbum-theme-nuevafilarmoniareproductor .layout--onecol:last-of-type{
 	padding: 200px;
     height: 40px;
     border-bottom: 2px solid #fdda24;
 }
-#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type .layout__region--content{
+#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type .layout__region--content,
+#block-bumbum-theme-latinlatasreproductor .layout--onecol:last-of-type .layout__region--content,
+#block-bumbum-theme-nuevafilarmoniareproductor .layout--onecol:last-of-type .layout__region--content{
 	padding: 100px;
 	text-align: center;
 }
-#block-bumbum-theme-artista01reproductor .field--name-field-titulo-lugar-1{
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo-lugar-1, 
+#block-bumbum-theme-latinlatasreproductor .field--name-field-titulo-lugar-1,
+#block-bumbum-theme-nuevafilarmoniareproductor .field--name-field-titulo-lugar-1{
 	color: #272422;
     font-weight: 700;
     text-align: center;
     margin-bottom: 1em;
 }
-#block-bumbum-theme-artista01reproductor .field--name-field-titulo{
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo,
+#block-bumbum-theme-latinlatasreproductor .field--name-field-titulo,
+#block-bumbum-theme-nuevafilarmoniareproductor .field--name-field-titulo{
 	text-align: center;
     margin-bottom: 1em;
 }
-#block-bumbum-theme-artista01reproductor .field--name-field-titulo h1{
+#block-bumbum-theme-artista01reproductor .field--name-field-titulo h1,
+#block-bumbum-theme-latinlatasreproductor .field--name-field-titulo h1,
+#block-bumbum-theme-nuevafilarmoniareproductor .field--name-field-titulo h1{
 	color: #272422;
 }
-#block-bumbum-theme-artista01reproductor .field--name-body{
+#block-bumbum-theme-artista01reproductor .field--name-body,
+#block-bumbum-theme-latinlatasreproductor .field--name-body,
+#block-bumbum-theme-nuevafilarmoniareproductor .field--name-body{
 	width: 85%;
     text-align: center;
     margin-bottom: 1em;
     margin: 0 auto 2em auto;
 }
-#block-bumbum-theme-artista01reproductor .field--name-body p{
+#block-bumbum-theme-artista01reproductor .field--name-body p,
+#block-bumbum-theme-latinlatasreproductor .field--name-body p,
+#block-bumbum-theme-nuevafilarmoniareproductor .field--name-body p{
 	color: #272422;
 }
-#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type a {
+#block-bumbum-theme-artista01reproductor .layout--onecol:last-of-type a,
+#block-bumbum-theme-latinlatasreproductor .layout--onecol:last-of-type a,
+#block-bumbum-theme-nuevafilarmoniareproductor .layout--onecol:last-of-type a {
 	color: #272422;
     background: #fdda24;
     border-radius: 20px;
