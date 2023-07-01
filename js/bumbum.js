@@ -69,13 +69,6 @@ jQuery(document).ready(function ($) {
       }
     }
   })
-  if( !$.trim( $("div[id*='reproductor'] > .layout--onecol:nth-child(1) > .layout__region--content").text() ).length == 0 ) {
-	  $('.layout__region--content:empty').each(function() {
-		  $(".layout--onecol").parent().find('.layout__region--content').addClass('content-modified');
-	  });
-	  $("div[id*='reproductor']").children('layout--onecol')[1].addClass('content-modified-2');
-	  $("div[id*='reproductor']").children('layout--onecol')[2].css("padding", "0 0 80px 0");
-	}
   
 /* End document
 --------------------------*/
