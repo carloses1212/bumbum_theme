@@ -744,23 +744,26 @@
     justify-content: start;
   }
   .ses-head .cont-block{
-	padding: 100px;
+	padding: 84px 30px;
   }
   .ses-head .cont-block h2{
 	text-align: left;
     max-width: 50px;
     line-height: initial;
+	padding-bottom: 0;
   }
   .ses-head .cont-block p{
 	font-size: 1em;
 	font-weight: 200;
+  }
+  .ses-head img{
+	object-position: center;
   }
   .rev-head .cont-block{
 	padding: 100px;
   }
   .rev-head .cont-block h2{
 	text-align: left;
-    max-width: 50px;
     line-height: initial;
   }
   .rev-head .cont-block p{
