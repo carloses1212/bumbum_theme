@@ -718,7 +718,8 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
 	padding: 50px 0 200px 0;
     height: 40px;
     border-bottom: 2px solid #fdda24;
-	margin-top: 0;
+	margin-top: 350px;
+}
 }
 }
 @media (min-width: 1850px) {
