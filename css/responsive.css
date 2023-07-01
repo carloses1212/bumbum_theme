@@ -471,6 +471,12 @@
     justify-content: center;
     height: 100%;
   }
+  div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
+	top: 37%;
+  }
+  .item-55 .cont-block {
+    padding: 0;
+  }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
 	font-weight: 400;
     font-size: 2em;

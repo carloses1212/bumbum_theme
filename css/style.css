@@ -1269,6 +1269,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
 	padding: 200px;
     height: 40px;
     border-bottom: 2px solid #fdda24;
+	margin-top: 300px;
 }
 div[id*='reproductor'] .layout--onecol:last-of-type .layout__region--content{
 	padding: 100px;
