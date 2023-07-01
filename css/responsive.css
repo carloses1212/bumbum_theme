@@ -205,11 +205,11 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  ul.main-menu > li:last-of-type {
+  /*ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  /*ul.main-menu > li:last-of-type > a {
+  ul.main-menu > li:last-of-type > a {
 	  color:#272422;
   }*/
   .cont-block{
@@ -333,11 +333,11 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  ul.main-menu > li:last-of-type {
+  /*ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  /*ul.main-menu > li:last-of-type > a {
+  ul.main-menu > li:last-of-type > a {
 	  color:#272422;
   }*/
   .cont-block{
@@ -457,11 +457,11 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  ul.main-menu > li:last-of-type {
+  /*ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  /*ul.main-menu > li:last-of-type > a {
+  ul.main-menu > li:last-of-type > a {
 	  color:#272422;
   }*/
   .cont-block{
@@ -530,7 +530,7 @@
 	  padding: 20px;
   }
   .item-60 .item-40{
-	padding: 18px;
+	padding: 15px;
 }
   .f-territorios img:first-of-type{
 		object-fit: cover;
@@ -587,11 +587,11 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  ul.main-menu > li:last-of-type {
+  /*ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  /*ul.main-menu > li:last-of-type > a {
+  ul.main-menu > li:last-of-type > a {
 	  color:#272422;
   }*/
   .cont-block{
@@ -710,11 +710,11 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  ul.main-menu > li:last-of-type {
+  /*ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
-  /*ul.main-menu > li:last-of-type > a {
+  ul.main-menu > li:last-of-type > a {
 	  color:#272422;
   }*/
   .f-territorios .cont-block{
