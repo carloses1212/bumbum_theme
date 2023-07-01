@@ -7,6 +7,7 @@ libraries:
   - bumbum_theme/global-styling # Library for all global css. These css will be loaded on every pages.
   - bumbum_theme/global-scripts # Library for all global js. These js will be loaded on every pages.
   - bumbum_theme/slider
+  - bumbum_theme/glightbox
   - bumbum_theme/fontawesome
 
 regions:

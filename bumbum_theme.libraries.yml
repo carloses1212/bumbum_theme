@@ -27,6 +27,17 @@ slider:
   dependencies:
     - core/jquery
 
+# Glightbox   
+glightbox:
+  version: 1.0
+  css:
+    component:
+        css/glightbox.min.css: {}
+  js:
+    js/glightbox.min.js: {}
+  dependencies:
+    - core/jquery
+    
 # FontAwesome
 fontawesome:
   version: 4.7.0

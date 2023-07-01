@@ -1168,13 +1168,13 @@ hr {
 	text-align: center;
 }
 #block-bumbum-theme-botonessessions .layout__region--first .field--name-field-enlace,
-#block-bumbum-theme-botonesartistas2022 .layout__region--second .field--name-field-enlace,
-#block-bumbum-theme-botonestalleres .layout__region--second .field--name-field-enlace {
+#block-bumbum-theme-botonesartistas2022 .layout__region--first .field--name-field-enlace,
+#block-bumbum-theme-botonestalleres .layout__region--first .field--name-field-enlace {
 	text-align: right;
 }
 #block-bumbum-theme-botonessessions .layout__region--third .field--name-field-enlace3,
-#block-bumbum-theme-botonesartistas2022 .layout__region--second .field--name-field-enlace3,
-#block-bumbum-theme-botonestalleres .layout__region--second .field--name-field-enlace3 {
+#block-bumbum-theme-botonesartistas2022 .layout__region--third .field--name-field-enlace3,
+#block-bumbum-theme-botonestalleres .layout__region--third .field--name-field-enlace3 {
 	text-align: left;
 }
 #block-bumbum-theme-botonessessions a, #block-bumbum-theme-botonesartistas2022 a,
@@ -1192,8 +1192,13 @@ hr {
 }
 #block-bumbum-theme-lineup h2{
 	color:#272422;
-	line-height: 1.2;
+	line-height: 1.2;	
+}
+#block-bumbum-theme-lineup .field--name-field-titulo{
 	margin-bottom: 2em;
+}
+#block-bumbum-theme-lineup .field--name-field-titulo strong{
+	color:#272422;
 }
 #block-bumbum-theme-lineup h3{
 	color:#272422;
