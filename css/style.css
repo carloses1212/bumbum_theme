@@ -1105,14 +1105,18 @@ hr {
 }
   .item-55{
   margin: 0 0 0 0;
-  padding: 50px;
+  padding: 40px;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 55%;
   flex: 1 1 55%;
   max-width: 55%;
 }
+.item-55 p strong{
+	    color: #272422;
+  }
 .item-55 .cont-block {
 	position: relative;
+	padding: 50px;
 }
 .item-55 h3{
 	color: #272422;
@@ -1155,7 +1159,9 @@ hr {
 	object-position: 50% 0%;	
 }
 #block-bumbum-theme-artistassessions2023 .field--name-field-titulo,
-#block-bumbum-theme-talleresbogota2022 .field--name-field-titulo {
+#block-bumbum-theme-talleresbogota2022 .field--name-field-titulo,
+#block-bumbum-theme-tallerescali2022titulo .field--name-field-titulo,
+#block-bumbum-theme-artistassessions2023barranquilla .field--name-field-titulo{
 	padding: 50px;
 }
 #block-bumbum-theme-botonessessions, #block-bumbum-theme-botonesartistas2022, #block-bumbum-theme-botonestalleres{
@@ -1203,19 +1209,24 @@ hr {
 #block-bumbum-theme-lineup h3, #block-bumbum-theme-lineupcali h3{
 	color:#272422;
 }
-#block-bumbum-theme-talleres2022{
+#block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali {
 	background: #ff7f37;
 	padding: 80px;
 }
-#block-bumbum-theme-talleres2022 h2{
-	color:#272422;
-	line-height: 1.2;
+#block-bumbum-theme-talleres2022 .field--name-field-titulo, #block-bumbum-theme-talleres2022cali .field--name-field-titulo{
 	margin-bottom: 2em;
 }
-#block-bumbum-theme-talleres2022 .layout__region{
+#block-bumbum-theme-talleres2022 .field--name-field-titulo strong, #block-bumbum-theme-talleres2022cali .field--name-field-titulo strong{
+	color:#272422;
+}
+#block-bumbum-theme-talleres2022 h2, #block-bumbum-theme-talleres2022cali h2{
+	color:#272422;
+	line-height: 1.2;
+}
+#block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region{
 	padding: 0 60px 0 0px;
 }
-#block-bumbum-theme-talleres2022 h3{
+#block-bumbum-theme-talleres2022 h3, #block-bumbum-theme-talleres2022cali h3{
 	color:#272422;
 }
 #block-bumbum-theme-artista01reproductor .block-content{
