@@ -3,7 +3,131 @@
     max-width: 576px;
   }
 }
-
+@media (max-width: 768px) {
+#block-bumbum-theme-views-block-festivales-bumbum-block-1 .full{
+	flex-flow: column;
+}
+.item-un-tercio {
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33.3%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+.site-branding img {
+    max-height: 80px;
+    width: 100px;
+  }
+.item-40 {
+    margin: 0 0 0 0;
+    padding: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+.item-60 {
+    margin: 0 0 0 0;
+    padding: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+.item-un-tercio {
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33.3%;
+    flex: 1 1 45%;
+    max-width: 45%;
+}
+.item-dos-tercios {
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 66.6%;
+    flex: 1 1 55%;
+    max-width: 55%;
+}
+.ses-head h2{
+	padding: 0;
+  }
+  .ses-head h2{
+	line-height: 1.2;
+  }
+  .item-45 img{
+	width: 100%;
+    height: 100%;
+	object-fit: cover;
+  }
+  .cont-somos .item-dos-tercios .cont-block {
+    flex-flow: column;
+}
+div[id*='reproductor'] .layout--onecol:nth-child(2) {
+    margin: 0px;
+    width: 100%;
+    height: fit-content;
+    z-index: 16;
+    padding: 50px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
+    margin: 50px;
+    position: absolute;
+    top: 26%;
+    max-width: 75%;
+    background: #fdda24;
+    padding: 50px 100px;
+}
+div[id*='reproductor'] .layout--onecol:last-of-type {
+    padding: 50px 0 200px 0;
+    height: 40px;
+    border-bottom: 2px solid #fdda24;
+    margin-top: 490px;
+}
+.f-territorios{
+	width:100%;
+}
+.f-territorios img{
+	display:none;
+}
+.cont-terr {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.item-dos-tercios {
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+#block-bumbum-theme-views-block-sessions-bumbum-block-1 full{
+	flex-flow:column;
+}
+. footer .full{
+	flex-flow:column;
+}
+.footer .item-footer {
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+.item-un-cuarto h2 {
+    text-align: center;
+    color: #272422;
+    font-weight: bold;
+}
+}
 @media (min-width: 768px) {
 	body {
     font-size: 1em;
@@ -64,7 +188,7 @@
     flex-direction: row;
   }
   .full {
-    margin-bottom: 1em;
+    margin-bottom: 0em;
   }
   .item {
     flex: 1;
@@ -184,10 +308,6 @@
   .field--name-sb-banner-a-url{
 	  top: 70%;
   }
-  .site-branding img {
-    max-height: 80px;
-    width: 100px;
-  }
   .full {
     margin-bottom: 0em;
   }
@@ -242,9 +362,6 @@
 	color: #272422;
 	font-weight:700;
   }
-  .cont-somos .item-dos-tercios .cont-block {
-    flex-flow: column;
-}
   .cont-block h2{
 	color: #272422;
 	padding-bottom: 1em;
@@ -279,7 +396,29 @@
   .item-40 .cont-block{
 	  padding: 0px;
   }
-  .f-territorios img:first-of-type{
+  .f-territorios .cont-block p{
+	  z-index: 22;
+  }
+  .cont-terr {
+	  max-width: 620px;
+  }
+  #block-revivegalleria .taxonomy-term {
+    padding: 20px 20px;
+    max-width: 25%;
+ }
+ #block-bumbum-theme-reviveiframe .layout__region {
+    padding: 65px 30px;
+}
+
+  #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region {
+    padding: 0 35px 0 0px;
+}
+}
+@media (max-width: 992px) {
+	.cont-somos .item-dos-tercios .cont-block {
+		flex-flow: column;
+	}
+	.f-territorios img:first-of-type{
 		display: none;
   }
   .f-territorios .cont-block p{
@@ -294,11 +433,7 @@
     z-index: 17;
     width: 590px;
   }
-  #block-revivegalleria .taxonomy-term {
-    padding: 20px 20px;
-    max-width: 25%;
- }
- #block-bumbum-theme-reviveiframe .layout__region {
+  #block-bumbum-theme-reviveiframe .layout__region {
     padding: 65px 30px;
 }
 .item-un-tercio {
@@ -343,7 +478,7 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
     margin: 50px;
     position: absolute;
-    top: 26%;
+    top: 35%;
     max-width: 75%;
     background: #fdda24;
     padding: 50px 100px;
@@ -353,72 +488,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     height: 40px;
     border-bottom: 2px solid #fdda24;
     margin-top: 490px;
-}
-.f-territorios{
-	width:100%;
-}
-.f-territorios img{
-	display:none;
-}
-.cont-terr {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-.item-dos-tercios {
-    margin: 0 0 0 0;
-    padding: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
-}
-#block-bumbum-theme-views-block-sessions-bumbum-block-1 full{
-	flex-flow:column;
-}
-. footer .full{
-	flex-flow:column;
-}
-.footer .item-footer {
-    display: flex;
-    margin: 0 0 0 0;
-    padding: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 50%;
-    flex: 1 1 100%;
-    max-width: 100%;
-}
-.item-un-cuarto h2 {
-    text-align: center;
-    color: #272422;
-    font-weight: bold;
-}
-#block-bumbum-theme-views-block-festivales-bumbum-block-1 .full{
-	flex-flow: column;
-}
-.item-un-tercio {
-    margin: 0 0 0 0;
-    padding: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 33.3%;
-    flex: 1 1 100%;
-    max-width: 100%;
-}
-.item-40 {
-    margin: 0 0 0 0;
-    padding: 50px;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
-}
-.item-60 {
-    margin: 0 0 0 0;
-    padding: 50px;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
 }
 }
 @media (min-width: 992px) {
@@ -527,9 +596,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 	color: #272422;
 	font-weight:700;
   }
-  .cont-somos .item-dos-tercios .cont-block {
-    flex-flow: column;
-}
+  
   .cont-block h2{
 	color: #272422;
 	padding-bottom: 1em;
@@ -564,81 +631,10 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
   .item-40 .cont-block{
 	  padding: 0px;
   }
-  .f-territorios img:first-of-type{
-		display: none;
-  }
-  .f-territorios .cont-block p{
-	  z-index: 22;
-  }
-  .cont-terr {
-	  max-width: 620px;
-  }
-  .f-territorios img:last-of-type{
-	position: absolute;
-    right: -80px;
-    z-index: 17;
-    width: 590px;
-  }
   #block-revivegalleria .taxonomy-term {
     padding: 20px 20px;
     max-width: 25%;
  }
- #block-bumbum-theme-reviveiframe .layout__region {
-    padding: 65px 30px;
-}
-.item-un-tercio {
-    margin: 0 0 0 0;
-    padding: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 33.3%;
-    flex: 1 1 45%;
-    max-width: 45%;
-}
-.item-dos-tercios {
-    margin: 0 0 0 0;
-    padding: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 66.6%;
-    flex: 1 1 55%;
-    max-width: 55%;
-}
-.ses-head h2{
-	padding: 0;
-  }
-  .ses-head h2{
-	line-height: 1.2;
-  }
-  .item-45 img{
-	width: 100%;
-    height: 100%;
-	object-fit: cover;
-  }
-  #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region {
-    padding: 0 35px 0 0px;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) {
-    margin: 0px;
-    width: 100%;
-    height: fit-content;
-    z-index: 16;
-    padding: 50px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
-    margin: 50px;
-    position: absolute;
-    top: 35%;
-    max-width: 75%;
-    background: #fdda24;
-    padding: 50px 100px;
-}
-div[id*='reproductor'] .layout--onecol:last-of-type {
-    padding: 50px 0 200px 0;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-    margin-top: 490px;
-}
 }
 @media (min-width: 1170px) {
   .container {
