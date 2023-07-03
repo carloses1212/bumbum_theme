@@ -85,7 +85,7 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
     margin: 50px;
     position: absolute;
-    top: 26%;
+    top: 26% !important;
     max-width: 75%;
     background: #fdda24;
     padding: 50px 100px;
