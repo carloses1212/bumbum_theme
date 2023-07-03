@@ -11,9 +11,9 @@
     margin: 0 0 0 0;
     padding: 0;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 33.3%;
-    flex: 1 1 100%;
-    max-width: 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
 }
 .site-branding img {
     max-height: 80px;
@@ -24,24 +24,24 @@
     padding: 50px;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
 }
 .item-60 {
     margin: 0 0 0 0;
     padding: 50px;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
 }
 .item-dos-tercios {
     margin: 0 0 0 0;
     padding: 0;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
 }
 .ses-head h2{
 	padding: 0;
@@ -112,8 +112,8 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     padding: 0;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100%;
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
 }
 #block-bumbum-theme-views-block-sessions-bumbum-block-1 full{
 	flex-flow:column;
@@ -129,6 +129,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     -ms-flex: 1 1 50%;
     flex: 1 1 100%;
     max-width: 100%;
+	justify-content: center;
 }
 .item-un-cuarto h2 {
     text-align: center;
