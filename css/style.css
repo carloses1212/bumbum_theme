@@ -1162,7 +1162,7 @@ hr {
 #block-bumbum-theme-talleresbogota2022 .field--name-field-titulo,
 #block-bumbum-theme-tallerescali2022titulo .field--name-field-titulo,
 #block-bumbum-theme-artistassessions2023barranquilla .field--name-field-titulo,
-#block-bumbum-theme-artistascalifestival2022 .field--name-field-titul{
+#block-bumbum-theme-artistascalifestival2022 .field--name-field-titulo{
 	padding: 50px;
 }
 #block-bumbum-theme-botonessessions, #block-bumbum-theme-botonesartistas2022, #block-bumbum-theme-botonestalleres{
@@ -1267,7 +1267,7 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content .bl
 	padding: 0px;
 }
 div[id*='reproductor'] .layout--onecol:last-of-type{
-	padding: padding: 50px 0 200px 0;;
+	padding: 50px 0 200px 0;
     height: 40px;
     border-bottom: 2px solid #fdda24;
 	margin-top: 0;
