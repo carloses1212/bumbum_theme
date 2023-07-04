@@ -1,3 +1,103 @@
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .header-main{
+	z-index: 18;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+  }
+  .site-branding img {
+    max-height: 80px;
+    width: 100px;
+    margin: 5px 25px;
+  }
+  #page-header {
+    padding: 0em 0 0em 0;
+  }
+  .field--name-sb-banner-a-headline h1 {
+    font-size: 3em;
+  }
+  .field--name-sb-banner-a-headline h2 {
+    font-size: 1.7em;
+    padding-left: 7px;
+  }
+  .field--name-sb-banner-a-headline h3 {
+    font-size: 2em;
+  }
+  #somos-home{
+	  height: 100vh;
+  }
+  #somos-home h1, #somos-home p, #somos-home a.button-link{
+	color:#272422;  
+  }
+  #somos-home a.button-link{
+	background: white;
+	border-radius: 20px;
+	padding: 0 20px;
+	right: 2%;
+    position: absolute;
+  }
+  div[id^="revive"]{
+	flex-flow: column-reverse !important;
+	height: 100vh;
+  }
+  div[id^="revive"] h1, div[id^="revive"] p, div[id^="revive"] a.button-link{
+	color:#272422;
+  }
+  div[id^="revive"] a.button-link{
+	background: white;
+	border-radius: 20px;
+	padding: 0 20px;
+	right: 2%;
+    position: absolute;
+  }
+  .revive.owl-carousel {
+    padding: 0;
+  }
+  .revive.owl-carousel .owl-stage-outer {
+    height: 100%;
+}
+  .revive.owl-carousel .owl-nav{
+	z-index: 22;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+  }
+  .revive.owl-carousel .owl-nav .owl-prev{
+	font-size: 3em;
+    color: white;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+  }
+  .revive.owl-carousel .owl-nav .owl-next{
+	font-size: 3em;
+    color: white;
+    font-weight: 700;
+    right: 0;
+    position: absolute;
+  }
+  .revive.owl-carousel .owl-dots{
+	position: absolute;
+    z-index: 22;
+    top: 90%;
+    width: 100%;
+  }
+  div[id^="artistas"]{
+	height: 100vh;
+  }
+  div[id^="artistas"] h1, div[id^="artistas"] p, div[id^="artistas"] a.button-link{
+	color:#272422;
+  }
+  div[id^="artistas"] a.button-link{
+	background: white;
+	border-radius: 20px;
+	padding: 0 20px;
+	right: 2%;
+    position: absolute;
+  }
+}
 @media (min-width: 576px) {
   .container {
     max-width: 576px;
@@ -7,6 +107,78 @@
 #block-bumbum-theme-views-block-festivales-bumbum-block-1 .full{
 	flex-flow: column;
 }
+#somos-home{
+	  height: 100vh;
+  }
+  #somos-home h1, #somos-home p, #somos-home a.button-link{
+	color:#272422;  
+  }
+  #somos-home a.button-link{
+	background: white;
+	border-radius: 20px;
+	padding: 0 20px;
+	right: 2%;
+    position: absolute;
+  }
+  div[id^="revive"]{
+	flex-flow: column-reverse !important;
+	height: 100vh;
+  }
+  div[id^="revive"] h1, div[id^="revive"] p, div[id^="revive"] a.button-link{
+	color:#272422;
+  }
+  div[id^="revive"] a.button-link{
+	background: white;
+	border-radius: 20px;
+	padding: 0 20px;
+	right: 2%;
+    position: absolute;
+  }
+  .revive.owl-carousel {
+    padding: 0;
+  }
+  .revive.owl-carousel .owl-stage-outer {
+    height: 100%;
+}
+  .revive.owl-carousel .owl-nav{
+	z-index: 22;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+  }
+  .revive.owl-carousel .owl-nav .owl-prev{
+	font-size: 3em;
+    color: white;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+  }
+  .revive.owl-carousel .owl-nav .owl-next{
+	font-size: 3em;
+    color: white;
+    font-weight: 700;
+    right: 0;
+    position: absolute;
+  }
+  .revive.owl-carousel .owl-dots{
+	position: absolute;
+    z-index: 22;
+    top: 90%;
+    width: 100%;
+  }
+  div[id^="artistas"]{
+	height: 100vh;
+  }
+  div[id^="artistas"] h1, div[id^="artistas"] p, div[id^="artistas"] a.button-link{
+	color:#272422;
+  }
+  div[id^="artistas"] a.button-link{
+	background: white;
+	border-radius: 20px;
+	padding: 0 20px;
+	right: 2%;
+    position: absolute;
+  }
 .item-un-tercio {
     margin: 0 0 0 0;
     padding: 0;
@@ -130,14 +302,38 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     flex: 1 1 100%;
     max-width: 100%;
 	justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .item-un-cuarto h2 {
     text-align: center;
     color: #272422;
     font-weight: bold;
 }
+.footer .item-full{
+	width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.footer .item-footer .cont-block{
+	width: 100%;
+    align-items: center;
+}
+.footer .item-footer .cont-block.social{
+	align-items: initial;
+    padding: 0px 25%;
+}
 .footer .item-footer .cont-block a {
     padding: 0em 0em;
+  }
+  .footer .item-full img {
+    margin: 0 37%;
+  }
+  .footer .white-background{
+	  margin: 0 auto;
+  }
+  .footer .white-background img{
+	  margin: 0 auto;
   }
   .full .item-60.white-background{
 	  display: flex;
