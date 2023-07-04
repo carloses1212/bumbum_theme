@@ -1249,29 +1249,28 @@ div[id*='reproductor'] .layout--onecol:nth-child(2){
     width: 100%;
     height: fit-content;
     z-index: 16;
-    padding: 50px;
+    padding: 0 50px;
     grid-row-start: 1;
     grid-column-start: 1;
+    display: flex;
+    transform: translateY(-20%);
 }
 div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
-	margin: 115px;
-    position: absolute;
-    top: 50%;
-    max-width: 75%;
+	max-width: 95%;
+    margin: 0 auto;
     background: #fdda24;
-    padding: 50px 100px;
+    padding: 50px;
 }
 div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content .block-content{
 	padding: 0px;
 }
 div[id*='reproductor'] .layout--onecol:last-of-type{
-	padding: 50px 0 200px 0;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-	margin-top: 0;
+	border-bottom: 2px solid #fdda24;
+    padding: 0 0 50px 0;
+    transform: translateY(-20%);
+    display: flex;
 }
 div[id*='reproductor'] .layout--onecol:last-of-type .layout__region--content{
-	padding: 100px;
 	text-align: center;
 }
 div[id*='reproductor'] .field--name-field-titulo-lugar-1{
@@ -2575,7 +2574,7 @@ ul.page-tabs {
   display: block;
   width: 100%;
   margin: 0;
-  padding: 1em 0;
+  padding: 0em 0;
   border-top: 1px solid #282d38;
   border-top: 1px solid var(--border-color);
 }
