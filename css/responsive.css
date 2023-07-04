@@ -486,7 +486,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 .footer .item-footer {
     display: flex;
     margin: 0 0 0 0;
-    padding: 0;
+    padding: 2em 0;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 50%;
     flex: 1 1 100%;
@@ -510,8 +510,11 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     align-items: center;
 }
 .footer .item-footer .cont-block.social{
-	align-items: initial;
-    padding: 0px 25%;
+	display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 auto;
+    width: fit-content;
 }
 .footer .item-footer .cont-block a {
     padding: 0em 0em;
