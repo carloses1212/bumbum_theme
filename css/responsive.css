@@ -7,10 +7,16 @@
     width: 100%;
     background: rgba(0,0,0,0.3);
   }
+  .site-brand {
+    z-index: 30;
+  }
   .site-branding img {
     max-height: 80px;
     width: 100px;
     margin: 5px 25px;
+  }
+  .active-menu .menu-wrap {
+    max-width: 100%;
   }
   #page-header {
     padding: 0em 0 0em 0;
@@ -28,15 +34,17 @@
   #somos-home{
 	  height: 100vh;
   }
-  #somos-home h1, #somos-home p, #somos-home a.button-link{
+  #somos-home h1, #somos-home p, #somos-home a.button-link,
+  #somos p{
 	color:#272422;  
   }
   #somos-home a.button-link{
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
-	right: 2%;
-    position: absolute;
+	float: right;
+    right: 2%;
+    margin-left: auto;
   }
   div[id^="revive"]{
 	flex-flow: column-reverse !important;
@@ -49,8 +57,9 @@
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
-	right: 2%;
-    position: absolute;
+	float: right;
+    right: 2%;
+    margin-left: auto;
   }
   .revive.owl-carousel {
     padding: 0;
@@ -94,9 +103,54 @@
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
-	right: 2%;
-    position: absolute;
+	float: right;
+    right: 2%;
+    margin-left: auto;
   }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	font-weight: 400;
+    font-size: 2em;
+    line-height: 1;
+    padding: 50px;
+    color: #272422;
+  }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 img{
+	height: 100%;
+    object-fit: cover;
+  }
+  .item-un-cuarto {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+#block-bumbum-theme-views-block-sessions-bumbum-block-1 .item-un-cuarto:first-of-type {
+	position: absolute; 
+ }
+ .f-territorios {
+    height: 100vh;
+}
+ .f-territorios img:first-of-type{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: block;
+ }
+ .cont-terr h2, .cont-terr p{
+	color: #272422; 
+ }
+ .pink-background h2{
+	 color: #272422;
+ }
+ .item-40 p {
+    margin: 0px 0px;
+    color: #272422;
+}
+.item-40 {
+    padding: 20px;
+}
+.item-60 {
+    padding: 10px;
+}
 }
 @media (min-width: 576px) {
   .container {
@@ -104,21 +158,26 @@
   }
 }
 @media (max-width: 768px) {
+	.active-menu .menu-wrap {
+		max-width: 100%;
+	  }
 #block-bumbum-theme-views-block-festivales-bumbum-block-1 .full{
 	flex-flow: column;
 }
 #somos-home{
 	  height: 100vh;
   }
-  #somos-home h1, #somos-home p, #somos-home a.button-link{
+  #somos-home h1, #somos-home p, #somos-home a.button-link,
+  #somos p{
 	color:#272422;  
   }
   #somos-home a.button-link{
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
-	right: 2%;
-    position: absolute;
+	float: right;
+    right: 2%;
+    margin-left: auto;
   }
   div[id^="revive"]{
 	flex-flow: column-reverse !important;
@@ -131,8 +190,9 @@
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
-	right: 2%;
-    position: absolute;
+	float: right;
+    right: 2%;
+    margin-left: auto;
   }
   .revive.owl-carousel {
     padding: 0;
@@ -166,6 +226,19 @@
     top: 90%;
     width: 100%;
   }
+  .pink-background h2{
+	 color: #272422;
+ }
+ .item-40 {
+    padding: 20px;
+}
+ .item-40 p {
+    margin: 0px 0px;
+    color: #272422;
+}
+.item-60 {
+    padding: 10px;
+}
   div[id^="artistas"]{
 	height: 100vh;
   }
@@ -176,9 +249,18 @@
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
-	right: 2%;
-    position: absolute;
+	float: right;
+    right: 2%;
+    margin-left: auto;
   }
+  .item-un-cuarto {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+ }
+ #block-bumbum-theme-views-block-sessions-bumbum-block-1 .item-un-cuarto:first-of-type {
+	position: absolute; 
+ }
 .item-un-tercio {
     margin: 0 0 0 0;
     padding: 0;
@@ -271,6 +353,12 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 .f-territorios{
 	width:100%;
 }
+.f-territorios img:first-of-type{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+	display: block;
+ }
 .f-territorios img{
 	display:none;
 }
@@ -279,6 +367,9 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     display: inline-block;
     width: 100%;
 }
+.cont-terr h2, .cont-terr p{
+	color: #272422; 
+ }
 .item-dos-tercios {
     margin: 0 0 0 0;
     padding: 0;
@@ -358,6 +449,17 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
   #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region {
     padding: 0 35px 0 0px;
 }
+#block-bumbum-theme-views-block-header-bum-bum-block-1 p{
+	font-weight: 400;
+    font-size: 2em;
+    line-height: 1;
+    padding: 50px;
+    color: #272422;
+  }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 img{
+	height: 100%;
+    object-fit: cover;
+  }
 }
 @media (min-width: 768px) {
 	body {
