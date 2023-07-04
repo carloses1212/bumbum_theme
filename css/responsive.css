@@ -130,7 +130,9 @@
   #block-bumbum-theme-views-block-texto-header-talleres-block-1 h2,
   #block-bumbum-theme-views-block-texto-header-talleres-block-1 p,
   #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 h2,
-  #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 p{
+  #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 p,
+  #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 h2,
+  #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 p{
 	color: #272422;
     text-align: left;  
   }
@@ -207,8 +209,8 @@
 	flex-direction: column-reverse;
 }
 #block-bumbum-theme-revivegalleria .taxonomy-term {
-    padding: 20px 0px;
-    max-width: 100%;
+    padding: 20px 0px !important;
+    max-width: 100% !important;
 	width: 100%;
 }
 #block-bumbum-theme-revivegalleria li.taxonomy-term a {
