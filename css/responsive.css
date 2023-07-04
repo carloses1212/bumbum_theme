@@ -1448,7 +1448,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     padding: 50px 0 200px 0;
     height: 40px;
     border-bottom: 2px solid #fdda24;
-    margin-top: 490px;
+    margin-top: 700px;
 }
 .f-territorios{
 	width:100%;
@@ -1563,6 +1563,9 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     padding: 50px;
     color: #272422;
   }
+  #block-bumbum-theme-views-block-header-bum-bum-block-1 p:empty{
+	padding: 15px;
+  }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 img{
 	height: 100%;
     object-fit: cover;
@@ -1618,8 +1621,10 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
   #somos p{
 	color:#272422;  
   }
-  margin-bottom: 2em;
-  #somos-home a.button-link{
+  #somos-home .orange-background, div[id^="revive"] .blue-background, div[id^="artistas"] .yellow-background {
+   padding-bottom: 2em;
+}
+   #somos-home a.button-link{
 	background: white;
 	border-radius: 20px;
 	padding: 0 20px;
