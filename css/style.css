@@ -2403,6 +2403,32 @@ ol.breadcrumb-items li {
 #block-revivegalleria .taxonomy-term a::before{
 	content: none;
 }
+#somos-home h1, #somos-home p, #somos-home a.button-link,
+  #somos p{
+	color:#272422;  
+  }
+  #block-bumbum-theme-views-block-imagen-y-texto-header-sessions-block-1 h2,
+  #block-bumbum-theme-views-block-imagen-y-texto-header-sessions-block-1 p,
+  #block-bumbum-theme-views-block-texto-header-talleres-block-1 h2,
+  #block-bumbum-theme-views-block-texto-header-talleres-block-1 p,
+  #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 h2,
+  #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 p,
+  #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 h2,
+  #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 p{
+	color: #272422;
+  }
+  .pink-background h2{
+	 color: #272422;
+ }
+ .item-40 p {
+    color: #272422;
+}
+.item-55 h2{
+	color: #272422;
+}
+.ses-head, .rev-head{
+	color: #272422;
+}
 /* Main -> Admin Tabs */
 ul.page-tabs {
   margin: 0 0 0.6em 0;
