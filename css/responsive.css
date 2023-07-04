@@ -169,6 +169,10 @@
 .item-55 h2{
 	color: #272422;
 }
+.item-55 .cont-block{
+	padding: 0;
+	margin: 0;
+}
 .item-60 {
     padding: 10px;
 }
@@ -241,12 +245,12 @@ div[id*='reproductor'] .layout--onecol:last-of-type a {
 }
 @media (min-width: 576px) {
   .container {
-    max-width: 576px;
+    max-width: 100%;
   }
 }
 @media (min-width: 720px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -688,7 +692,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
     width: 90%;
   }
   .container {
-    max-width: 768px;
+    max-width: 100%;
   }
   th {
     padding: 10px;
@@ -895,7 +899,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 992px;
+    max-width: 100%;
   }
   th {
     padding: 10px;
@@ -1041,7 +1045,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 }
 @media (min-width: 1170px) {
   .container {
-    max-width: 1170px;
+    max-width: 100%;
   }
   .site-branding img {
     max-height: 80px;
@@ -1359,7 +1363,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
 }
 @media (min-width: 1366px) {
   .container {
-    max-width: 1366px;
+    max-width: 100%;
   }
   .site-branding img {
     max-height: 80px;
