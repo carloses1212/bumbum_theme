@@ -1788,12 +1788,10 @@ ol ol li:last-child {
 
 .close-mobile-menu {
   display: none;
-  width: 34px;
-  height: 34px;
+  width: 35px;
+  height: 35px;
   line-height: 28px;
   color: #fff;
-  border: 2px solid #fff;
-  border-radius: 50%;
   z-index: 48;
   cursor: pointer;
   text-align: center;
@@ -1801,9 +1799,13 @@ ol ol li:last-child {
 
 .active-menu .close-mobile-menu {
   position: absolute;
-  display: block;
-  top: 4px;
-  right: 4px;
+    display: block;
+    top: 50px;
+    right: 25px;
+    font-size: 3em;
+}
+.active-menu .region-primary-menu, .active-menu .block-menu{
+	height: 100%;
 }
 
 .main-menu {
@@ -1938,12 +1940,21 @@ ul.submenu .active-menu li.collapsed:hover ul.submenu {
 /* Mobile Menu */
 .active-menu .menu-wrap ul.main-menu {
   overflow-y: scroll;
+  display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .active-menu .menu-wrap ul.main-menu > li {
   display: block;
   float: none;
   margin: 0;
+  text-align: center;
+}
+.active-menu .menu-wrap ul.main-menu > li.expanded {
+  margin-bottom: 2em;
 }
 
 .active-menu ul.main-menu > li a::after {
@@ -1980,16 +1991,12 @@ ul.submenu .active-menu li.collapsed:hover ul.submenu {
   width: 100%;
   padding: 0 10px;
   background: none;
-  text-align: right;
+  text-align: center;
 }
 
 .active-menu ul.main-menu ul.submenu li a {
   display: block;
   width: 100%;
-}
-
-.active-menu ul.main-menu li a {
-  border-bottom: 1px solid #434343;
 }
 
 /* Header -> Mobile menu */
@@ -2003,15 +2010,7 @@ ul.submenu .active-menu li.collapsed:hover ul.submenu {
   height: 36px;
   line-height: 30px;
   text-align: center;
-  border-radius: 50%;
-  border-top: 3px solid #f26c4f;
-  border-left: 3px solid #f26c4f;
-  border-bottom: 3px solid #f4399e;
-  border-right: 3px solid #f4399e;
-  border-top: 3px solid var(--pink);
-  border-left: 3px solid var(--pink);
-  border-bottom: 3px solid var(--violet);
-  border-right: 3px solid var(--violet);
+  font-size: 2em;
 }
 
 .mobile-menu {
