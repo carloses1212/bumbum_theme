@@ -550,29 +550,6 @@
     height: 100%;
 	object-fit: cover;
   }
-  div[id*='reproductor'] .layout--onecol:nth-child(2){
-    margin: 0px;
-    width: 100%;
-    height: fit-content;
-    z-index: 16;
-    padding: 50px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-  }
-  div[id*='reproductor'] .layout--onecol:last-of-type{
-	padding: 50px 0 200px 0;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-    margin-top: 300px;
-  }
-  div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
-	margin: 50px;
-    position: absolute;
-    top: 35%;
-    max-width: 75%;
-    background: #fdda24;
-    padding: 50px 100px;
-  }
   #block-bumbum-theme-revivegalleria .taxonomy-term{
 	max-width: 22%;
   }
@@ -623,9 +600,6 @@
     justify-content: center;
     height: 100%;
   }
-  div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
-	top: 37%;
-  }
   .item-55 .cont-block {
     padding: 0;
   }
@@ -723,12 +697,6 @@
  }
  #block-bumbum-theme-reviveiframe .layout__region {
     padding: 65px 60px;
-}
-div[id*='reproductor'] .layout--onecol:last-of-type{
-	padding: padding: 50px 0 200px 0;;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-	margin-top: 0;
 }
 }
 @media (min-width: 1366px) {
@@ -776,9 +744,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
     justify-content: center;
     height: 100%;
   }
-  div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
-	top: 37%;
-  }
   .item-55 .cont-block {
     padding: 0;
   }
@@ -876,13 +841,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
  }
  #block-bumbum-theme-reviveiframe .layout__region {
     padding: 65px 60px;
-}
-div[id*='reproductor'] .layout--onecol:last-of-type{
-	padding: 50px 0 200px 0;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-	margin-top: 350px;
-}
 }
 }
 @media (min-width: 1850px) {
@@ -1011,15 +969,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
 .item-60 .item-40 {
     padding: 70px;
   }
-  div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
-	  top: 50%;
-  }
-  div[id*='reproductor'] .layout--onecol:last-of-type {
-    padding: 200px;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-    margin-top: 300px;
- }
 }
 @media (min-width: 1920px) {
   .site-branding {
@@ -1167,16 +1116,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
   .item-60 .item-40 {
     padding: 70px;
   }
-  div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
-	  margin: 50px 190px;
-	  top: 50%;
-  }
-  div[id*='reproductor'] .layout--onecol:last-of-type {
-    padding: 200px;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-    margin-top: 200px;
- }
 }
 /*Max-widths*/
 @media (max-width: 992px) {
@@ -1230,29 +1169,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
   }
   #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region {
     padding: 0 35px 0 0px;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) {
-    margin: 0px;
-    width: 100%;
-    height: fit-content;
-    z-index: 16;
-    padding: 50px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
-    margin: 50px;
-    position: absolute;
-    top: 35%;
-    max-width: 75%;
-    background: #fdda24;
-    padding: 50px 100px;
-}
-div[id*='reproductor'] .layout--onecol:last-of-type {
-    padding: 50px 0 200px 0;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-    margin-top: 490px;
 }
 }
 @media (max-width: 768px) {
@@ -1425,29 +1341,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
   }
   .cont-somos .item-dos-tercios .cont-block {
     flex-flow: column;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) {
-    margin: 0px;
-    width: 100%;
-    height: fit-content;
-    z-index: 16;
-    padding: 50px;
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
-    margin: 50px;
-    position: absolute;
-    top: 26%;
-    max-width: 75%;
-    background: #fdda24;
-    padding: 50px 100px;
-}
-div[id*='reproductor'] .layout--onecol:last-of-type {
-    padding: 50px 0 200px 0;
-    height: 40px;
-    border-bottom: 2px solid #fdda24;
-    margin-top: 700px;
 }
 .f-territorios{
 	width:100%;
@@ -1805,21 +1698,6 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 }
 #block-bumbum-theme-revivegalleria li.taxonomy-term a img{
     width:100%;
-}
-div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
-    margin: 0px !important;
-    position: absolute;
-    top: 23% !important;
-    max-width: 80% !important;;
-    background: #fdda24;
-    padding: 20px 20px !important;
-}
-
-div[id*='reproductor'] .layout--onecol:last-of-type {
-    padding: 0;
-}
-div[id*='reproductor'] .layout--onecol:last-of-type .layout__region--content {
-    padding: 0;
 }
 div[id*='reproductor'] .layout--onecol:last-of-type a {
     position: absolute;
