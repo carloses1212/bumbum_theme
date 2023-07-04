@@ -1178,8 +1178,7 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
     margin-top: 200px;
  }
 }
-
-
+/*Max-widths*/
 @media (max-width: 992px) {
 	.cont-somos .item-dos-tercios .cont-block {
 		flex-flow: column;
@@ -1631,6 +1630,9 @@ div[id*='reproductor'] .layout--onecol:last-of-type {
 	float: right;
     right: 2%;
     margin-left: auto;
+  }
+  .audio-platforms p:first-of-type{
+	  font-size: .7em;
   }
   div[id^="revive"]{
 	flex-flow: column-reverse !important;
