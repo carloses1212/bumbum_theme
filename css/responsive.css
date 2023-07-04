@@ -1712,4 +1712,10 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
     padding: 0 20px;
     transform: translateY(-5%);
 }
+.audio-platforms p {
+    margin: 0 1em;
+}
+.audio-platforms a {
+    margin: 0 0.7em
+}
 }
