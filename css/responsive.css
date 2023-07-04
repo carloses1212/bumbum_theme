@@ -6,6 +6,8 @@
 	z-index: 18;
     width: 100%;
     background: rgba(0,0,0,0.3);
+	position: fixed;
+    max-width: 576px;
   }
   .site-brand {
     z-index: 30;
@@ -16,7 +18,12 @@
     margin: 5px 25px;
   }
   .active-menu .menu-wrap {
-    max-width: 100%;
+    width: 100%;
+    max-width: 576px !important;
+	position: fixed;
+  }
+  ul.submenu {
+    background: transparent;
   }
   #page-header {
     padding: 0em 0 0em 0;
@@ -119,7 +126,11 @@
     object-fit: cover;
   }
   #block-bumbum-theme-views-block-imagen-y-texto-header-sessions-block-1 h2,
-  #block-bumbum-theme-views-block-imagen-y-texto-header-sessions-block-1 p{
+  #block-bumbum-theme-views-block-imagen-y-texto-header-sessions-block-1 p,
+  #block-bumbum-theme-views-block-texto-header-talleres-block-1 h2,
+  #block-bumbum-theme-views-block-texto-header-talleres-block-1 p,
+  #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 h2,
+  #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 p{
 	color: #272422;
     text-align: left;  
   }
@@ -138,7 +149,7 @@
 	width: 100%;
     height: 100%;
     object-fit: cover;
-	display: block;
+	display: block !important;
  }
  .cont-terr h2, .cont-terr p{
 	color: #272422; 
@@ -152,6 +163,9 @@
 }
 .item-40 {
     padding: 20px;
+}
+.item-55 h2{
+	color: #272422;
 }
 .item-60 {
     padding: 10px;
@@ -184,6 +198,7 @@
 }
 .ses-head, .rev-head{
 	max-height: fit-content;
+	color: #272422;
 }
 #block-bumbum-theme-revivegalleria {
     padding: 40px;
@@ -203,12 +218,12 @@
     width:100%;
 }
 div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
-    margin: 0px;
+    margin: 0px !important;
     position: absolute;
-    top: 22% !important;
-    max-width: 80%;
+    top: 26% !important;
+    max-width: 80% !important;;
     background: #fdda24;
-    padding: 20px 20px;
+    padding: 20px 20px !important;
 }
 
 div[id*='reproductor'] .layout--onecol:last-of-type {
