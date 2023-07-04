@@ -1168,13 +1168,14 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
     padding: 70px;
   }
   div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content{
+	  margin: 50px 190px;
 	  top: 50%;
   }
   div[id*='reproductor'] .layout--onecol:last-of-type {
     padding: 200px;
     height: 40px;
     border-bottom: 2px solid #fdda24;
-    margin-top: 300px;
+    margin-top: 200px;
  }
 }
 
