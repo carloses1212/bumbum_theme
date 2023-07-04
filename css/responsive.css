@@ -480,8 +480,7 @@
   }
   .page-header .item-dos-tercios img{
 	width: 100%;
-	max-height: 500px;
-    object-fit: cover;
+	object-fit: cover;
   }
   .cont-block h1{
 	color: #272422;
