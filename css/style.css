@@ -1210,6 +1210,9 @@ hr {
 #block-bumbum-theme-lineup h3, #block-bumbum-theme-lineupcali h3, #block-bumbum-theme-lineupbogotamobile h3, #block-bumbum-theme-lineupcalimobile h3{
 	color:#272422;
 }
+ #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile{
+	display:none;
+}
 #block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali {
 	background: #ff7f37;
 	padding: 80px;

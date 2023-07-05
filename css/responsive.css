@@ -1175,9 +1175,6 @@
     height: 36px;
     padding: 0 0em;
 }
- #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile{
-	display:none;
-}
 }
 @media (max-width: 768px) {
 	.active-menu .menu-wrap {
