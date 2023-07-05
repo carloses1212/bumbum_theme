@@ -1175,6 +1175,9 @@
     height: 36px;
     padding: 0 0em;
 }
+ #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile{
+	display:none;
+}
 }
 @media (max-width: 768px) {
 	.active-menu .menu-wrap {
@@ -1472,7 +1475,8 @@
     height: 32px;
     padding: 0 0em;
 }
-#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali{
+#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, 
+#block-bumbum-theme-botonesartistas2022 .layout__region--first, #block-bumbum-theme-botonestalleres .layout__region--first{
 	display:none;
 }
 
