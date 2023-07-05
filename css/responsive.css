@@ -1472,6 +1472,13 @@
     height: 32px;
     padding: 0 0em;
 }
+#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali{
+	display:none;
+}
+
+ #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile{
+	display:block;
+}
 }
 @media (max-width: 576px) {
   .container {
