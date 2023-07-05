@@ -1116,6 +1116,9 @@
   .item-60 .item-40 {
     padding: 70px;
   }
+  #block-bumbum-theme-revivegalleria .taxonomy-term {
+    max-width: 16%;
+  }
 }
 /*Max-widths*/
 @media (max-width: 992px) {
