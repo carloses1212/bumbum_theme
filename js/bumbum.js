@@ -69,11 +69,13 @@ jQuery(document).ready(function ($) {
       }
     }
   })
+  $("#block-bumbum-theme-registrobogota .layout--twocol-section--33-67").css("display","none"); 
   $( "#block-bumbum-theme-registrobogota .field--name-field-titulo" ).on( "click", function() {
 	$( "#block-bumbum-theme-registrobogota .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
 		// Animation complete.
 	});
   });
+  $("#block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67").css("display","none"); 
   $( "#block-bumbum-theme-registrobarranquilla .field--name-field-titulo" ).on( "click", function() {
 	$( "#block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
 		// Animation complete.

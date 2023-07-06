@@ -3521,11 +3521,8 @@ a.button-link, .button-link a {
 	font-size: 1.5em;
     color: #272422;
 }
-.layout--twocol-section--33-67{
-	display:flex;
-}
 #block-bumbum-theme-registrobogota .layout--twocol-section--33-67, #block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67{
-	display:none;
+	display:flex;
 	width: 90%;
     margin: 0 auto;
     padding: 2em 0;
