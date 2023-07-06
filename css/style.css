@@ -3470,6 +3470,111 @@ a.button-link, .button-link a {
     padding: 5px;
 }
 
+/*Registro*/
+#block-bumbum-theme-registroheader{
+	display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-top: 2em;
+}
+#block-bumbum-theme-registroheader .block-content{
+	width:100%;
+}
+#block-bumbum-theme-registroheader .taxonomy-term{
+	width: 90%;
+    height: 100vh;
+}
+#block-bumbum-theme-registroheader .taxonomy-term img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#block-bumbum-theme-registroheader .field--name-field-titulo{
+	transform: translateY(-615%);
+}
+#block-bumbum-theme-registroheader .field--name-field-titulo h2{
+    font-size: 3em;
+    letter-spacing: .1em;
+    font-weight: 400;
+}
+#block-bumbum-theme-registrobogota{
+	background:#9164cc;
+}
+#block-bumbum-theme-registrobarranquilla{
+	background:#00ccea;
+}
+#block-bumbum-theme-registrobogota .field--name-field-titulo, #block-bumbum-theme-registrobarranquilla .field--name-field-titulo{
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	cursor: pointer;
+}
+#block-bumbum-theme-registrobogota .field--name-field-titulo h2, #block-bumbum-theme-registrobarranquilla .field--name-field-titulo h2{
+	margin: 0 20px;
+    color: #272422;
+}
+#block-bumbum-theme-registrobogota .field--name-field-titulo i, #block-bumbum-theme-registrobarranquilla .field--name-field-titulo i{
+	font-size: 1.5em;
+    color: #272422;
+}
+#block-bumbum-theme-registrobogota .layout--twocol-section--33-67, #block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67{
+	display:none;
+	width: 90%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+#block-bumbum-theme-registrobogota .layout__region--first .block, 
+#block-bumbum-theme-registrobarranquilla .layout__region--first .block{
+	height: 100%;
+    display: flex;
+}
+#block-bumbum-theme-registrobogota .layout__region--first .block .node-taxonomy-container,
+#block-bumbum-theme-registrobogota .layout__region--first .block .node-taxonomy-container .taxonomy-terms,
+#block-bumbum-theme-registrobogota .layout__region--first .block .node-taxonomy-container .taxonomy-term, 
+#block-bumbum-theme-registrobarranquilla .layout__region--first .block .node-taxonomy-container, 
+#block-bumbum-theme-registrobarranquilla .layout__region--first .block .node-taxonomy-container .taxonomy-terms,
+#block-bumbum-theme-registrobarranquilla .layout__region--first .block .node-taxonomy-container .taxonomy-term{
+	height: 100%;
+	margin: 0;
+	padding:0;
+}
+#block-bumbum-theme-registrobogota .layout__region--first .block .node-taxonomy-container .taxonomy-term img,
+#block-bumbum-theme-registrobarranquilla .layout__region--first .block .node-taxonomy-container .taxonomy-term{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#block-bumbum-theme-registrobogota .layout__region--second,
+#block-bumbum-theme-registrobarranquilla .layout__region--second {
+	background: white;
+    padding: 60px;
+}
+#block-bumbum-theme-registrobogota form label,
+#block-bumbum-theme-registrobarranquilla form label {
+	color: #272422;
+}
+#block-bumbum-theme-registrobogota form input,
+#block-bumbum-theme-registrobarranquilla form input {
+    width: 100%;
+    background: lightgray;
+    border-radius: 20px;
+    border-color: transparent;
+}
+#block-bumbum-theme-registrobogota form input.form-submit,
+#block-bumbum-theme-registrobarranquilla form input.form-submit {
+    color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+#block-bumbum-theme-registrobogota form input.form-submit:hover,
+#block-bumbum-theme-registrobarranquilla form input.form-submit:hover {
+    color: #272422;
+    background: #fdda24;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
