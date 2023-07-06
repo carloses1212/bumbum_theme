@@ -3435,7 +3435,7 @@ a.button-link, .button-link a {
 	max-height: 100%;
 }
 
-#field--name-field-contenedor-del-mapa{
+.field--name-field-contenedor-del-mapa{
 	display:none;
 	width: 100%;
 	margin:0 auto;
