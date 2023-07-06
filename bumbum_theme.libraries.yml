@@ -45,6 +45,17 @@ fontawesome:
     component:
       css/font-awesome.css: {}
 
+#Leaflet
+leaflet:
+  version: 1.9.4
+  css:
+    component:
+        css/leaflet.css: {}
+  js:
+    js/leaflet.js: {}
+  dependencies:
+    - core/jquery
+
 # Google Material Icons
 material:
   version: 3.0.1
