@@ -3436,7 +3436,6 @@ a.button-link, .button-link a {
 	margin: 0 auto;
 	background: transparent;
 }
-
 .field--name-field-contenedor-del-mapa{
 	display:none;
 	width: 100%;
@@ -3446,13 +3445,31 @@ a.button-link, .button-link a {
 .leaflet-popup-content .cont-info-lugar{
 	display: flex;
 }
+.leaflet-popup-content .cont-info-lugar h3, .leaflet-popup-content .cont-info-lugar h4{
+	color: #272422;
+    line-height: 1;
+}
 .leaflet-popup-content .info-descripcion{
 	display: flex;
     width: 100%;
 }
 .leaflet-popup-content .info-descripcion span{
 	width: 33.3%;
+	font-weight: 700;
 }
+.leaflet-popup-content .redes-lugar{
+	display: flex;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
+}
+.leaflet-popup-content .redes-lugar i{
+	border-radius: 50%;
+    background: #272422;
+    color: white;
+    padding: 5px;
+}
+
 /* Animation
 -------------------------------------------- */
 /*slide up */
