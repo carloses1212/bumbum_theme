@@ -93,7 +93,7 @@ jQuery(document).ready(function ($) {
   
   const map2 = L.map('map-barranquilla').setView([10.9635022, -74.8216233], 13);
 
-  const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  const tiles2 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
 	minZoom: 5,
 	edgeBufferTiles: 5,
