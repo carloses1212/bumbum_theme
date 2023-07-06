@@ -115,61 +115,61 @@ jQuery(document).ready(function ($) {
   function onMapClick(e) {
 	popup
 		.setLatLng(e.latlng)
-		.setContent("<b>Biblioteca Julio Mario Santodomingo</b>")
+		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Biblioteca Julio Mario Santodomingo</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
 		.openOn(map);
   }
   function onMapClick2(e) {
 	popup
 		.setLatLng(e.latlng)
-		.setContent("<b>Cinemateca de Bogota!</b>")
+		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Cinemateca de Bogot&aacute;</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
 		.openOn(map);
   }
   function onMapClick3(e) {
 	popup
 		.setLatLng(e.latlng)
-		.setContent("<b>La Cueva</b><br />I am a popup.")
+		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>La Cueva</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
 		.openOn(map);
   }
   function onMapClick4(e) {
 	popup
 		.setLatLng(e.latlng)
-		.setContent("<b>La Casa del Carnaval</b><br />I am a popup.")
+		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>La Casa del Carnaval</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
 		.openOn(map);
   }
   function onMapClick5(e) {
 	popup
 		.setLatLng(e.latlng)
-		.setContent("<b>Plaza de la Aduana</b><br />I am a popup.")
+		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Plaza de la Aduana</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
 		.openOn(map);
   }
   function onMouseOver(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("my tooltip text")
+		.setContent("<b>Biblioteca Julio Mario Santodomingo</b>")
 		.openOn(map);
   }
   function onMouseOver2(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("my tooltip text")
+		.setContent("<b>Cinemateca de Bogot&aacute;</b>")
 		.openOn(map);
   }
   function onMouseOver3(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("my tooltip text")
+		.setContent("<b>La Cueva</b>")
 		.openOn(map);
   }
   function onMouseOver4(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("my tooltip text")
+		.setContent("<b>La Casa del Carnaval</b>")
 		.openOn(map);
   }
   function onMouseOver5(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("my tooltip text")
+		.setContent("<b>Plaza de la Aduana</b>")
 		.openOn(map);
   }
   
