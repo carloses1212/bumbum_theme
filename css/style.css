@@ -3433,12 +3433,15 @@ a.button-link, .button-link a {
 	width: 90%;
 	max-width: 100%;
 	max-height: 100%;
+	margin: 0 auto;
+	background: transparent;
 }
 
 .field--name-field-contenedor-del-mapa{
 	display:none;
 	width: 100%;
 	margin:0 auto;
+	padding: 2em 0;
 }
 
 /* Animation

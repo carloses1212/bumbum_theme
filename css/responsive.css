@@ -1183,6 +1183,9 @@
 	.active-menu .menu-wrap {
 		max-width: 100%;
 	  }
+	  #page-header {
+		padding: 0em 0 0em 0;
+	  }
 #block-bumbum-theme-views-block-festivales-bumbum-block-1 .full{
 	flex-flow: column;
 }

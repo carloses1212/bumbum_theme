@@ -70,13 +70,13 @@ jQuery(document).ready(function ($) {
     }
   })
   $( "#block-bumbum-theme-mapabogota .field--name-field-titulo" ).on( "click", function() {
-	$( ".field--name-field-contenedor-del-mapa" ).slideToggle( "slow", function() {
+	$( "#block-bumbum-theme-mapabogota .field--name-field-contenedor-del-mapa" ).slideToggle( "slow", function() {
 		map.invalidateSize();
 		// Animation complete.
 	});
   });
   $( "#block-bumbum-theme-mapabarranquilla .field--name-field-titulo" ).on( "click", function() {
-	$( ".field--name-field-contenedor-del-mapa" ).slideToggle( "slow", function() {
+	$( "#block-bumbum-theme-mapabarranquilla .field--name-field-contenedor-del-mapa" ).slideToggle( "slow", function() {
 		map2.invalidateSize();
 		// Animation complete.
 	});
