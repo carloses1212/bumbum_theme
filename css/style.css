@@ -3480,6 +3480,9 @@ a.button-link, .button-link a {
 #block-bumbum-theme-registroheader .block-content{
 	width:100%;
 }
+#block-bumbum-theme-registroheader .taxonomy-terms{
+	margin:0;
+}
 #block-bumbum-theme-registroheader .taxonomy-term{
 	width: 90%;
     height: 100vh;
@@ -3517,6 +3520,9 @@ a.button-link, .button-link a {
 #block-bumbum-theme-registrobogota .field--name-field-titulo i, #block-bumbum-theme-registrobarranquilla .field--name-field-titulo i{
 	font-size: 1.5em;
     color: #272422;
+}
+.layout--twocol-section--33-67{
+	display:flex;
 }
 #block-bumbum-theme-registrobogota .layout--twocol-section--33-67, #block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67{
 	display:none;
