@@ -3543,7 +3543,7 @@ a.button-link, .button-link a {
 	padding:0;
 }
 #block-bumbum-theme-registrobogota .layout__region--first .block .node-taxonomy-container .taxonomy-term img,
-#block-bumbum-theme-registrobarranquilla .layout__region--first .block .node-taxonomy-container .taxonomy-term{
+#block-bumbum-theme-registrobarranquilla .layout__region--first .block .node-taxonomy-container .taxonomy-term img{
 	width: 100%;
     height: 100%;
     object-fit: cover;
