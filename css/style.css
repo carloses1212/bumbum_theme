@@ -3406,6 +3406,41 @@ a.button-link, .button-link a {
   transform: translateY(-10px);
 }
 
+/*Leaflet - Mapas*/
+#block-bumbum-theme-mapabogota{
+	background:#9164cc;
+}
+#block-bumbum-theme-mapabarranquilla{
+	background:#00ccea;
+}
+#block-bumbum-theme-mapabogota .field--name-field-titulo, #block-bumbum-theme-mapabarranquilla .field--name-field-titulo{
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	cursor: pointer;
+}
+#block-bumbum-theme-mapabogota .field--name-field-titulo h2, #block-bumbum-theme-mapabarranquilla .field--name-field-titulo h2{
+	margin: 0 20px;
+    color: #272422;
+}
+#block-bumbum-theme-mapabogota .field--name-field-titulo i, #block-bumbum-theme-mapabarranquilla .field--name-field-titulo i{
+	font-size: 1.5em;
+    color: #272422;
+}
+.leaflet-container {
+	height: 600px;
+	width: 90%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#field--name-field-contenedor-del-mapa{
+	display:none;
+	width: 100%;
+	margin:0 auto;
+}
+
 /* Animation
 -------------------------------------------- */
 /*slide up */
