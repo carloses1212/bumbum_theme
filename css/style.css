@@ -3443,7 +3443,16 @@ a.button-link, .button-link a {
 	margin:0 auto;
 	padding: 2em 0;
 }
-
+.leaflet-popup-content .cont-info-lugar{
+	display: flex;
+}
+.leaflet-popup-content .info-descripcion{
+	display: flex;
+    width: 100%;
+}
+.leaflet-popup-content .info-descripcion span{
+	width: 33.3%;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
