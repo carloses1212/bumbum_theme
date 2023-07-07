@@ -3578,6 +3578,30 @@ a.button-link, .button-link a {
     color: #272422;
     background: #fdda24;
 }
+#block-bumbum-theme-registrobogota .js-webform-radios,
+#block-bumbum-theme-registrobarranquilla .js-webform-radios{
+	display: flex;
+    align-items: center;
+}
+#block-bumbum-theme-registrobogota .js-form-type-radio,
+#block-bumbum-theme-registrobarranquilla .js-form-type-radio {
+	margin: 0 auto;
+}
+#block-bumbum-theme-registrobogota .js-form-type-radio label,
+#block-bumbum-theme-registrobarranquilla .js-form-type-radio label {
+	width: 100%;
+    display: flex;
+}
+#block-bumbum-theme-registrobogota .fieldset,
+#block-bumbum-theme-registrobarranquilla .fieldset{
+	border: none;
+}
+.edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper{
+	display:flex;
+}
+.edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper .form-item{
+	padding: 0 20px;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
