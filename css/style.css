@@ -3571,7 +3571,7 @@ a.button-link, .button-link a {
     border-radius: 20px;
     padding: 0.6em 2em;
     border: none;
-    width: fit-content;
+    width: 100%;
 }
 #block-bumbum-theme-registrobogota form input.form-submit:hover,
 #block-bumbum-theme-registrobarranquilla form input.form-submit:hover {
@@ -3592,16 +3592,30 @@ a.button-link, .button-link a {
 	width: 100%;
     display: flex;
 }
-#block-bumbum-theme-registrobogota .fieldset,
-#block-bumbum-theme-registrobarranquilla .fieldset{
+#block-bumbum-theme-registrobogota fieldset,
+#block-bumbum-theme-registrobarranquilla fieldset{
 	border: none;
 }
-.edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper{
+#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper{
 	display:flex;
 }
-.edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper .form-item{
+#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper .form-item{
 	padding: 0 20px;
 }
+#block-bumbum-theme-registrobogota .form-item-acepto-los-terminos-y-condiciones,
+#block-bumbum-theme-registrobarranquilla .form-item-acepto-los-terminos-y-condiciones,
+#block-bumbum-theme-registrobogota .form-item-acepto-la-politica-de-tratamiento-de-datos,
+#block-bumbum-theme-registrobarranquilla .form-item-acepto-la-politica-de-tratamiento-de-datos{
+	display: inline-flex;
+    width: 100%;
+}
+#block-bumbum-theme-registrobogota .form-item-acepto-los-terminos-y-condiciones input,
+#block-bumbum-theme-registrobarranquilla .form-item-acepto-los-terminos-y-condiciones input,
+#block-bumbum-theme-registrobogota .form-item-acepto-la-politica-de-tratamiento-de-datos input,
+#block-bumbum-theme-registrobarranquilla .form-item-acepto-la-politica-de-tratamiento-de-datos input {
+	max-width: 50px;
+}
+
 /* Animation
 -------------------------------------------- */
 /*slide up */
