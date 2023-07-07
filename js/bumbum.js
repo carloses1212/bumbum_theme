@@ -140,19 +140,19 @@ jQuery(document).ready(function ($) {
 	popup
 		.setLatLng(e.latlng)
 		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>La Cueva</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook-f'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
-		.openOn(map);
+		.openOn(map2);
   }
   function onMapClick4(e) {
 	popup
 		.setLatLng(e.latlng)
 		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>La Casa del Carnaval</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook-f'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
-		.openOn(map);
+		.openOn(map2);
   }
   function onMapClick5(e) {
 	popup
 		.setLatLng(e.latlng)
 		.setContent("<div class='info-lugar'><img src='' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Plaza de la Aduana</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><h4>AGENDA</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus consequat purus eu venenatis. Nulla eget scelerisque tortor, nec scelerisque augue. Suspendisse eget ligula pretium, dictum lectus at, sagittis lacus.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>DIRECCI&Oacute;N</span></div><div class='redes-lugar'><i class='fa-brands fa-facebook-f'></i><i class='fa-brands fa-instagram'></i><i class='fa-brands fa-twitter'></i><i class='fa-brands fa-tiktok'></i><i class='fa-brands fa-youtube'></i><i class='fa-brands fa-whatsapp'></i></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
-		.openOn(map);
+		.openOn(map2);
   }
   function onMouseOver(e) {
 	tooltip
@@ -170,19 +170,19 @@ jQuery(document).ready(function ($) {
 	tooltip
 		.setLatLng(e.latlng)
 		.setContent("<b>La Cueva</b>")
-		.openOn(map);
+		.openOn(map2);
   }
   function onMouseOver4(e) {
 	tooltip
 		.setLatLng(e.latlng)
 		.setContent("<b>La Casa del Carnaval</b>")
-		.openOn(map);
+		.openOn(map2);
   }
   function onMouseOver5(e) {
 	tooltip
 		.setLatLng(e.latlng)
 		.setContent("<b>Plaza de la Aduana</b>")
-		.openOn(map);
+		.openOn(map2);
   }
   
 /* End document
