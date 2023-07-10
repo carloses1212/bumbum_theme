@@ -70,6 +70,7 @@ jQuery(document).ready(function ($) {
     }
   })
   $(".articles-blog .layout--onecol:last-of-type .contextual-region .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme");
+  $("#block-bumbum-theme-views-block-articulos-destacados-block-1").children('div.views-view-responsive-grid').addClass("article-d owl-carousel owl-theme");
   $("#block-bumbum-theme-registrobogota .layout--twocol-section--33-67").css("display","none"); 
   $( "#block-bumbum-theme-registrobogota .field--name-field-titulo" ).on( "click", function() {
 	$( "#block-bumbum-theme-registrobogota .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
@@ -95,7 +96,7 @@ jQuery(document).ready(function ($) {
 	});
   });
   //Carrusel Articulos Destacados
-  var owlad = $('.taxonomy-terms.article-carousel');
+  var owlad = $('.article-d');
   owlad.owlCarousel({
     margin: 10,
     nav: true,

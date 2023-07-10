@@ -3633,6 +3633,10 @@ a.button-link, .button-link a {
 .text-article{
 	max-width: 25%;
     padding-right: 20px;
+	color:#272422
+}
+.text-article h2{
+	color:#272422
 }
 .image-article{
 	max-height: 400px;
