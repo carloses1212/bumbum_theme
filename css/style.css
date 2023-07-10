@@ -3615,7 +3615,130 @@ a.button-link, .button-link a {
 #block-bumbum-theme-registrobarranquilla .form-item-acepto-la-politica-de-tratamiento-de-datos input {
 	max-width: 50px;
 }
-
+.node-taxonomy-container{
+	border: none;
+}
+/** Blog */
+#block-bumbum-theme-views-block-articulo-principal-block-1 a{
+	color:white;
+}
+#block-bumbum-theme-views-block-articulo-principal-block-1 a:hover{
+	color:white;
+}
+.cont-article{
+	display: flex;
+    max-width: 90%;
+    margin: 2em auto;
+}
+.text-article{
+	max-width: 25%;
+    padding-right: 20px;
+}
+.image-article{
+	max-height: 400px;
+    width: 100%;
+}
+.image-article img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.articles-blog .layout{
+	width:100%;
+}
+.articles-blog .layout--onecol:first-of-type{
+	max-height: 600px;
+    height: 100%;
+    display: flex;
+    margin-top: 2em;
+}
+.articles-blog .layout--onecol:first-of-type .block{
+	padding-left: 15%;
+}
+.articles-blog .layout--onecol:first-of-type .block:first-of-type{
+	padding-left: 0%;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(2){
+	transform: translateY(-55%);
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(2) a{
+	color: white;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3){
+	transform: translateY(-1834%);
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1{
+	letter-spacing: 5px;
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 400;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(4){
+	transform: translateY(-1797%);
+    max-width: 40%;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(4) h2{
+	font-size: 1.5em;
+    line-height: 1;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(5){
+	transform: translateY(-3095%);
+}
+.articles-blog .taxonomy-terms {
+    margin: 0;
+}
+.articles-blog li.taxonomy-term a::before{
+	content:none;
+}
+.articles-blog .layout--onecol:first-of-type .taxonomy-term{
+	width: 100%;
+    height: 600px;
+}
+.articles-blog .layout--onecol:first-of-type img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.articles-blog .layout--onecol:last-of-type{
+	border: 30px solid #fdda24;
+    padding: 50px 100px;
+    background: white;
+}
+.articles-blog .layout--onecol:last-of-type .block{
+	margin-bottom: 2em;
+}
+.articles-blog .layout--onecol:last-of-type .contextual-region .node-taxonomy-container .term-title{
+	display:none;
+}
+.articles-blog .field--name-field-iframe-audio{
+	width: 70%;
+}
+.articles-blog .field--name-field-ifr {
+	width: 70%;
+    margin: 0 auto;
+}
+.article-carousel .owl-nav{
+	position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 100%;
+}
+.article-carousel .owl-nav .owl-prev{
+	position: absolute;
+    left: 5px;
+    font-size: 2em !important;
+}
+.article-carousel .owl-nav .owl-next{
+	position: absolute;
+    right: 5px;
+    font-size: 2em !important;
+}
+.articles-blog .field--name-field-contenedor-del-mapa{
+	display:block;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */

@@ -1,6 +1,12 @@
 @media (min-width: 576px) {
+  body {
+    font-size: 1em;
+  }
   .container {
     max-width: 100%;
+  }
+  #main {
+    order: 2;
   }
 }
 @media (min-width: 720px) {
@@ -1119,6 +1125,10 @@
   #block-bumbum-theme-revivegalleria .taxonomy-term {
     max-width: 16%;
   }
+  .articles-blog .layout{
+	width:100%;
+	max-width:1920px;
+}
 }
 /*Max-widths*/
 @media (max-width: 992px) {
@@ -1177,6 +1187,14 @@
     width: 36px;
     height: 36px;
     padding: 0 0em;
+}
+/*.articles-blog .layout{
+	width:100%;
+	max-width:992px;
+}*/
+.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
+    transform: translateY(-1197%);
+    max-width: 40%;
 }
 }
 @media (max-width: 768px) {
@@ -1484,6 +1502,125 @@
  #block-bumbum-theme-talleres2022bogotamobile, #block-bumbum-theme-talleres2022calimobile{
 	display:block;
 }
+.cont-article{
+	flex-direction: column-reverse;
+    max-width: 100%;
+	margin: 0 auto;
+}
+.text-article{
+	max-width: 100%;
+    padding: 30px;
+}
+.image-article{
+	max-height: 400px;
+    width: 100%;
+}
+.image-article img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.articles-blog .layout{
+	width:100%;
+	max-width:768px;
+	min-width:auto;
+}
+.articles-blog .layout--onecol:first-of-type {
+    max-height: 500px;
+}
+.articles-blog .layout--onecol:first-of-type .block {
+    padding-left: .5%;
+}
+.articles-blog .layout--onecol:first-of-type .taxonomy-term {
+    height: 500px;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
+    transform: translateY(-45%);
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
+    transform: translateY(-1730%);
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1 {
+    font-size: 2.5em;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
+    transform: translateY(-1420%);
+    max-width: 75%;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(5) {
+    transform: translateY(-2485%);
+}
+.articles-blog .layout--onecol:last-of-type {
+    border: 20px solid #fdda24;
+    padding: 40px 40px;
+}
+.articles-blog .field--name-field-iframe-audio {
+    width: 100%;
+}
+.articles-blog .field--name-field-ifr {
+    width: 100%;
+}
+.article-carousel.owl-carousel {
+    padding: 0;
+  }
+  .article-carousel.owl-carousel .owl-stage-outer {
+    height: 100%;
+}
+  .article-carousel.owl-carousel .owl-nav{
+	z-index: 22;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+  }
+  .article-carousel.owl-carousel .owl-nav .owl-prev{
+	font-size: 3em;
+    color: white;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+  }
+  .article-carousel.owl-carousel .owl-nav .owl-next{
+	font-size: 3em;
+    color: white;
+    font-weight: 700;
+    right: 0;
+    position: absolute;
+  }
+}
+@media (max-width: 736px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:736px;
+		min-width:auto;
+	}
+}
+@media (max-width: 720px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:720px;
+		min-width:auto;
+	}
+}
+@media (max-width: 667px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:667px;
+		min-width:auto;
+	}
+}
+@media (max-width: 640px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:640px;
+		min-width:auto;
+	}
+}
+@media (max-width: 600px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:600px;
+		min-width:auto;
+	}
 }
 @media (max-width: 576px) {
   .container {
@@ -1743,4 +1880,106 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
     height: 28px;
     padding: 0 0em;
 }
+#block-bumbum-theme-registrobogota .layout__region--first,
+#block-bumbum-theme-registrobarranquilla .layout__region--first{
+	display:none
+}
+#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper{
+	flex-direction: column;
+}
+.articles-blog .layout{
+	width:100%;
+	max-width:576px;
+	min-width:auto;
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
+    transform: translateY(-1855%);
+}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
+    transform: translateY(-1470%);
+    max-width: 75%;
+}
+}
+@media (max-width: 540px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:540px;
+		min-width:auto;
+	}
+}
+@media (max-width: 480px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:480px;
+		min-width:auto;
+	}
+}
+@media (max-width: 414px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:414px;
+		min-width:auto;
+	}
+}
+@media (max-width: 412px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:412px;
+		min-width:auto;
+	}
+	.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
+		transform: translateY(-1820%);
+	}
+	.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
+		transform: translateY(-1494%);
+		max-width: 100%;
+	}
+	.articles-blog .layout--onecol:first-of-type .block:nth-child(5) {
+		transform: translateY(-2600%);
+	}
+}
+@media (max-width: 393px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:393px;
+		min-width:auto;
+	}
+}
+@media (max-width: 390px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:390px;
+		min-width:auto;
+	}
+}
+@media (max-width: 375px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:375px;
+		min-width:auto;
+	}
+}
+@media (max-width: 360px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:360px;
+		min-width:auto;
+	}
+}
+@media (max-width: 320px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:320px;
+		min-width:auto;
+	}
+}
+@media (max-width: 280px) {
+	.articles-blog .layout{
+		width:100%;
+		max-width:280px;
+		min-width:auto;
+	}
+	.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
+		transform: translateY(-918%);
+	}
 }
