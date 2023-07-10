@@ -69,6 +69,7 @@ jQuery(document).ready(function ($) {
       }
     }
   })
+  $(".articles-blog .layout--onecol:last-of-type .contextual-region .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme");
   $("#block-bumbum-theme-registrobogota .layout--twocol-section--33-67").css("display","none"); 
   $( "#block-bumbum-theme-registrobogota .field--name-field-titulo" ).on( "click", function() {
 	$( "#block-bumbum-theme-registrobogota .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
@@ -93,6 +94,44 @@ jQuery(document).ready(function ($) {
 		// Animation complete.
 	});
   });
+  //Carrusel Articulos Destacados
+  var owlad = $('.taxonomy-terms.article-carousel');
+  owlad.owlCarousel({
+    margin: 10,
+    nav: true,
+	dots: false,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 3
+      }
+    }
+  }) 
+  //Carrusel Articulos
+  var owla = $('.taxonomy-terms.article-carousel');
+  owla.owlCarousel({
+    margin: 10,
+    nav: true,
+	dots: false,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 4
+      }
+    }
+  })
   
   const map = L.map('map-bogota').setView([4.6653243, -74.0965387], 10.5);
 
@@ -184,6 +223,16 @@ jQuery(document).ready(function ($) {
 		.setContent("<b>Plaza de la Aduana</b>")
 		.openOn(map2);
   }
+   //Mapas Artistas - Debe crearse uno por cada artista y conforme su ID
+  const map_artista = L.map('map').setView([4.6653243, -74.0965387], 10.5);
+
+  const tiles_artista = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	minZoom: 5,
+	edgeBufferTiles: 5,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map_artista);
+  map_artista.invalidateSize();
   
 /* End document
 --------------------------*/
