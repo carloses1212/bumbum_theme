@@ -3625,6 +3625,9 @@ a.button-link, .button-link a {
 #block-bumbum-theme-views-block-articulo-principal-block-1 a:hover{
 	color:white;
 }
+#block-bumbum-theme-views-block-articulos-recientes-block-1 h2{
+	padding-left: 40px;
+}
 .cont-article{
 	display: flex;
     margin: 0 0 0 0;
@@ -3806,6 +3809,50 @@ a.button-link, .button-link a {
 .articles-blog .field--name-field-contenedor-del-mapa{
 	display:block;
 }
+/**Votacion*/
+.votacion-section .layout--onecol:first-of-type{
+	background: #fdda24;
+    margin: 100px 100px 50px 100px;
+}
+.votacion-section .layout--onecol:first-of-type .field--name-field-titulo{
+	justify-content: center;
+    display: flex;
+    padding-top: 2em;
+}
+.votacion-section .layout--onecol:first-of-type .field--name-field-titulo h1{
+	max-width: 38%;
+    line-height: 1;
+    text-align: center;
+    color: #272422;
+	font-weight: 400;
+}
+.votacion-section .layout--onecol:first-of-type .field--name-body{
+	display: flex;
+    justify-content: center;
+	padding-top: 2em;
+}
+.votacion-section .layout--onecol:first-of-type .field--name-field-titulo p{
+	max-width: 50%;
+    line-height: 1;
+    text-align: center;
+    color: #272422;
+}
+.votacion-section .layout--onecol:first-of-type .block:last-of-type{
+	display: none;
+}
+.votacion-section .layout--onecol:last-of-type{
+	padding: 60px;
+    border-bottom: 2px solid #fdda24;
+}
+.votacion-section a {
+    color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+
 /* Animation
 -------------------------------------------- */
 /*slide up */
