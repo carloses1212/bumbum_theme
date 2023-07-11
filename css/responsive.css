@@ -630,6 +630,11 @@
 	max-height: 500px;
     object-fit: cover;
   }
+  .page-header #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 .item-dos-tercios img{
+	width: 100%;
+	max-height: 604px;
+    object-fit: cover;
+  }
   .cont-block h1{
 	color: #272422;
 	font-weight:700;
