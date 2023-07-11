@@ -152,22 +152,22 @@ jQuery(document).ready(function ($) {
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map2);
 		
-  const marker1 = L.marker([4.7565891, -74.0652716]).on('click', onMapClick).on('mouseover', onMouseOver).addTo(map);
+  const marker1 = L.marker([4.7567351, -74.0675975]).on('click', onMapClick).on('mouseover', onMouseOver).addTo(map);
 			
-  const marker2 = L.marker([4.6031367, -74.0702999]).on('click', onMapClick2).on('mouseover', onMouseOver2).addTo(map);
+  const marker2 = L.marker([4.5714201, -74.0914916]).on('click', onMapClick2).on('mouseover', onMouseOver2).addTo(map);
   
-  const marker3 = L.marker([10.9579143, -74.8981703]).on('click', onMapClick3).on('mouseover', onMouseOver3).addTo(map2);
+  const marker3 = L.marker([10.9857615, -74.798878]).on('click', onMapClick3).on('mouseover', onMouseOver3).addTo(map2);
 		
-  const marker4 = L.marker([10.9927943, -74.7903729]).on('click', onMapClick4).on('mouseover', onMouseOver4).addTo(map2);
+  const marker4 = L.marker([10.9927769, -74.7903845]).on('click', onMapClick4).on('mouseover', onMouseOver4).addTo(map2);
 	
-  const marker5 = L.marker([10.9883732, -74.7838185]).on('click', onMapClick5).on('mouseover', onMouseOver5).addTo(map2);
+  const marker5 = L.marker([10.9883733, -74.7815225]).on('click', onMapClick5).on('mouseover', onMouseOver5).addTo(map2);
 		
   var popup = L.popup();
   var tooltip = L.tooltip();
   function onMapClick(e) {
 	popup
 		.setLatLng(e.latlng)
-		.setContent("<div class='info-lugar'><img src='https://qa.bumbumfest.org/sites/default/files/2023-07/JulioMarioSantoDomingo.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Biblioteca P$uacute;blica Julio Mario Santo Domingo</h3><p>La Biblioteca P&uacute;blica Julio Mario Santo Domingo es una de las megabibliotecas de Bibliored. Hace parte del Centro Cultural Julio Mario Santo Domingo y presta sus servicios a 1,2 millones de habitantes en la localidad de Suba y los sectores del norte de Bogot&aacute;. Cuenta con salas especializadas para la primera infancia, m&aacute;s de 600 puestos de lectura y uno de los acervos m&aacute;s amplios especializados en arte, arquitectura y literatura de la ciudad.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>Calle 170 # 67-51</span></div><div class='redes-lugar'><a href='https://www.biblored.gov.co/bibliotecas/biblioteca-julio-mario'><i class='fa-sharp fa-regular fa-earth-americas'></i></a><a href='https://www.facebook.com/BibloRedBogota/'><i class='fa-brands fa-facebook-f'></i></a><a href='https://www.instagram.com/bibloredbogota/'><i class='fa-brands fa-instagram'></i></a><a href='https://twitter.com/BiblioredBogota'><i class='fa-brands fa-twitter'></i></a><a href='https://www.youtube.com/channel/UCZSYoAl6dw3ws76sPKydLaw'><i class='fa-brands fa-youtube'></i></a><a href='https://www.tiktok.com/@bibloredbogota'><i class='fa-brands fa-tiktok'></i></a></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
+		.setContent("<div class='info-lugar'><img src='https://qa.bumbumfest.org/sites/default/files/2023-07/JulioMarioSantoDomingo.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Biblioteca P&uacute;blica Julio Mario Santo Domingo</h3><p>La Biblioteca P&uacute;blica Julio Mario Santo Domingo es una de las megabibliotecas de Bibliored. Hace parte del Centro Cultural Julio Mario Santo Domingo y presta sus servicios a 1,2 millones de habitantes en la localidad de Suba y los sectores del norte de Bogot&aacute;. Cuenta con salas especializadas para la primera infancia, m&aacute;s de 600 puestos de lectura y uno de los acervos m&aacute;s amplios especializados en arte, arquitectura y literatura de la ciudad.</p><div class='info-descripcion'><span>FECHA</span><span>HORA</span><span>Calle 170 # 67-51</span></div><div class='redes-lugar'><a href='https://www.biblored.gov.co/bibliotecas/biblioteca-julio-mario'><i class='fa-sharp fa-regular fa-earth-americas'></i></a><a href='https://www.facebook.com/BibloRedBogota/'><i class='fa-brands fa-facebook-f'></i></a><a href='https://www.instagram.com/bibloredbogota/'><i class='fa-brands fa-instagram'></i></a><a href='https://twitter.com/BiblioredBogota'><i class='fa-brands fa-twitter'></i></a><a href='https://www.youtube.com/channel/UCZSYoAl6dw3ws76sPKydLaw'><i class='fa-brands fa-youtube'></i></a><a href='https://www.tiktok.com/@bibloredbogota'><i class='fa-brands fa-tiktok'></i></a></div></div><div class='info-costo'><p>ENTRADA GRATUITA</p></div></div>")
 		.openOn(map);
   }
   function onMapClick2(e) {
