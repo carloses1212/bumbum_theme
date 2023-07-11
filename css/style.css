@@ -3673,6 +3673,7 @@ a.button-link, .button-link a {
 .text-article-d{
 	margin: 10px;
 	color: #272422;
+	padding: 20px;
 }
 .text-article-d h1{
 	color: #272422;
@@ -3831,7 +3832,7 @@ a.button-link, .button-link a {
     justify-content: center;
 	padding-top: 2em;
 }
-.votacion-section .layout--onecol:first-of-type .field--name-field-titulo p{
+.votacion-section .layout--onecol:first-of-type .field--name-body p{
 	max-width: 50%;
     line-height: 1;
     text-align: center;
@@ -3844,6 +3845,10 @@ a.button-link, .button-link a {
 	padding: 60px;
     border-bottom: 2px solid #fdda24;
 }
+.votacion-section .field--name-field-enlace{
+	justify-content: center;
+    display: flex;
+}
 .votacion-section a {
     color: #272422;
     background: #fdda24;
@@ -3851,6 +3856,9 @@ a.button-link, .button-link a {
     padding: 0.6em 2em;
     border: none;
     width: fit-content;
+}
+.layout--twocol-section--50-50 .field--type-iframe{
+	margin: 0 50px;
 }
 
 /* Animation
