@@ -1185,7 +1185,8 @@
     height: 100%;
 	object-fit: cover;
   }
-  #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region {
+  #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region,
+  #block-bumbum-theme-talleresbogota2023 .layout__region, #block-bumbum-theme-talleres2023barranquilla .layout__region{
     padding: 0 35px 0 0px;
 }
 .audio-platforms a {
@@ -1497,15 +1498,15 @@
     height: 32px;
     padding: 0 0em;
 }
-#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogota2023
-#block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali, 
+#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogota2023,
+#block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali,
+#block-bumbum-theme-talleresbogota2023, #block-bumbum-theme-talleres2023barranquilla,
 #block-bumbum-theme-botonesartistas2022 .layout__region--first, #block-bumbum-theme-botonestalleres .layout__region--first,
 #block-bumbum-theme-botonesartistas2023 .layout__region--first{
 	display:none;
 }
 
- #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile,
- #block-bumbum-theme-talleres2022bogotamobile, #block-bumbum-theme-talleres2022calimobile, #block-bumbum-theme-lineupbogota2023mobile{
+ div[id*='mobile'] {
 	display:block;
 }
 #block-bumbum-theme-views-block-articulos-destacados-block-1,
@@ -1969,7 +1970,7 @@ div[id*='reproductor'] .layout--twocol-section a {
     top: 6%;
     font-size: 0.7em;
 }
-div[id*='reproductor'] .layout--twocol-section a:last-of-type {
+div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
     position: absolute;
     top: 10%;
     font-size: 0.7em;
