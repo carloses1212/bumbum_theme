@@ -1955,9 +1955,23 @@ div[id*='reproductor'] .layout--onecol:last-of-type{
 	transform: none;
 	padding: 0 0 0px 0;
 }
+div[id*='reproductor'] .layout--twocol-section{
+	transform: none;
+	padding: 0 0 0px 0;
+}
 div[id*='reproductor'] .layout--onecol:last-of-type a {
     position: absolute;
     top: 6%;
+    font-size: 0.7em;
+}
+div[id*='reproductor'] .layout--twocol-section a {
+    position: absolute;
+    top: 6%;
+    font-size: 0.7em;
+}
+div[id*='reproductor'] .layout--twocol-section a:last-of-type {
+    position: absolute;
+    top: 10%;
     font-size: 0.7em;
 }
 div[id*='reproductor'] .layout--onecol:nth-child(2) {
