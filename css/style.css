@@ -1155,12 +1155,15 @@ hr {
 #block-bumbum-theme-artistassessions2023 .field--name-field-titulo,
 #block-bumbum-theme-talleresbogota2022 .field--name-field-titulo,
 #block-bumbum-theme-tallerescali2022titulo .field--name-field-titulo,
+#block-bumbum-theme-talleresbogota2023titulo .field--name-field-titulo,
+#block-bumbum-theme-talleresbarranquilla2023 .field--name-field-titulo,
 #block-bumbum-theme-artistassessions2023barranquilla .field--name-field-titulo,
 #block-bumbum-theme-artistascalifestival2022 .field--name-field-titulo,
 #block-bumbum-theme-artistasfestival2023 .field--name-field-titulo,
 #block-bumbum-theme-artistasfestival2023-2 .field--name-field-titulo,
 #block-bumbum-theme-artistasbarranquillafestival2023 .field--name-field-titulo{
 	padding: 50px;
+	margin: 0;
 }
 div[id*='botones']{
 	padding: 60px;
@@ -1208,8 +1211,7 @@ div[id*='mobile']{
 }
 #block-bumbum-theme-talleresbarranquilla2023, #block-bumbum-theme-talleresbogota2023titulo,
 #block-bumbum-theme-talleresbogota2022, #block-bumbum-theme-tallerescali2022titulo{
-	padding: 0;
-    background: #272422;
+	background: #272422;
 }
 #block-bumbum-theme-talleresbarranquilla2023 h2, #block-bumbum-theme-talleresbogota2023titulo h2,
 #block-bumbum-theme-talleresbogota2022 h2, #block-bumbum-theme-tallerescali2022titulo h2{
