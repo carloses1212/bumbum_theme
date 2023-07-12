@@ -1157,30 +1157,25 @@ hr {
 #block-bumbum-theme-tallerescali2022titulo .field--name-field-titulo,
 #block-bumbum-theme-artistassessions2023barranquilla .field--name-field-titulo,
 #block-bumbum-theme-artistascalifestival2022 .field--name-field-titulo,
-#block-bumbum-theme-artistasfestival2023 .field--name-field-titulo{
+#block-bumbum-theme-artistasfestival2023 .field--name-field-titulo,
+#block-bumbum-theme-artistasfestival2023-2 .field--name-field-titulo,
+#block-bumbum-theme-artistasbarranquillafestival2023 .field--name-field-titulo{
 	padding: 50px;
 }
-#block-bumbum-theme-botonessessions, #block-bumbum-theme-botonesartistas2022, #block-bumbum-theme-botonestalleres{
+div[id*='botones']{
 	padding: 60px;
 	border-bottom: 2px solid #fdda24;
 }
-#block-bumbum-theme-botonessessions .layout__region--second .field--name-field-enlace2,
-#block-bumbum-theme-botonesartistas2022 .layout__region--second .field--name-field-enlace2,
-#block-bumbum-theme-botonestalleres .layout__region--second .field--name-field-enlace2 {
+div[id*='botones'] .layout__region--second .field--name-field-enlace2 {
 	text-align: center;
 }
-#block-bumbum-theme-botonessessions .layout__region--first .field--name-field-enlace,
-#block-bumbum-theme-botonesartistas2022 .layout__region--first .field--name-field-enlace,
-#block-bumbum-theme-botonestalleres .layout__region--first .field--name-field-enlace {
+div[id*='botones'] .layout__region--first .field--name-field-enlace {
 	text-align: right;
 }
-#block-bumbum-theme-botonessessions .layout__region--third .field--name-field-enlace3,
-#block-bumbum-theme-botonesartistas2022 .layout__region--third .field--name-field-enlace3,
-#block-bumbum-theme-botonestalleres .layout__region--third .field--name-field-enlace3 {
+div[id*='botones'] .layout__region--third .field--name-field-enlace3 {
 	text-align: left;
 }
-#block-bumbum-theme-botonessessions a, #block-bumbum-theme-botonesartistas2022 a,
-#block-bumbum-theme-botonestalleres a {
+div[id*='botones'] a {
 	color: #272422;
     background: #fdda24;
     border-radius: 20px;

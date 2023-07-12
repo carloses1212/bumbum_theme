@@ -1497,14 +1497,15 @@
     height: 32px;
     padding: 0 0em;
 }
-#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali,
+#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogota2023
 #block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali, 
-#block-bumbum-theme-botonesartistas2022 .layout__region--first, #block-bumbum-theme-botonestalleres .layout__region--first{
+#block-bumbum-theme-botonesartistas2022 .layout__region--first, #block-bumbum-theme-botonestalleres .layout__region--first,
+#block-bumbum-theme-botonesartistas2023 .layout__region--first{
 	display:none;
 }
 
  #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile,
- #block-bumbum-theme-talleres2022bogotamobile, #block-bumbum-theme-talleres2022calimobile{
+ #block-bumbum-theme-talleres2022bogotamobile, #block-bumbum-theme-talleres2022calimobile, #block-bumbum-theme-lineupbogota2023mobile{
 	display:block;
 }
 #block-bumbum-theme-views-block-articulos-destacados-block-1,
