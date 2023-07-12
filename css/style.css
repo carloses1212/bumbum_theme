@@ -1309,6 +1309,25 @@ div[id*='reproductor'] .layout--onecol:last-of-type a {
     border: none;
     width: fit-content;
 }
+div[id*='reproductor'] .layout--twocol-section .layout__region{
+	text-align: center;
+}
+div[id*='reproductor'] .layout--twocol-section a {
+	color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+div[id*='reproductor'] .layout--twocol-section a:last-of-type {
+	color: #272422;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
 .content-modified{
 	position: relative;
 	top: 0;
