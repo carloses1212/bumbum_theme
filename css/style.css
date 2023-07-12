@@ -1165,6 +1165,9 @@ hr {
 	padding: 50px;
 	margin: 0;
 }
+#block-bumbum-theme-botonestalleres, #block-bumbum-theme-botonestalleres2023{
+	background:#272422;
+}
 div[id*='botones']{
 	padding: 60px;
 	border-bottom: 2px solid #fdda24;
