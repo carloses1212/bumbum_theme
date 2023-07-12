@@ -1188,29 +1188,27 @@ hr {
     border: none;
     width: fit-content;
 }
-#block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile{
+div[id*='lineup']{
 	background: #00ccea;
 	padding: 80px;
 }
-#block-bumbum-theme-lineup h2, #block-bumbum-theme-lineupcali h2, #block-bumbum-theme-lineupbogotamobile h2, #block-bumbum-theme-lineupcalimobile h2{
+div[id*='lineup'] h2{
 	color:#272422;
 	line-height: 1.2;	
 }
-#block-bumbum-theme-lineup .field--name-field-titulo, #block-bumbum-theme-lineupcali .field--name-field-titulo, 
-#block-bumbum-theme-lineupbogotamobile .field--name-field-titulo, #block-bumbum-theme-lineupcalimobile .field--name-field-titulo{
+div[id*='lineup'] .field--name-field-titulo{
 	margin-bottom: 2em;
 }
-#block-bumbum-theme-lineup .field--name-field-titulo strong, #block-bumbum-theme-lineupcali .field--name-field-titulo strong, 
-#block-bumbum-theme-lineupbogotamobile .field--name-field-titulo strong, #block-bumbum-theme-lineupcalimobile .field--name-field-titulo strong{
+div[id*='lineup'] .field--name-field-titulo strong{
 	color:#272422;
 }
-#block-bumbum-theme-lineup h3, #block-bumbum-theme-lineupcali h3, #block-bumbum-theme-lineupbogotamobile h3, #block-bumbum-theme-lineupcalimobile h3{
+div[id*='lineup'] h3{
 	color:#272422;
 }
 #block-bumbum-theme-lineup .layout__region, #block-bumbum-theme-lineupcali .layout__region{
 	padding-right: 100px;
 }
- #block-bumbum-theme-lineupbogotamobile, #block-bumbum-theme-lineupcalimobile, #block-bumbum-theme-talleres2022bogotamobile, #block-bumbum-theme-talleres2022calimobile{
+div[id*='mobile']{
 	display:none;
 }
 #block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali, 
@@ -3465,8 +3463,7 @@ a.button-link, .button-link a {
 }
 .leaflet-popup-content .redes-lugar i{
 	border-radius: 50%;
-    background: #272422;
-    color: white;
+    color: #272422;
     padding: 5px;
 }
 
