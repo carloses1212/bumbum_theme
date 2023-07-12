@@ -1206,6 +1206,15 @@ div[id*='lineup'] h3{
 div[id*='mobile']{
 	display:none;
 }
+#block-bumbum-theme-talleresbarranquilla2023, #block-bumbum-theme-talleresbogota2023titulo,
+#block-bumbum-theme-talleresbogota2022, #block-bumbum-theme-tallerescali2022titulo{
+	padding: 0;
+    background: #272422;
+}
+#block-bumbum-theme-talleresbarranquilla2023 h2, #block-bumbum-theme-talleresbogota2023titulo h2,
+#block-bumbum-theme-talleresbogota2022 h2, #block-bumbum-theme-tallerescali2022titulo h2{
+	color: white;
+}
 div[id*='talleres'] {
 	background: #ff7f37;
 	padding: 80px;
