@@ -1206,32 +1206,26 @@ div[id*='lineup'] h3{
 div[id*='mobile']{
 	display:none;
 }
-#block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali, 
-#block-bumbum-theme-talleres2022bogotamobile, #block-bumbum-theme-talleres2022calimobile {
+div[id*='talleres'] {
 	background: #ff7f37;
 	padding: 80px;
 }
-#block-bumbum-theme-talleres2022 .field--name-field-titulo, #block-bumbum-theme-talleres2022cali .field--name-field-titulo, 
-#block-bumbum-theme-talleres2022bogotamobile .field--name-field-titulo, #block-bumbum-theme-talleres2022calimobile .field--name-field-titulo{
+div[id*='talleres'] .field--name-field-titulo{
 	margin-bottom: 2em;
 }
-#block-bumbum-theme-talleres2022 .field--name-field-titulo strong, #block-bumbum-theme-talleres2022cali .field--name-field-titulo strong, 
-#block-bumbum-theme-talleres2022bogotamobile .field--name-field-titulo strong, #block-bumbum-theme-talleres2022calimobile .field--name-field-titulo strong
+div[id*='talleres'] .field--name-field-titulo strong
 {
 	color:#272422;
 }
-#block-bumbum-theme-talleres2022 h2, #block-bumbum-theme-talleres2022cali h2, 
-#block-bumbum-theme-talleres2022bogotamobile h2, #block-bumbum-theme-talleres2022calimobile h2
+div[id*='talleres'] h2
 {
 	color:#272422;
 	line-height: 1.2;
 }
-#block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region, 
-#block-bumbum-theme-talleres2022bogotamobile .layout__region, #block-bumbum-theme-talleres2022calimobile .layout__region{
+div[id*='talleres'] .layout__region{
 	padding: 0 60px 0 0px;
 }
-#block-bumbum-theme-talleres2022 h3, #block-bumbum-theme-talleres2022cali h3,
-#block-bumbum-theme-talleres2022bogotamobile h3, #block-bumbum-theme-talleres2022calimobile h3{
+div[id*='talleres'] h3{
 	color:#272422;
 }
 /*#block-bumbum-theme-artista01reproductor .block-content, 
@@ -1309,6 +1303,12 @@ div[id*='reproductor'] .layout--onecol:last-of-type a {
     border: none;
     width: fit-content;
 }
+div[id*='reproductor'] .layout--twocol-section{
+	border-bottom: 2px solid #fdda24;
+    padding: 0 0 50px 0;
+    transform: translateY(-20%);
+    display: flex;
+}
 div[id*='reproductor'] .layout--twocol-section .layout__region{
 	text-align: center;
 }
@@ -1320,7 +1320,7 @@ div[id*='reproductor'] .layout--twocol-section a {
     border: none;
     width: fit-content;
 }
-div[id*='reproductor'] .layout--twocol-section a:last-of-type {
+div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
 	color: #272422;
     background: #ffffff;
     border-radius: 20px;
@@ -3315,22 +3315,22 @@ ul.social-icons li a:hover {
 /* Backgrounds
 -------------------------------------------- */
 .yellow-background{
-	background-color: #fdda24;
+	background-color: #fdda24 !important;
 }
 .orange-background{
-	background-color: #ff7f37;
+	background-color: #ff7f37 !important;
 }
 .purple-background{
-	background-color: #9164cc;
+	background-color: #9164cc !important;
 }
 .blue-background{
-	background-color: #00ccea;
+	background-color: #00ccea !important;
 }
 .green-background{
-	background-color: #00c389;
+	background-color: #00c389 !important;
 }
 .pink-background{
-	background-color: #f5b6cd;
+	background-color: #f5b6cd !important;
 }
 
 /* Buttons
