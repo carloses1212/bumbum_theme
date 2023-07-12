@@ -1212,9 +1212,11 @@ div[id*='lineup'] h3{
 div[id*='mobile']{
 	display:none;
 }
+#block-bumbum-theme-views-block-texto-header-talleres-block-1,
 #block-bumbum-theme-talleresbarranquilla2023, #block-bumbum-theme-talleresbogota2023titulo,
 #block-bumbum-theme-talleresbogota2022, #block-bumbum-theme-tallerescali2022titulo{
 	background: #272422;
+	padding: 0;	
 }
 #block-bumbum-theme-talleresbarranquilla2023 h2, #block-bumbum-theme-talleresbogota2023titulo h2,
 #block-bumbum-theme-talleresbogota2022 h2, #block-bumbum-theme-tallerescali2022titulo h2{
