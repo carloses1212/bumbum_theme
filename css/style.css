@@ -1189,6 +1189,10 @@ div[id*='botones'] a {
     border: none;
     width: fit-content;
 }
+div[id*='botones'] a:hover {
+	color: #272422;
+    background: #fdda24;
+}
 div[id*='lineup']{
 	background: #00ccea;
 	padding: 80px;
