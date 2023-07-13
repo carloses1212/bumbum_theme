@@ -3887,7 +3887,64 @@ a.button-link, .button-link a {
 .layout--twocol-section--50-50 .field--type-iframe{
 	margin: 0 50px;
 }
-
+/*Festivales*/
+.festival-bog .field--name-field-titulo, .festival-barr .field--name-field-titulo{
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.festival-bog .field--name-field-titulo h2, .festival-barr .field--name-field-titulo h2{
+	color:#272422;
+	margin: 0 20px;
+}.festival-bog .field--name-field-titulo i, .festival-barr .field--name-field-titulo i{
+	font-size: 1.5em;
+    color: #272422;
+}
+.festival-bog .field--name-field-body, .festival-barr .field--name-field-body{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.festival-bog .field--name-field-body p, .festival-barr .field--name-field-body p{
+	color:#272422;
+}
+.festival-bog .layout--threecol-section--33-34-33, .festival-barr .layout--threecol-section--33-34-33{
+	align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.festival-bog .layout--threecol-section--33-34-33 .layout__region,
+.festival-barr .layout--threecol-section--33-34-33 .layout__region{
+	justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.festival-bog .layout--threecol-section--33-34-33 .layout__region i,
+.festival-barr .layout--threecol-section--33-34-33 .layout__region i{
+	width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    background: yellow;
+    border-radius: 50%;
+    color: #272422;
+}
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace{
+	padding-top: 1em;
+}
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace a,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace a{
+	color: #272422;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
