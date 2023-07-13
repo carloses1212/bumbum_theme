@@ -71,7 +71,27 @@ jQuery(document).ready(function ($) {
   })
   $(".articles-blog .layout--onecol:last-of-type .contextual-region .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme");
   $("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content .contextual-region").children('.views-view-responsive-grid').addClass("article-d owl-carousel owl-theme");
-  $("#block-bumbum-theme-registrobogota .layout--twocol-section--33-67").css("display","none"); 
+  $("#block-bumbum-theme-registrobogota .layout--twocol-section--33-67").css("display","none");
+  $( ".festival-bog .field--name-body" ).css("display","none");
+  $( ".festival-barr .field--name-body" ).css("display","none");
+  $( ".festival-bog .layout--threecol-section--33-34-33" ).css("display","none");
+  $( ".festival-barr .layout--threecol-section--33-34-33" ).css("display","none");
+  $( ".festival-bog .field--name-field-titulo" ).on( "click", function() {
+	$( ".festival-bog .field--name-body" ).slideToggle( "slow", function() {
+		// Animation complete.
+	});
+	$( ".festival-bog .layout--threecol-section--33-34-33" ).slideToggle( "slow", function() {
+		// Animation complete.
+	});
+  });
+  $( ".festival-barr .field--name-field-titulo" ).on( "click", function() {
+	$( ".festival-barr .field--name-body" ).slideToggle( "slow", function() {
+		// Animation complete.
+	});
+	$( ".festival-barr .layout--threecol-section--33-34-33" ).slideToggle( "slow", function() {
+		// Animation complete.
+	});
+  });
   $( "#block-bumbum-theme-registrobogota .field--name-field-titulo" ).on( "click", function() {
 	$( "#block-bumbum-theme-registrobogota .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
 		// Animation complete.
