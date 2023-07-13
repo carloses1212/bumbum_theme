@@ -2453,8 +2453,8 @@ ol.breadcrumb-items li {
   #block-bumbum-views-block-imagen-larga-y-texto-header-arti2022-block-1 p,
   #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 h2,
   #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 p,
-  #block-bumbum-theme-views-block-texto-header-talleres-block-1 h2,
-  #block-bumbum-theme-views-block-texto-header-talleres-block-1 p{
+  #block-bumbum-theme-views-block-ima-lar-tex-header-festi-2023-block-1 h2,
+  #block-bumbum-theme-views-block-ima-lar-tex-header-festi-2023-block-1 p{
 	color: #272422;
   }
   .pink-background h2{
@@ -3939,13 +3939,24 @@ a.button-link, .button-link a {
     border-radius: 50%;
     color: #272422;
 }
-.festival-bog .layout--threecol-section--33-34-33 div[class^="enlace"],
-.festival-barr .layout--threecol-section--33-34-33 div[class^="enlace"]{
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace,
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace2,
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace3,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace2,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace3{
 	padding-top: 1em;
+	align-items: center;
+    display: flex;
 }
-.festival-bog .layout--threecol-section--33-34-33 div[class^="enlace"] a,
-.festival-barr .layout--threecol-section--33-34-33 div[class^="enlace"] a{
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace a,
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace2 a,
+.festival-bog .layout--threecol-section--33-34-33 .field--name-field-enlace3 a,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace a,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace2 a,
+.festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace3 a{
 	color: #272422;
+	line-height: 1;
 }
 /* Animation
 -------------------------------------------- */
