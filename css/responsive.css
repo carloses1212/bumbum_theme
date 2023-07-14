@@ -627,7 +627,7 @@
   }
   .page-header .item-dos-tercios img{
 	width: 100%;
-	max-height: 500px;
+	max-height: 100%;
     object-fit: cover;
   }
   .page-header #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 .item-dos-tercios img{
@@ -776,7 +776,7 @@
   }
   .page-header .item-dos-tercios img{
 	width: 100%;
-	max-height: 500px;
+	max-height: 100%;
     object-fit: cover;
   }
   .cont-block h1{
