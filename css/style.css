@@ -3814,7 +3814,7 @@ a.button-link, .button-link a {
 .articles-blog .layout--onecol:last-of-type .block{
 	margin-bottom: 2em;
 }
-.articles-blog .layout--onecol:last-of-type .contextual-region .node-taxonomy-container .term-title{
+.articles-blog .layout--onecol:last-of-type .block .node-taxonomy-container .term-title{
 	display:none;
 }
 .articles-blog .field--name-field-iframe-audio{
@@ -3866,7 +3866,9 @@ a.button-link, .button-link a {
 .votacion-section .layout--onecol:first-of-type .field--name-body{
 	display: flex;
     justify-content: center;
-	padding-top: 2em;
+    padding-top: 2em;
+    flex-direction: column;
+    align-items: center;
 }
 .votacion-section .layout--onecol:first-of-type .field--name-body p{
 	max-width: 50%;
@@ -3962,6 +3964,53 @@ a.button-link, .button-link a {
 .festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace a,
 .festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace2 a,
 .festival-barr .layout--threecol-section--33-34-33 .field--name-field-enlace3 a{
+	color: #272422;
+	line-height: 1;
+}
+/*Programacion Festivales*/
+.links-icon-bottom .field--name-body{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+.links-icon-bottom .field--name-body p{
+	color:#272422;
+}
+.links-icon-bottom .layout--threecol-section--33-34-33{
+	align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.links-icon-bottom .layout--threecol-section--33-34-33 .layout__region{
+	justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.links-icon-bottom i{
+	width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    background: yellow;
+    border-radius: 50%;
+    color: #272422;
+}
+.links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace,
+.links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace2,
+.links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace3{
+	padding-top: 1em;
+	align-items: center;
+    display: flex;
+}
+.links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace a,
+.links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace2 a,
+.links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace3 a{
 	color: #272422;
 	line-height: 1;
 }
