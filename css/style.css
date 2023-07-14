@@ -3824,9 +3824,12 @@ a.button-link, .button-link a {
 	width: 70%;
     margin: 0 auto;
 }
+.article-carousel .owl-stage-outer{
+	height: 100%;
+}
 .article-carousel .owl-nav{
 	position: absolute;
-    top: 50%;
+    top: 45%;
     margin-top: -50px;
     width: 100%;
 }
