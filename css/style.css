@@ -3968,6 +3968,9 @@ a.button-link, .button-link a {
 	line-height: 1;
 }
 /*Programacion Festivales*/
+.links-icon-bottom{
+	border-bottom: 2px solid #fdda24;
+}
 .links-icon-bottom .field--name-body{
     display: flex;
     justify-content: center;
@@ -3975,7 +3978,7 @@ a.button-link, .button-link a {
     padding: 2em 0;
 }
 .links-icon-bottom .field--name-body p{
-	color:#272422;
+	color:#ffffff;
 }
 .links-icon-bottom .layout--threecol-section--33-34-33{
 	align-items: center;
@@ -4011,7 +4014,7 @@ a.button-link, .button-link a {
 .links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace a,
 .links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace2 a,
 .links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace3 a{
-	color: #272422;
+	color: #ffffff;
 	line-height: 1;
 }
 /* Animation
