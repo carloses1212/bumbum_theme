@@ -5,7 +5,7 @@
   --body-bg: #272422;
   --header-bg: #272422;
   --content-bg: #181a25;
-  --text-color: #a1a1a1;
+  --text-color: #272422;
   --sidebar-link-color: #cfcfcf;
   --border-color: #282d38;
   --pink: #f5b6cd;
@@ -91,7 +91,7 @@ body {
   line-height: 1.7;
   background: #0d0f16;
   background: var(--body-bg);
-  color: #a1a1a1;
+  color: #272422;
   color: var(--text-color);
   overflow-x: hidden;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -3771,28 +3771,31 @@ a.button-link, .button-link a {
     border: none;
     padding: 0;
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(3){
+.articles-blog .layout--onecol:first-of-type .field--name-field-titulo{
 	transform: translateY(-1834%);
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1{
+.articles-blog .layout--onecol:first-of-type .field--name-field-titulo h1{
 	letter-spacing: 5px;
     font-size: 3em;
     line-height: 1;
     font-weight: 400;
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(4){
+.articles-blog .layout--onecol:first-of-type .field--name-field-subtitulo-principal{
 	transform: translateY(-1797%);
     max-width: 40%;
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(4) h2{
+.articles-blog .layout--onecol:first-of-type .field--name-field-subtitulo-principal h2{
 	font-size: 1.5em;
     line-height: 1;
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(5){
+.articles-blog .layout--onecol:first-of-type .field--name-field-fecha-articulo{
 	transform: translateY(-3095%);
 }
 .articles-blog .taxonomy-terms {
     margin: 0;
+}
+.articles-blog .field--name-body em{
+	font-style: italic;
 }
 .articles-blog li.taxonomy-term a::before{
 	content:none;
