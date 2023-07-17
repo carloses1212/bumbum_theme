@@ -234,9 +234,7 @@ strong {
 }
 
 em {
-  font-style: normal;
-  color: #f26c4f;
-  color: var(--pink);
+  font-style: italic;
 }
 
 dfn,
@@ -3790,6 +3788,7 @@ a.button-link, .button-link a {
 }
 .articles-blog .layout--onecol:first-of-type .field--name-field-fecha-articulo{
 	transform: translateY(-3095%);
+	color:#ffffff;
 }
 .articles-blog .taxonomy-terms {
     margin: 0;

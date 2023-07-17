@@ -70,7 +70,10 @@ jQuery(document).ready(function ($) {
     }
   })
   $(".articles-blog .layout--onecol:last-of-type .block .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme");
-  /*$("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content .contextual-region").children('.views-view-responsive-grid').addClass("article-d owl-carousel owl-theme");*/
+  /*if($("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div").find("div[class*='media-image']").length !== 0){
+	$("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div").children('.taxonomy-terms').addClass("article-d owl-carousel owl-theme");  
+  }*/
+  $("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content .contextual-region").children('.views-view-responsive-grid').addClass("article-d owl-carousel owl-theme");
   $("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div[class*='js-view-dom']").children('.views-view-responsive-grid').addClass("article-d owl-carousel owl-theme");
   $("#block-bumbum-theme-registrobogota .layout--twocol-section--33-67").css("display","none");
   $( ".festival-bog .field--name-body" ).css("display","none");
@@ -118,10 +121,10 @@ jQuery(document).ready(function ($) {
   });
   
   if ($(".articles-blog .field--name-field-subtitulo-principal").length <= "44") {
-    $(".articles-blog .field--name-field-subtitulo-principal").css("transform" "translateY(-3610%)");
+    $(".articles-blog .field--name-field-subtitulo-principal").css("transform", "translateY(-3610%)");
   } 
   if ($(".articles-blog .field--name-field-subtitulo-principal").length == "") {
-    $(".articles-blog .field--name-field-fecha-articulo").css("transform" "translateY(-3095%)");
+    $(".articles-blog .field--name-field-fecha-articulo").css("transform", "translateY(-3095%)");
   }
   
   //Carrusel Articulos Destacados
