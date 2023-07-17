@@ -1228,6 +1228,12 @@
     right: 2%;
     margin-left: auto;
   }
+  .cont-block h2 {
+    color: #272422;
+    padding-bottom: 1em;
+    font-weight: 700;
+    text-align: left;
+  }
   div[id^="revive"]{
 	flex-flow: column-reverse !important;
 	height: 100%;
@@ -1372,6 +1378,9 @@
 	flex: 1 1 100%;
 	max-width: 100%;
   }
+  .item-55 span{
+	display:none;
+  }
   .item-45 img{
 	width: 100%;
     height: 100%;
@@ -1420,7 +1429,9 @@
   #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 h2,
   #block-bumbum-theme-views-block-imagen-larga-y-texto-revive-block-1 p,
   #block-bumbum-theme-views-block-ima-lar-y-tex-header-tall-2023-block-1 h2,
-  #block-bumbum-theme-views-block-ima-lar-y-tex-header-tall-2023-block-1 p{
+  #block-bumbum-theme-views-block-ima-lar-y-tex-header-tall-2023-block-1 p,
+  #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 h2,
+  #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 p{
 	color: #272422;
     text-align: left;  
   }
@@ -1521,9 +1532,8 @@
 }
 #block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogota2023,
 #block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali,
-#block-bumbum-theme-talleresbogota2023, #block-bumbum-theme-talleres2023barranquilla,
-#block-bumbum-theme-botonesartistas2022 .layout__region--first, #block-bumbum-theme-botonestalleres .layout__region--first,
-#block-bumbum-theme-botonesartistas2023 .layout__region--first{
+#block-bumbum-theme-lineupbarranquilla2023,
+#block-bumbum-theme-talleresbogota2023, #block-bumbum-theme-talleres2023barranquilla{
 	display:none;
 }
 
