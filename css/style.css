@@ -3503,8 +3503,8 @@ a.button-link, .button-link a {
     padding: 5px;
 }
 .leaflet-tooltip img{
-	width: 250px;
-    height: 40px;
+	max-width: 300px !important;
+    height: 80px;
     object-fit: cover;
 }
 
