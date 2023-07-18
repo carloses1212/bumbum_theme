@@ -1249,11 +1249,6 @@ div[id*='talleres'] .layout__region{
 div[id*='talleres'] h3{
 	color:#272422;
 }
-/*#block-bumbum-theme-artista01reproductor .block-content, 
-#block-bumbum-theme-latinlatasreproductor .block-content,
-#block-bumbum-theme-nuevafilarmoniareproductor .block-content{
-	padding: 0px;
-}*/
 div[id*='reproductor']{
 	padding: 0px;
 }

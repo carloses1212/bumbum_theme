@@ -208,13 +208,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 15px;
     display: flex;
@@ -340,13 +340,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 15px;
     display: flex;
@@ -454,13 +454,13 @@
   .revive.owl-carousel{
 	padding: 25px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 20px;
     display: flex;
@@ -592,13 +592,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -741,13 +741,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -880,13 +880,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -1006,13 +1006,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .f-territorios .cont-block{
 	padding: 100px;
   }
@@ -1204,6 +1204,9 @@ div[id*='lineup'] .layout__region {
 .articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
     transform: translateY(-1197%);
     max-width: 40%;
+}
+.articles-blog .layout--onecol:last-of-type {
+    padding: 50px 50px;
 }
 }
 @media (max-width: 768px) {
@@ -2149,6 +2152,15 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1,
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 360px;
+	}
+	#block-bumbum-theme-registrobogota .layout__region--second, #block-bumbum-theme-registrobarranquilla .layout__region--second {
+		padding: 5px;
+	}
+	.leaflet-popup-content {
+		width: 200px;
+	}
+	.leaflet-popup-content .info-costo {
+		font-size: 0.7em;
 	}
 }
 @media (max-width: 320px) {
