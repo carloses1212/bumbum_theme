@@ -229,31 +229,31 @@ jQuery(document).ready(function ($) {
   function onMouseOver(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<b>Biblioteca Julio Mario Santodomingo</b>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/JulioMarioSantoDomingo.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'>")
 		.openOn(map);
   }
   function onMouseOver2(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<b>Cinemateca de Bogot&aacute;</b>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/CinematecaBogota.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'>")
 		.openOn(map);
   }
   function onMouseOver3(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<b>La Cueva</b>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/fundacion-la-cueva.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'>")
 		.openOn(map2);
   }
   function onMouseOver4(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<b>La Casa del Carnaval</b>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/museodelcarnaval.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'>")
 		.openOn(map2);
   }
   function onMouseOver5(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<b>Plaza de la Aduana</b>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/clena.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'>")
 		.openOn(map2);
   }
    //Mapas Artistas - Debe crearse uno por cada artista y conforme su ID
