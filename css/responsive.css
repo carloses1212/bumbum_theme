@@ -2169,7 +2169,11 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 360px;
 	}
-	#block-bumbum-theme-registrobogota .layout__region--second, #block-bumbum-theme-registrobarranquilla .layout__region--second {
+	#block-bumbum-theme-registroheader .field--name-field-titulo h2 {
+		font-size: 2.5em;
+	}
+	#block-bumbum-theme-registrobogota .layout__region--second, 
+	#block-bumbum-theme-registrobarranquilla .layout__region--second {
 		padding: 5px;
 	}
 	.leaflet-popup-content {
@@ -2177,6 +2181,11 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	}
 	.leaflet-popup-content .info-costo {
 		font-size: 0.7em;
+	}
+	#block-bumbum-theme-registrobogota .field--name-field-titulo h2, 
+	#block-bumbum-theme-registrobarranquilla .field--name-field-titulo h2 {
+		margin: 0px 5px;
+		font-size: 1.5em;
 	}
 }
 @media (max-width: 320px) {
