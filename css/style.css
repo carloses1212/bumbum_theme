@@ -3711,6 +3711,7 @@ a.button-link, .button-link a {
 }
 .text-article-d h1{
 	color: #272422;
+	line-height: 1;
 }
 .cont-article-r{
 	flex-direction: row;
