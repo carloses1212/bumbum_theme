@@ -3502,6 +3502,11 @@ a.button-link, .button-link a {
     color: #272422;
     padding: 5px;
 }
+.leaflet-tooltip img{
+	width: 250px;
+    height: 40px;
+    object-fit: cover;
+}
 
 /*Registro*/
 #block-bumbum-theme-registroheader{

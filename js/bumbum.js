@@ -232,31 +232,31 @@ jQuery(document).ready(function ($) {
   function onMouseOver(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/JulioMarioSantoDomingo.jpeg' style='width:250px;height:40px;object-fit:cover'>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/JulioMarioSantoDomingo.jpeg'>")
 		.openOn(map);
   }
   function onMouseOver2(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/CinematecaBogota.jpeg' style='width:250px;height:40px;object-fit:cover'>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/CinematecaBogota.jpeg'>")
 		.openOn(map);
   }
   function onMouseOver3(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/fundacion-la-cueva.jpeg' style='width:250px;height:40px;object-fit:cover'>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/fundacion-la-cueva.jpeg'>")
 		.openOn(map2);
   }
   function onMouseOver4(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/museodelcarnaval.jpeg' style='width:250px;height:40px;object-fit:cover'>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/museodelcarnaval.jpeg'>")
 		.openOn(map2);
   }
   function onMouseOver5(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/clena.jpeg' style='width:250px;height:40px;object-fit:cover'>")
+		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/clena.jpeg'>")
 		.openOn(map2);
   }
    //Mapas Artistas - Debe crearse uno por cada artista y conforme su ID
