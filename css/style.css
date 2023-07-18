@@ -1195,6 +1195,9 @@ div[id*='lineup']{
 	background: #00ccea;
 	padding: 80px;
 }
+div[id*='lineup'] .layout__region {
+    padding: 0 60px 0 0px;
+}
 div[id*='lineup'] h2{
 	color:#272422;
 	line-height: 1.2;	
