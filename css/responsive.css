@@ -8,6 +8,9 @@
   #main {
     order: 2;
   }
+  .footer .item-footer .cont-block{
+	  color:#ffffff;
+  }
 }
 @media (min-width: 720px) {
   .container {
@@ -671,6 +674,7 @@
     justify-content: center;
     height: fit-content;
     width: fit-content;
+	color: #ffffff;
   }
   .full .item-60.white-background{
 	  display: flex;
@@ -1239,6 +1243,15 @@ div[id*='lineup'] .layout__region {
     padding-bottom: 1em;
     font-weight: 700;
     text-align: left;
+  }
+  .layout--threecol-section--33-34-33 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .layout--threecol-section > .layout__region {
+    margin-bottom: 1em;
+    padding: 0 0px 0 0px;
   }
   div[id*='talleres'] {
 	padding: 40px;
@@ -1871,6 +1884,9 @@ div[id*='talleres'] {
     z-index: 22;
     top: 90%;
     width: 100%;
+  }
+  .footer .item-footer .cont-block{
+	  color:#ffffff;
   }
   div[id^="artistas"]{
 	height: 100%;
