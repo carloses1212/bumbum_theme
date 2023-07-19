@@ -1983,7 +1983,10 @@ div[id*='talleres'] {
 .ses-head, .rev-head{
 	max-height: fit-content;
 	color: #272422;
-	padding-top: 3em;
+	padding-top: 0em;
+}
+.ses-head h2, .rev-head h2{
+	padding-top: 2em;
 }
 #block-bumbum-theme-revivegalleria {
     padding: 40px;
@@ -2121,6 +2124,10 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 412px;
 	}
+	#block-bumbum-theme-registrobogota .layout__region--second, 
+	#block-bumbum-theme-registrobarranquilla .layout__region--second {
+		padding: 20px;
+	}
 }
 @media (max-width: 393px) {
 	.articles-blog .layout{
@@ -2135,6 +2142,11 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-registrobogota .layout__region--second, #block-bumbum-theme-registrobarranquilla .layout__region--second {
 		background: white;
 		padding: 15px;
+	}
+	#block-bumbum-theme-registrobogota .field--name-field-titulo h2, 
+	#block-bumbum-theme-registrobarranquilla .field--name-field-titulo h2 {
+		margin: 0px 5px;
+		font-size: 1.5em;
 	}
 }
 @media (max-width: 390px) {
@@ -2165,7 +2177,11 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		line-height: 1;
 	}
 	div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
-		top: 9%;
+		top: 9.7%;
+	}
+	#block-bumbum-theme-registrobogota .layout__region--second, 
+	#block-bumbum-theme-registrobarranquilla .layout__region--second {
+		padding: 10px;
 	}
 }
 @media (max-width: 360px) {
