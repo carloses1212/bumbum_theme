@@ -80,7 +80,9 @@ jQuery(document).ready(function ($) {
   $( ".festival-barr .field--name-body" ).css("display","none");
   $( ".festival-bog .layout--threecol-section--33-34-33" ).css("display","none");
   $( ".festival-barr .layout--threecol-section--33-34-33" ).css("display","none");
-  $( ".festival-bog .field--name-field-titulo" ).on( "click", function() {
+  $( ".festival-bog .field--name-field-titulo" ).on( "click", function(e) {
+	e.preventDefault();
+    e.stopPropagation();  
 	$( ".festival-bog .field--name-body" ).slideToggle( "slow", function() {
 		// Animation complete.
 	});
@@ -88,7 +90,9 @@ jQuery(document).ready(function ($) {
 		// Animation complete.
 	});
   });
-  $( ".festival-barr .field--name-field-titulo" ).on( "click", function() {
+  $( ".festival-barr .field--name-field-titulo" ).on( "click", function(e) {
+	e.preventDefault();
+    e.stopPropagation();  
 	$( ".festival-barr .field--name-body" ).slideToggle( "slow", function() {
 		// Animation complete.
 	});
@@ -96,24 +100,32 @@ jQuery(document).ready(function ($) {
 		// Animation complete.
 	});
   });
-  $( "#block-bumbum-theme-registrobogota .field--name-field-titulo" ).on( "click", function() {
+  $( "#block-bumbum-theme-registrobogota .field--name-field-titulo" ).on( "click", function(e) {
+	e.preventDefault();
+    e.stopPropagation();
 	$( "#block-bumbum-theme-registrobogota .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
 		// Animation complete.
 	});
   });
   $("#block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67").css("display","none"); 
-  $( "#block-bumbum-theme-registrobarranquilla .field--name-field-titulo" ).on( "click", function() {
+  $( "#block-bumbum-theme-registrobarranquilla .field--name-field-titulo" ).on( "click", function(e) {
+	e.preventDefault();
+    e.stopPropagation();
 	$( "#block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67" ).slideToggle( "slow", function() {
 		// Animation complete.
 	});
   });
-  $( "#block-bumbum-theme-mapabogota .field--name-field-titulo" ).on( "click", function() {
+  $( "#block-bumbum-theme-mapabogota .field--name-field-titulo" ).on( "click", function(e) {
+	e.preventDefault();
+    e.stopPropagation();
 	$( "#block-bumbum-theme-mapabogota .field--name-field-contenedor-del-mapa" ).slideToggle( "slow", function() {
 		map.invalidateSize();
 		// Animation complete.
 	});
   });
-  $( "#block-bumbum-theme-mapabarranquilla .field--name-field-titulo" ).on( "click", function() {
+  $( "#block-bumbum-theme-mapabarranquilla .field--name-field-titulo" ).on( "click", function(e) {
+	e.preventDefault();
+    e.stopPropagation();
 	$( "#block-bumbum-theme-mapabarranquilla .field--name-field-contenedor-del-mapa" ).slideToggle( "slow", function() {
 		map2.invalidateSize();
 		// Animation complete.
