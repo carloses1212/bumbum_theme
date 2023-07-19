@@ -1138,8 +1138,63 @@
 	width:100%;
 	max-width:1920px;
 }
+.image-article-d {
+    min-height: 407px;
 }
+.text-article-d {
+    min-height: 470px;
+}
+}
+
 /*Max-widths*/
+@media (max-width: 1815px) {
+	.text-article-d {
+		min-height: 486px;
+	}
+	.image-article-d {
+		min-height: 383px;
+	}
+}
+@media (max-width: 1615px) {
+	.text-article-d {
+		min-height: 528px;
+	}
+	.image-article-d {
+		min-height: 339px;
+	}
+}
+@media (max-width: 1555px) {
+	.text-article-d {
+		min-height: 582px;
+	}
+	.image-article-d {
+		min-height: 326px;
+	}
+}
+@media (max-width: 1465px) {
+	.text-article-d {
+		min-height: 624px;
+	}
+	.image-article-d {
+		min-height: 306px;
+	}
+}
+@media (max-width: 1280px) {
+	.text-article-d {
+		min-height: 692px;
+	}
+	.image-article-d {
+		min-height: 265px;
+	}
+}
+@media (max-width: 1145px) {
+	.text-article-d {
+		min-height: 830px;
+	}
+	.image-article-d {
+		min-height: 235px;
+	}
+}
 @media (max-width: 992px) {
 	.cont-somos .item-dos-tercios .cont-block {
 		flex-flow: column;
@@ -1212,6 +1267,12 @@ div[id*='lineup'] .layout__region {
 .articles-blog .layout--onecol:last-of-type {
     padding: 50px 50px;
 }
+.text-article-d {
+		min-height: auto;
+	}
+	.image-article-d {
+		min-height: auto;
+	}
 }
 @media (max-width: 768px) {
 	.active-menu .menu-wrap {
