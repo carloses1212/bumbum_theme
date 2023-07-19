@@ -3908,6 +3908,9 @@ a.button-link, .button-link a {
     text-align: center;
     color: #272422;
 }
+.votacion-section .layout--onecol:first-of-type .field--name-body strong{
+	color: #272422;
+}
 .votacion-section .layout--onecol:first-of-type .block:last-of-type{
 	display: none;
 }

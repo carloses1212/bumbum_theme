@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
       }
     }
   })
-  $(".articles-blog .layout--onecol:last-of-type .block .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme");
+  $(".articles-blog .layout--onecol:last-of-type .block .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme purple-background");
   /*if($("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div").find("div[class*='media-image']").length !== 0){
 	$("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div").children('.taxonomy-terms').addClass("article-d owl-carousel owl-theme");  
   }*/

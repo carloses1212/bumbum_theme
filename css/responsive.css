@@ -1893,8 +1893,7 @@ div[id*='talleres'] {
 	z-index: 18;
     width: 100%;
     background: rgba(0,0,0,0.3);
-	position: fixed;
-    max-width: 576px;
+	max-width: 576px;
   }
   .site-brand {
     z-index: 30;
