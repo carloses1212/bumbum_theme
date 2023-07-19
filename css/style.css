@@ -3824,6 +3824,9 @@ a.button-link, .button-link a {
 .articles-blog .layout--onecol:last-of-type .block{
 	margin-bottom: 2em;
 }
+.articles-blog .layout--onecol:last-of-type .field--name-body h2{
+	color:#272422;
+}
 .articles-blog .layout--onecol:last-of-type .block .node-taxonomy-container .term-title{
 	display:none;
 }
@@ -3836,6 +3839,21 @@ a.button-link, .button-link a {
 }
 .article-carousel .owl-stage-outer{
 	height: 100%;
+}
+.article-carousel.owl-carousel .owl-stage{
+	display: flex;
+}
+.article-carousel.owl-carousel .owl-stage .owl-item{
+	display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+}
+.article-carousel.owl-carousel .owl-stage .owl-item .cont-article-d{
+	position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 .article-carousel .owl-nav{
 	position: absolute;
