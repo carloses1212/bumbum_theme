@@ -1776,6 +1776,9 @@ div[id*='talleres'] {
     right: 0;
     position: absolute;
   }
+  .votacion-section .layout--onecol:first-of-type {
+   	margin: 0;
+	}
   .votacion-section iframe{
 		height: 600px;
 	}
@@ -1811,6 +1814,9 @@ div[id*='talleres'] {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1,
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 667px;
+	}
+	.votacion-section .layout--onecol:first-of-type .field--name-body p {
+		max-width: 80%;
 	}
 }
 @media (max-width: 640px) {
@@ -2139,6 +2145,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 540px;
 	}
+	.votacion-section .layout--onecol:first-of-type .field--name-field-titulo {
+		padding-top: 5em;
+	}
 }
 @media (max-width: 480px) {
 	.articles-blog .layout{
@@ -2208,6 +2217,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-registrobarranquilla .field--name-field-titulo h2 {
 		margin: 0px 5px;
 		font-size: 1.5em;
+	}
+	.webform-confirmation-modal{
+		width: 100%
 	}
 }
 @media (max-width: 390px) {
@@ -2288,6 +2300,14 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1,
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 320px;
+	}
+	#block-bumbum-theme-registrobogota .layout--twocol-section--33-67, 
+	#block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67 {
+		width: 98%;
+	}
+	#block-bumbum-theme-registrobogota .layout__region--second, 
+	#block-bumbum-theme-registrobarranquilla .layout__region--second {
+		padding: 0px;
 	}
 }
 @media (max-width: 280px) {
