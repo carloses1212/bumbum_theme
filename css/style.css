@@ -2465,6 +2465,8 @@ ol.breadcrumb-items li {
 }
 .item-55 h2{
 	color: #272422;
+	max-width: 80%;
+    line-height: 1;
 }
 .ses-head, .rev-head{
 	color: #272422;
