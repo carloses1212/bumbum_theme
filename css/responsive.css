@@ -1156,7 +1156,7 @@
     min-height: 407px;
 }
 .image-article-d img{
-    height: 384px;
+    height: 384px !important;
 }
 .text-article-d {
     min-height: 500px;
@@ -1207,6 +1207,13 @@
 	.image-article-d img{
 		height: 286px !important;
 	}
+}
+@media (max-width: 1349px) {
+	.page-header #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 .item-dos-tercios img {
+    width: 100%;
+    max-height: 675px;
+    object-fit: cover;
+}
 }
 @media (max-width: 1280px) {
 .image-article-d img{
@@ -2326,6 +2333,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-registrobarranquilla .field--name-field-titulo h2 {
 		margin: 0px 5px;
 		font-size: 1.5em;
+	}
+	.article-d.owl-carousel .owl-nav .owl-next {
+		right: 36px;
 	}
 }
 @media (max-width: 320px) {
