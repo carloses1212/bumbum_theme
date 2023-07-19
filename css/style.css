@@ -3684,10 +3684,12 @@ a.button-link, .button-link a {
     flex: 1 1 25%;
     max-width: 25%;
     padding-right: 20px;
-	color:#272422
+	color:#272422;
+	padding-top: 50px;
 }
 .text-article h1{
-	color:#272422
+	color:#272422;
+	line-height: 1;
 }
 .image-article{
 	margin: 0 0 0 0;

@@ -2158,6 +2158,15 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 375px;
 	}
+	div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
+		padding: 15px;
+	}
+	div[id*='reproductor'] .field--name-field-titulo h1 {
+		line-height: 1;
+	}
+	div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
+		top: 9%;
+	}
 }
 @media (max-width: 360px) {
 	.articles-blog .layout{
