@@ -132,12 +132,6 @@ jQuery(document).ready(function ($) {
 	});
   });
   
-  if ($(".articles-blog .field--name-field-subtitulo-principal").length <= "44") {
-    $(".articles-blog .field--name-field-subtitulo-principal").css("transform", "translateY(-3610%)");
-  } 
-  if ($(".articles-blog .field--name-field-subtitulo-principal").length == "") {
-    $(".articles-blog .field--name-field-fecha-articulo").css("transform", "translateY(-3095%)");
-  }
   
   //Carrusel Articulos Destacados
   var owlad = $('.article-d');
