@@ -1207,6 +1207,16 @@
 	.image-article-d img{
 		height: 286px !important;
 	}
+	.articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
+    transform: translateY(-120%);
+}
+
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1 {
+    font-size: 2.5em;
+}
+.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+	transform: translateY(-670%);
+}
 }
 @media (max-width: 1349px) {
 	.page-header #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 .item-dos-tercios img {
