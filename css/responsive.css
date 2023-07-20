@@ -1219,6 +1219,12 @@
 .text-article-d {
     min-height: 529px;
 }
+.articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
+    transform: translateY(-125%);
+}
+.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+	transform: translateY(-710%);
+}
 }
 @media (max-width: 1280px) {
 	.text-article-d {
@@ -2191,6 +2197,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1,
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 480px;
+	}
+	.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+		transform: translateY(-1025%);
 	}
 }
 @media (max-width: 414px) {
