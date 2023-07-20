@@ -1213,6 +1213,16 @@
     width: 100%;
     max-height: 675px;
     object-fit: cover;
+	}
+.articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
+    transform: translateY(-120%);
+}
+
+.articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1 {
+    font-size: 2.5em;
+}
+.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+	transform: translateY(-670%);
 }
 }
 @media (max-width: 1294px) {
