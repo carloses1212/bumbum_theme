@@ -1769,20 +1769,14 @@ div[id*='talleres'] {
     height: 500px;
 }
 .articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
-    transform: translateY(-45%);
+    transform: translateY(-250%);
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
-    transform: translateY(-1730%);
-}
+
 .articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1 {
     font-size: 2.5em;
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
-    transform: translateY(-1420%);
-    max-width: 75%;
-}
-.articles-blog .layout--onecol:first-of-type .block:nth-child(5) {
-    transform: translateY(-2485%);
+.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+	transform: translateY(-825%);
 }
 .articles-blog .layout--onecol:last-of-type {
     border: 20px solid #fdda24;
@@ -2163,12 +2157,8 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	max-width:576px;
 	min-width:auto;
 }
-.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
-    transform: translateY(-1855%);
-}
-.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
-    transform: translateY(-1470%);
-    max-width: 75%;
+.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+	transform: translateY(-770%);
 }
 #block-bumbum-theme-views-block-articulos-destacados-block-1,
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
@@ -2223,15 +2213,8 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:412px;
 		min-width:auto;
 	}
-	.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
-		transform: translateY(-1820%);
-	}
-	.articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
-		transform: translateY(-1494%);
-		max-width: 100%;
-	}
-	.articles-blog .layout--onecol:first-of-type .block:nth-child(5) {
-		transform: translateY(-2600%);
+	.articles-blog .layout--onecol:first-of-type .block:last-of-type{
+		transform: translateY(-820%);
 	}
 	#block-bumbum-theme-views-block-articulos-destacados-block-1,
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
