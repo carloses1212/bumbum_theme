@@ -1225,7 +1225,7 @@
     object-fit: cover;
 	}
 .articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
-    transform: translateY(-120%);
+    transform: translateY(-420%);
 }
 
 .articles-blog .layout--onecol:first-of-type .block:nth-child(3) h1 {
@@ -1240,7 +1240,7 @@
     min-height: 529px;
 }
 .articles-blog .layout--onecol:first-of-type .block:nth-child(2) {
-    transform: translateY(-125%);
+    transform: translateY(-225%);
 }
 .articles-blog .layout--onecol:first-of-type .block:last-of-type{
 	transform: translateY(-710%);
