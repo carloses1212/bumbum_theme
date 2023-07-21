@@ -1722,9 +1722,6 @@ div[id*='talleres'] {
 #block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 748px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-	max-width: 768px;
-}
 .cont-article{
 	flex-direction: column-reverse;
     max-width: 100%;
@@ -1882,9 +1879,6 @@ div[id*='talleres'] {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 716px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 736px;
-	}
 	.ses-head a.button-link {
 		background: white;
 		border-radius: 20px;
@@ -1900,9 +1894,6 @@ div[id*='talleres'] {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 700px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 720px;
-	}
 }
 @media (max-width: 667px) {
 	.articles-blog .layout{
@@ -1913,9 +1904,6 @@ div[id*='talleres'] {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 647px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 667px;
-	}
 	.votacion-section .layout--onecol:first-of-type .field--name-body p {
 		max-width: 80%;
 	}
@@ -1929,9 +1917,6 @@ div[id*='talleres'] {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 620px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 640px;
-	}
 }
 @media (max-width: 600px) {
 	.articles-blog .layout{
@@ -1942,9 +1927,6 @@ div[id*='talleres'] {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 580px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 600px;
-	}
 }
 @media (max-width: 576px) {
   .container {
@@ -2230,9 +2212,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 #block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 556px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 576px;
-	}
 	.votacion-section iframe{
 		height: 775px;
 	}
@@ -2246,9 +2225,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 520px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 540px;
-	}
 	.votacion-section .layout--onecol:first-of-type .field--name-field-titulo {
 		padding-top: 5em;
 	}
@@ -2265,9 +2241,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 460px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 480px;
-	}
 	.articles-blog .layout--onecol:first-of-type .block:last-of-type{
 		transform: translateY(-1025%);
 	}
@@ -2287,9 +2260,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 394px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 414px;
-	}
 	.votacion-section iframe{
 		height: 1150px;
 	}
@@ -2306,9 +2276,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 382px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 412px;
-	}
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
 		padding: 20px;
@@ -2323,9 +2290,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 373px;
 }
-	#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 393px;
-	}
 	#block-bumbum-theme-registrobogota .layout__region--second, #block-bumbum-theme-registrobarranquilla .layout__region--second {
 		background: white;
 		padding: 15px;
@@ -2348,9 +2312,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 370px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 390px;
-	}
 }
 @media (max-width: 375px) {
 	.articles-blog .layout{
@@ -2361,9 +2322,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 355px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 375px;
-	}
 	div[id*='reproductor'] .layout--onecol:nth-child(2) .layout__region--content {
 		padding: 15px;
 	}
@@ -2394,9 +2352,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 340px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 360px;
-	}
 	#block-bumbum-theme-registroheader .field--name-field-titulo h2 {
 		font-size: 2.5em;
 	}
@@ -2433,9 +2388,6 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 300px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 320px;
-	}
 	#block-bumbum-theme-registrobogota .layout--twocol-section--33-67, 
 	#block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67 {
 		width: 98%;
@@ -2457,7 +2409,4 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-views-block-articulos-destacados-block-1{
 	max-width: 260px;
 }
-#block-bumbum-theme-views-block-articulos-recientes-block-1{
-		max-width: 280px;
-	}
 }
