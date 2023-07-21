@@ -3781,6 +3781,9 @@ a.button-link, .button-link a {
 .articles-blog .layout{
 	width:100%;
 }
+.articles-blog h1, .articles-blog strong, .articles-blog a{
+	color:#272422;
+}
 .articles-blog .layout--onecol:first-of-type{
 	max-height: 600px;
     height: 100%;
@@ -4061,6 +4064,26 @@ a.button-link, .button-link a {
 	color: #ffffff;
 	line-height: 1;
 }
+/* Experiencias Festivales */
+.oferta-gastro{
+	padding: 100px;
+}
+.oferta-gastro .layout--twocol-section{
+	margin-bottom: 50px;
+}
+.oferta-gastro .layout__region--first{
+	padding-right: 100px;
+}
+.oferta-gastro .layout__region--first h2{
+	color: #272422;
+}
+.oferta-gastro .layout--threecol-section .layout__region{
+	padding: 0 50px;
+}
+.oferta-gastro .layout--threecol-section .layout__region h3{
+	color: #272422;
+}
+
 /* Animation
 -------------------------------------------- */
 /*slide up */
