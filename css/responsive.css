@@ -1210,6 +1210,9 @@
 	.image-article-d {
 		min-height: 306px;
 	}
+	.ses-head a.button-link {
+		padding: 0.6em 1em;
+	}
 	.image-article-d img{
 		height: 286px !important;
 	}
