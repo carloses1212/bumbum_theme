@@ -2247,6 +2247,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	.votacion-section .layout--onecol:first-of-type .field--name-field-titulo {
 		padding-top: 5em;
 	}
+	.webform-confirmation-modal {
+		width: 100% !important;
+	}
 }
 @media (max-width: 480px) {
 	.articles-blog .layout{
