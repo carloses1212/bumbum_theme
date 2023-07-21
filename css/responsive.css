@@ -1518,6 +1518,11 @@ div[id*='lineup'] .layout__region {
   .ses-head h2{
 	line-height: 1.2;
   }
+  .ses-head a.button-link {
+		background: white;
+		border-radius: 20px;
+		color:#272422;
+	}
   .full{
 	flex-flow: column !important;
   }
@@ -2327,6 +2332,7 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		border-radius: 20px;
 		padding: 0 20px;
 		margin-left: auto;
+		color:#272422;
 	}
 }
 @media (max-width: 360px) {
