@@ -1714,7 +1714,9 @@ div[id*='talleres'] {
  div[id*='mobile'] {
 	display:block;
 }
-#block-bumbum-theme-views-block-articulos-destacados-block-1,
+#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 748px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 	max-width: 768px;
 }
@@ -1872,7 +1874,9 @@ div[id*='talleres'] {
 		max-width:736px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 716px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 736px;
 	}
@@ -1888,7 +1892,9 @@ div[id*='talleres'] {
 		max-width:720px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 700px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 720px;
 	}
@@ -1899,7 +1905,9 @@ div[id*='talleres'] {
 		max-width:667px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 647px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 667px;
 	}
@@ -1913,7 +1921,9 @@ div[id*='talleres'] {
 		max-width:640px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 620px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 640px;
 	}
@@ -1924,7 +1934,9 @@ div[id*='talleres'] {
 		max-width:600px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 580px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 600px;
 	}
@@ -2210,7 +2222,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 .articles-blog .layout--onecol:first-of-type .block:last-of-type{
 	transform: translateY(-770%);
 }
-#block-bumbum-theme-views-block-articulos-destacados-block-1,
+#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 556px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 576px;
 	}
@@ -2224,7 +2238,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:540px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 520px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 540px;
 	}
@@ -2238,7 +2254,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:480px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 460px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 480px;
 	}
@@ -2252,7 +2270,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:414px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 394px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 414px;
 	}
@@ -2269,7 +2289,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	.articles-blog .layout--onecol:first-of-type .block:last-of-type{
 		transform: translateY(-1200%);
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 382px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 412px;
 	}
@@ -2284,7 +2306,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:393px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 373px;
+}
 	#block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 393px;
 	}
@@ -2307,7 +2331,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:390px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 370px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 390px;
 	}
@@ -2318,7 +2344,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:375px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 355px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 375px;
 	}
@@ -2349,7 +2377,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:360px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 340px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 360px;
 	}
@@ -2377,7 +2407,7 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		font-size: 1.5em;
 	}
 	.article-d.owl-carousel .owl-nav .owl-next {
-		right: 36px;
+		right: 30px;
 	}
 }
 @media (max-width: 320px) {
@@ -2386,7 +2416,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		max-width:320px;
 		min-width:auto;
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 300px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 320px;
 	}
@@ -2408,7 +2440,9 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	.articles-blog .layout--onecol:first-of-type .block:nth-child(3) {
 		transform: translateY(-918%);
 	}
-	#block-bumbum-theme-views-block-articulos-destacados-block-1,
+	#block-bumbum-theme-views-block-articulos-destacados-block-1{
+	max-width: 260px;
+}
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 280px;
 	}
