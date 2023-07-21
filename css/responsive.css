@@ -606,6 +606,7 @@
   ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
+	  margin: 0 100px 0 0;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
@@ -1862,6 +1863,11 @@ div[id*='talleres'] {
 #block-bumbum-theme-views-block-articulos-recientes-block-1{
 		max-width: 736px;
 	}
+	.ses-head a.button-link {
+		background: white;
+		border-radius: 20px;
+		padding: 0 20px;
+	}
 }
 @media (max-width: 720px) {
 	.articles-blog .layout{
@@ -2315,6 +2321,12 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
 		padding: 10px;
+	}
+	.ses-head a.button-link {
+		background: white;
+		border-radius: 20px;
+		padding: 0 20px;
+		margin-left: auto;
 	}
 }
 @media (max-width: 360px) {
