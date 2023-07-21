@@ -2272,6 +2272,12 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 		transform: translateY(-1025%);
 	}
 }
+@media (max-width: 420px) {
+	#block-bumbum-theme-registrobogota .layout__region--second, 
+	#block-bumbum-theme-registrobarranquilla .layout__region--second {
+		padding: 20px;
+	}
+}
 @media (max-width: 414px) {
 	.articles-blog .layout{
 		width:100%;
