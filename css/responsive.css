@@ -1,3 +1,8 @@
+@media (min-width: 280px) {
+	.header-main {
+		background: rgba(0,0,0,0.4);
+	}
+}
 @media (min-width: 576px) {
   body {
     font-size: 1em;

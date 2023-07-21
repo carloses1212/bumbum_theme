@@ -3762,7 +3762,7 @@ a.button-link, .button-link a {
     color:#272422;
 	padding: 50px;
 }
-.text-article-r h1{
+.text-article-r h1, .text-article-r strong, .text-article-r em{
 	color:#272422;
 }
 .image-article-r{
@@ -3781,7 +3781,7 @@ a.button-link, .button-link a {
 .articles-blog .layout{
 	width:100%;
 }
-.articles-blog h1, .articles-blog strong, .articles-blog a{
+.articles-blog h1, .articles-blog strong, .articles-blog em, .articles-blog a{
 	color:#272422;
 }
 .articles-blog .layout--onecol:first-of-type{
