@@ -211,13 +211,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 15px;
     display: flex;
@@ -351,13 +351,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 15px;
     display: flex;
@@ -465,13 +465,13 @@
   .revive.owl-carousel{
 	padding: 25px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 20px;
     display: flex;
@@ -603,13 +603,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -759,13 +759,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -898,13 +898,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .cont-block{
 	padding: 40px;
     display: flex;
@@ -1024,13 +1024,13 @@
       min-width: 100px;
       padding: 0 20px 0 20px;
   }
-  /*ul.main-menu > li:last-of-type {
+  ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
-  }*/
+  }
   .f-territorios .cont-block{
 	padding: 100px;
   }
@@ -1069,6 +1069,11 @@
   .ses-head .cont-block p{
 	font-size: 1em;
 	font-weight: 200;
+  }
+  .full-head.ses-head img{
+	max-height: 500px;
+    width: 100%;
+    object-fit: cover;  
   }
   .ses-head img{
 	object-position: center;
