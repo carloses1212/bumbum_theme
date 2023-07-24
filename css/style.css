@@ -3787,7 +3787,7 @@ a.button-link, .button-link a {
 	width:100%;
 }
 .articles-blog .field--name-field-titulo h1{ color:#ffffff }
-.articles-blog .field--name-body h1{ color:#ffffff }
+.articles-blog .field--name-body h1{ color:#272422 }
 .articles-blog strong, .articles-blog em{
 	color:#272422;
 }
@@ -4074,6 +4074,7 @@ a.button-link, .button-link a {
 .links-icon-bottom .layout--threecol-section--33-34-33 .field--name-field-enlace3 a{
 	color: #ffffff;
 	line-height: 1;
+	text-align:center;
 }
 /* Experiencias Festivales */
 .oferta-gastro{
