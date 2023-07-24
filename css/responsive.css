@@ -1401,7 +1401,7 @@ div[id*='lineup'] .layout__region {
   }
   .layout--threecol-section > .layout__region {
     margin-bottom: 1em;
-    padding: 0 0px 0 0px;
+    padding: 0 !important;
   }
   div[id*='talleres'] {
 	padding: 40px;
@@ -1710,7 +1710,8 @@ div[id*='lineup'] .layout__region {
 #block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogota2023,
 #block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali,
 #block-bumbum-theme-lineupbarranquilla2023,
-#block-bumbum-theme-talleresbogota2023, #block-bumbum-theme-talleres2023barranquilla{
+#block-bumbum-theme-talleresbogota2023, #block-bumbum-theme-talleres2023barranquilla,
+#block-bumbum-theme-ofertagastronomicabogota, #block-bumbum-theme-ofertagastronomicabarranquilla{
 	display:none;
 }
 div[id*='talleres'] {
@@ -1868,6 +1869,12 @@ div[id*='talleres'] {
 	}
   .votacion-section iframe{
 		height: 600px;
+	}
+	.oferta-gastro {
+		padding: 10px;
+	}
+	.oferta-gastro h2, .oferta-gastro h3{
+		color:#272422;
 	}
 }
 @media (max-width: 736px) {
