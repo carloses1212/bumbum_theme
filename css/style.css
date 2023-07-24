@@ -3647,10 +3647,12 @@ a.button-link, .button-link a {
 #block-bumbum-theme-registrobarranquilla fieldset{
 	border: none;
 }
-#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper{
+#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper,
+#edit-que-edades-tienen-los-ninos-o-ninas---2 .fieldset-wrapper {
 	display:flex;
 }
-#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper .form-item{
+#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper .form-item, 
+#edit-que-edades-tienen-los-ninos-o-ninas---2 .fieldset-wrapper .form-item{
 	padding: 0 20px;
 }
 #block-bumbum-theme-registrobogota .form-item-acepto-los-terminos-y-condiciones,
