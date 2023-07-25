@@ -3487,6 +3487,7 @@ a.button-link, .button-link a {
 }
 .leaflet-popup-content .cont-info-lugar{
 	display: flex;
+	flex-direction: column;
 }
 .leaflet-popup-content .cont-info-lugar h3, .leaflet-popup-content .cont-info-lugar h4{
 	color: #272422;
