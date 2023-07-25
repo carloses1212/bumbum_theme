@@ -3679,6 +3679,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 	text-align: center;
     margin-bottom: 1em;
 }
+.terminos-condiciones h2, .terminos-condiciones h3{
+	display:inline-block;
+}
 .terminos-condiciones a, .terminos-condiciones a strong{
 	color:#fdda24;
 }
@@ -3686,7 +3689,7 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
   counter-reset: item
 }
 .terminos-condiciones li {
-  display: block
+  display: inline-block
 }
 .terminos-condiciones li:before {
   content: counters(item, ".") " ";
