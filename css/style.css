@@ -3690,7 +3690,7 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 }
 .terminos-condiciones{
 	padding-top: 6em;
-    max-width: 50%;
+    max-width: 55%;
     margin: 0 auto;
     color: #ffffff;
 }
@@ -4152,6 +4152,22 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 }
 .s-head p strong{
 	color:#272422;
+}
+/**Informacion General*/
+.como-llegar{
+	margin: 1em 0;
+}
+.como-llegar .layout__region {
+    flex-direction: row;
+    display: flex;
+	padding: 3em;
+}
+.como-llegar h2 {
+    color: #272422;
+    line-height: 1;
+}
+.como-llegar .field--type-text-with-summary, .como-llegar .field--type-text-long{
+	padding-left: 3em;
 }
 /* Animation
 -------------------------------------------- */
