@@ -3666,8 +3666,23 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 #block-bumbum-theme-registrobarranquilla .form-item-acepto-la-politica-de-tratamiento-de-datos input {
 	max-width: 50px;
 }
+#block-bumbum-theme-registrobogota .form-item-acepto-los-terminos-y-condiciones input a,
+#block-bumbum-theme-registrobarranquilla .form-item-acepto-los-terminos-y-condiciones input a,
+#block-bumbum-theme-registrobogota .form-item-acepto-la-politica-de-tratamiento-de-datos input a,
+#block-bumbum-theme-registrobarranquilla .form-item-acepto-la-politica-de-tratamiento-de-datos input a {
+	color:#9164cc;
+}
 .node-taxonomy-container{
 	border: none;
+}
+.status-error{
+	color: #ffffff;
+}
+.status-error a{
+	color: #fdda24;
+}
+.form-item--error-message{
+	color: #ff0000;
 }
 .terminos-condiciones{
 	padding-top: 6em;
