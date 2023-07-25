@@ -2254,9 +2254,12 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	}
 }
 @media (max-width: 420px) {
+	#block-bumbum-theme-registrobogota .layout--twocol-section--33-67, #block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67 {
+		width: 96%;
+	}
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
-		padding: 20px;
+		padding: 15px;
 	}
 }
 @media (max-width: 414px) {
@@ -2286,7 +2289,7 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 }
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
-		padding: 20px;
+		padding: 15px;
 	}
 }
 @media (max-width: 393px) {
@@ -2300,7 +2303,7 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 }
 	#block-bumbum-theme-registrobogota .layout__region--second, #block-bumbum-theme-registrobarranquilla .layout__region--second {
 		background: white;
-		padding: 15px;
+		padding: 10px;
 	}
 	#block-bumbum-theme-registrobogota .field--name-field-titulo h2, 
 	#block-bumbum-theme-registrobarranquilla .field--name-field-titulo h2 {
@@ -2341,7 +2344,7 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	}
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
-		padding: 10px;
+		padding: 5px;
 	}
 	.ses-head a.button-link {
 		background: white;
@@ -2365,7 +2368,7 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	}
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
-		padding: 5px;
+		padding: 4px;
 	}
 	.leaflet-popup-content {
 		width: 200px;
