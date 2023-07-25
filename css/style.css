@@ -3648,6 +3648,9 @@ a.button-link, .button-link a {
 #block-bumbum-theme-registrobarranquilla fieldset{
 	border: none;
 }
+.messages.messages-error{
+	display:hidden;
+}
 fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper {
 	display:flex;
 }
