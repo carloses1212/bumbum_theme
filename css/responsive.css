@@ -611,7 +611,7 @@
   ul.main-menu > li:last-of-type {
 	  border-radius: 20px;
 	  background: #fdda24;
-	  margin: 0 100px 0 0;
+	  margin: 0 10px 0 0;
   }
   ul.main-menu > li:last-of-type > a {
 	  color:#272422;
@@ -1275,6 +1275,9 @@
 	.image-article-d img{
 		height: 215px !important;
 	}
+	.s-head p{
+		padding-left: 7em;
+	}
 }
 @media (max-width: 1145px) {
 	.text-article-d {
@@ -1345,10 +1348,6 @@ div[id*='lineup'] .layout__region {
     height: 36px;
     padding: 0 0em;
 }
-/*.articles-blog .layout{
-	width:100%;
-	max-width:992px;
-}*/
 .articles-blog .layout--onecol:first-of-type .block:nth-child(4) {
     transform: translateY(-1197%);
     max-width: 40%;
@@ -1361,6 +1360,9 @@ div[id*='lineup'] .layout__region {
 	}
 	.image-article-d {
 		min-height: auto;
+	}
+	.s-head p{
+		padding-left: 5em;
 	}
 }
 @media (max-width: 768px) {
@@ -1705,7 +1707,7 @@ div[id*='lineup'] .layout__region {
 #block-bumbum-theme-registrobogota .layout__region--second, 
 #block-bumbum-theme-registrobarranquilla .layout__region--second {
     background: white;
-    padding: 35px;
+    padding: 20px;
 }
 #block-bumbum-theme-lineup, #block-bumbum-theme-lineupcali, #block-bumbum-theme-lineupbogota2023,
 #block-bumbum-theme-talleres2022, #block-bumbum-theme-talleres2022cali,
@@ -1875,6 +1877,9 @@ div[id*='talleres'] {
 	}
 	.oferta-gastro h2, .oferta-gastro h3{
 		color:#272422;
+	}
+	.s-head p{
+		padding-left: 0;
 	}
 }
 @media (max-width: 736px) {
