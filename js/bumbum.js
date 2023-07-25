@@ -209,6 +209,8 @@ jQuery(document).ready(function ($) {
 		
   var popup = L.popup();
   var tooltip = L.tooltip();
+  var popup2 = L.popup();
+  var tooltip2 = L.tooltip();
   function onMapClick(e) {
 	popup
 		.setLatLng(e.latlng)
@@ -234,19 +236,19 @@ jQuery(document).ready(function ($) {
 		.openOn(map);
   }
   function onMapClick5(e) {
-	popup
+	popup2
 		.setLatLng(e.latlng)
 		.setContent("<div class='info-lugar'><img src='https://qa.bumbumfest.org/sites/default/files/2023-07/La%20Cueva%20-%20Foto%20La%20Cueva.jpg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Fundaci&oacute;n La Cueva</h3><div class='info-pop-lugar'><div><p>El 12 de agosto habr&aacute; un recorrido a trav&eacute;s de los recuerdos del Grupo de Barranquilla, El 26 de agosto, se construir&aacute; un mural comunitario que luego ser&aacute; protagonista en la fecha principal del Festival.</p></div><div><p>ENTRADA GRATUITA</p></div></div><div class='info-descripcion'><span>12 y 26 de agosto de 2023</span><span>11 a.m. a 5 p.m.</span><span>Carrera 43 # 59-03</span></div><div class='redes-lugar'><a href='https://fundacionlacueva.org/'><i class='fa-solid fa-earth-americas'></i></a><a href='https://www.facebook.com/fundlacueva'><i class='fa-brands fa-facebook-f'></i></a><a href='https://www.instagram.com/fundlacueva'><i class='fa-brands fa-instagram'></i></a><a href='https://twitter.com/FundLaCueva'><i class='fa-brands fa-twitter'></i></a><a href='https://www.youtube.com/channel/UC8OplhgOuRomkAhqh70pO7w'><i class='fa-brands fa-youtube'></i></a></div></div></div></div>")
 		.openOn(map2);
   }
   function onMapClick6(e) {
-	popup
+	popup2
 		.setLatLng(e.latlng)
 		.setContent("<div class='info-lugar'><img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Museo%20del%20Carnaval%20-%20Foto%20Alcald%C3%ADa%20de%20Barranquilla.jpeg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Museo del Carnaval</h3><div class='info-pop-lugar'><div><p>El Museo del Carnaval de Barranquilla tendr&aacute; el 19 de agosto un d&iacute;a de museo abierto con un taller de danza y un recorrido con gu&iacute;as especializados. &iexcl;Una inmersi&oacute;n en los ritmos del Caribe&#33;</p></div><div><p>ENTRADA GRATUITA</p></div></div><div class='info-descripcion'><span>19 de Agosto de 2023</span><span>10 a.m. a 5 p.m.</span><span>Carrera 54 # 49B - 39</span></div><div class='redes-lugar'><a href='https://museocarnavaldebarranquilla.org/'><i class='fa-solid fa-earth-americas'></i></a><a href='https://www.facebook.com/carnavalbaq/'><i class='fa-brands fa-facebook-f'></i></a><a href='https://www.instagram.com/museocarnavalbq/'><i class='fa-brands fa-instagram'></i></a><a href='https://twitter.com/Carnaval_SA'><i class='fa-brands fa-twitter'></i></a></div></div></div></div>")
 		.openOn(map2);
   }
   function onMapClick7(e) {
-	popup
+	popup2
 		.setLatLng(e.latlng)
 		.setContent("<div class='info-lugar'><img src='https://qa.bumbumfest.org/sites/default/files/2023-07/CLENA%20-%20Foto%20CLENA.jpg' style='width:100%;max-width:300px;max-height:80px;object-fit:cover'><div class='cont-info-lugar'><div><h3>Complejo Cultural de la Antigua Aduana – CLENA</h3><div class='info-pop-lugar'><div><p>M&uacute;sicas Nuevas Sonoridades, la Biblioteca Piloto y las fundaciones Luneta y Chukuwata llevan al CLENA danza contempor&aacute;nea, t&iacute;teres, un p&iacute;cnic literario y experiencias gastron&oacute;micas.</p></div><div><p>ENTRADA GRATUITA</p></div></div><div class='info-descripcion'><span>5 de agosto de 2023</span><span>De 4 p.m. a 8 p.m.</span><span>V&iacute;a 40 # 36-135 – Plaza de la Aduana</span></div><div class='redes-lugar'><a href='https://clena.org/complejo-aduana/'><i class='fa-solid fa-earth-americas'></i></a><a href='https://www.facebook.com/CorporacionLuisEduardoNietoArteta/'><i class='fa-brands fa-facebook-f'></i></a><a href='https://www.instagram.com/clenacorp/'><i class='fa-brands fa-instagram'></i></a><a href='https://www.youtube.com/@clenacorp'><i class='fa-brands fa-youtube'></i></a></div></div></div></div>")
 		.openOn(map2);
@@ -276,19 +278,19 @@ jQuery(document).ready(function ($) {
 		.openOn(map);
   }
   function onMouseOver5(e) {
-	tooltip
+	tooltip2
 		.setLatLng(e.latlng)
 		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/La%20Cueva%20-%20Foto%20La%20Cueva.jpg'>")
 		.openOn(map2);
   }
   function onMouseOver6(e) {
-	tooltip
+	tooltip2
 		.setLatLng(e.latlng)
 		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Museo%20del%20Carnaval%20-%20Foto%20Alcald%C3%ADa%20de%20Barranquilla.jpeg'>")
 		.openOn(map2);
   }
   function onMouseOver7(e) {
-	tooltip
+	tooltip2
 		.setLatLng(e.latlng)
 		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/CLENA%20-%20Foto%20CLENA.jpg'>")
 		.openOn(map2);
