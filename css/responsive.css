@@ -2206,8 +2206,7 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
 #block-bumbum-theme-registrobarranquilla .layout__region--first{
 	display:none
 }
-#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper,
-#edit-que-edades-tienen-los-ninos-o-ninas---2 .fieldset-wrapper{
+div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	flex-direction: column;
 }
 .articles-blog .layout{

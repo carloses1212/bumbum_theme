@@ -3647,12 +3647,10 @@ a.button-link, .button-link a {
 #block-bumbum-theme-registrobarranquilla fieldset{
 	border: none;
 }
-#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper,
-#edit-que-edades-tienen-los-ninos-o-ninas---2 .fieldset-wrapper {
+div[id*='edades-tienen-los-ninos'] .fieldset-wrapper {
 	display:flex;
 }
-#edit-que-edades-tienen-los-ninos-o-ninas- .fieldset-wrapper .form-item, 
-#edit-que-edades-tienen-los-ninos-o-ninas---2 .fieldset-wrapper .form-item{
+div[id*='edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 	padding: 0 20px;
 }
 #block-bumbum-theme-registrobogota .form-item-acepto-los-terminos-y-condiciones,
@@ -3670,6 +3668,29 @@ a.button-link, .button-link a {
 }
 .node-taxonomy-container{
 	border: none;
+}
+.terminos-condiciones{
+	padding-top: 6em;
+    max-width: 50%;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.terminos-condiciones h1{
+	text-align: center;
+    margin-bottom: 1em;
+}
+.terminos-condiciones a, .terminos-condiciones a strong{
+	color:#fdda24;
+}
+.terminos-condiciones ol {
+  counter-reset: item
+}
+.terminos-condiciones li {
+  display: block
+}
+.terminos-condiciones li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
 }
 /** Blog */
 #block-bumbum-theme-views-block-articulo-principal-block-1 a{
