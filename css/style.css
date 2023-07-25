@@ -3492,15 +3492,14 @@ a.button-link, .button-link a {
 	color: #272422;
     line-height: 1;
 }
+.leaflet-popup-content .info-pop-lugar{
+	flex-direction:row;
+}
 .leaflet-popup-content .info-descripcion{
 	display: flex;
     width: 100%;
+	flex-direction:column;
 }
-/* Se modifica por falta de informacion
-.leaflet-popup-content .info-descripcion span{
-	width: 33.3%;
-	font-weight: 700;
-}*/
 .leaflet-popup-content .info-descripcion span{
 	font-weight: 700;
 }
