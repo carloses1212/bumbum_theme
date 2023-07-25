@@ -3669,17 +3669,17 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .node-taxonomy-container{
 	border: none;
 }
-.terminos-condiciones, .politica-tratamiento-datos{
+.terminos-condiciones{
 	padding-top: 6em;
     max-width: 50%;
     margin: 0 auto;
     color: #ffffff;
 }
-.terminos-condiciones h1, .politica-tratamiento-datos h1{
+.terminos-condiciones h1{
 	text-align: center;
     margin-bottom: 1em;
 }
-.terminos-condiciones a, .politica-tratamiento-datos a{
+.terminos-condiciones a, .terminos-condiciones a strong{
 	color:#fdda24;
 }
 .terminos-condiciones ol {
