@@ -3712,7 +3712,14 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 }
 .terminos-condiciones li:before {
   content: counters(item, ".") " ";
-  counter-increment: item
+  counter-increment: item;
+  font-size: 2.2em;
+}
+.terminos-condiciones h3, .terminos-condiciones li ol li:before {
+  font-size: 1.4em;
+}
+.terminos-condiciones li ol li ol li:before {
+  font-size: 1em;
 }
 /** Blog */
 #block-bumbum-theme-views-block-articulo-principal-block-1 a{
@@ -4140,7 +4147,12 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .oferta-gastro .layout--threecol-section .layout__region h3{
 	color: #272422;
 }
-
+.s-head p{
+	padding-left: 7em;
+}
+.s-head p strong{
+	color:#272422;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
