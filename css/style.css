@@ -4169,7 +4169,10 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .como-llegar .field--type-text-with-summary, .como-llegar .field--type-text-long{
 	padding-left: 3em;
 }
-.faq h2{
+.faq{
+	padding: 100px 200px 100px 100px;
+}
+.faq h2, .faq h3{
 	color:#272422;
 }
 .cont-25{
@@ -4190,6 +4193,7 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 }
 .content-faq {
 	margin: 5px auto;
+	border-bottom: 2px solid #272422;
 }
 .content-faq .subtitle-faq {
 	position: relative;

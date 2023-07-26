@@ -143,7 +143,7 @@ jQuery(document).ready(function ($) {
 
 		$this.toggleClass("accordion-active");
 		$this.next().slideToggle();
-		$('.accordion__icon',this).toggleClass('fa-angle-down fa-angle-up');
+		$('.fa-solid',this).toggleClass('fa-angle-down').toggleClass('fa-angle-up');
 	});
   
   
