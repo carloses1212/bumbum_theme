@@ -4138,14 +4138,11 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .oferta-gastro .layout__region--first{
 	padding-right: 100px;
 }
-.oferta-gastro .layout__region--first h2{
+.oferta-gastro h2, .oferta-gastro h3, .oferta-gastro strong{
 	color: #272422;
 }
 .oferta-gastro .layout--threecol-section .layout__region{
 	padding: 0 50px;
-}
-.oferta-gastro .layout--threecol-section .layout__region h3{
-	color: #272422;
 }
 .s-head p{
 	padding-left: 7em;
