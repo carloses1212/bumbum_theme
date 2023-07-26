@@ -97,6 +97,9 @@
   .item:last-child {
     padding: 0;
   }
+  .item-55 span {
+    top: 0px;
+  }
   .service {
     margin: 0.5em;
     flex: 1 1 calc(33.333333% - 1em);
@@ -1887,6 +1890,9 @@ div[id*='talleres'] {
 	}
 	.s-head p{
 		padding-left: 0;
+	}
+	.como-llegar{
+		padding: 15px;
 	}
 	.como-llegar .layout__region{
 		flex-direction: column;
