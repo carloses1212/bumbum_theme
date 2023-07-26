@@ -1888,6 +1888,22 @@ div[id*='talleres'] {
 	.s-head p{
 		padding-left: 0;
 	}
+	.como-llegar .layout__region{
+		flex-direction: column;
+	}
+	.faq {
+		padding: 50px 50px 50px 50px;
+	}
+	.cont-25 {
+		-ms-flex: 1 1 100%;
+		flex: 1 1 100%;
+		max-width: 100%;
+	}
+	.cont-75 {
+		-ms-flex: 1 1 100%;
+		flex: 1 1 100%;
+		max-width: 100%;
+	}
 }
 @media (max-width: 736px) {
 	.articles-blog .layout{
@@ -2301,6 +2317,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 }
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
+		padding: 15px;
+	}
+	.faq {
 		padding: 15px;
 	}
 }
