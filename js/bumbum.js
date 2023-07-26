@@ -131,6 +131,21 @@ jQuery(document).ready(function ($) {
 		// Animation complete.
 	});
   });
+  $(".subtitle-faq").on("click", function(e) {
+
+		e.preventDefault();
+		var $this = $(this);
+
+		if (!$this.hasClass("accordion-active")) {
+			$(".body-faq").slideUp(400);
+			$(".subtitle-faq").removeClass("accordion-active");
+		}
+
+		$this.toggleClass("accordion-active");
+		$this.next().slideToggle();
+		$('.accordion__icon',this).toggleClass('fa-angle-down fa-angle-up');
+	});
+  
   
   
   //Carrusel Articulos Destacados
