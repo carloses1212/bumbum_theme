@@ -4169,6 +4169,61 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .como-llegar .field--type-text-with-summary, .como-llegar .field--type-text-long{
 	padding-left: 3em;
 }
+.faq h2{
+	color:#272422;
+}
+.cont-25{
+	 margin: 0 0 0 0;
+  padding: 0px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 25%;
+  flex: 1 1 25%;
+  max-width: 25%;
+}
+.cont-75{
+	 margin: 0 0 0 0;
+  padding: 0px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 75%;
+  flex: 1 1 75%;
+  max-width: 75%;
+}
+.content-faq {
+	margin: 5px auto;
+}
+.content-faq .subtitle-faq {
+	position: relative;
+	display: block;
+	padding: 13px 60px 15px 13px;
+	margin-bottom: 2px;
+	color: #272422;
+	font-size: 1.5em;
+	text-decoration: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.content-faq .subtitle-faq .accordion__icon {
+	position: absolute;
+	top: 13px; right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #272422;
+	line-height: 30px;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-right: 5px;
+}
+.content-faq .body-faq {
+	padding: 30px;
+	margin-bottom: 2px;
+	display: none;
+}
+.content-faq .fa-solid {
+	font-weight: 700;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
