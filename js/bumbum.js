@@ -138,8 +138,7 @@ jQuery(document).ready(function ($) {
 
 		if (!$this.hasClass("accordion-active")) {
 			$(".body-faq").slideUp(400);
-			$(".subtitle-faq").removeClass("accordion-active");
-			$(this).children('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+			$(".subtitle-faq").removeClass("accordion-active").children('div.accordion__icon i.fa-solid').removeClass('fa-angle-up').addClass('fa-angle-down');
 		}
 
 		$this.toggleClass("accordion-active");
