@@ -3649,7 +3649,7 @@ a.button-link, .button-link a {
 	border: none;
 }
 .messages.messages-error{
-	display:hidden;
+	display:none;
 }
 fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper {
 	display:flex;
