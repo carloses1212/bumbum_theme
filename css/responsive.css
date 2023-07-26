@@ -629,6 +629,9 @@
   .item-55 .cont-block {
     padding: 0;
   }
+  .item-55 .cont-block h2{
+    max-width: 75%;
+  }
   #block-bumbum-theme-views-block-header-bum-bum-block-1 p{
 	font-weight: 400;
     font-size: 2em;
@@ -880,6 +883,10 @@
  #block-bumbum-theme-reviveiframe .layout__region {
     padding: 65px 60px;
 }
+@media (min-width: 1440px) {
+.item-55 .cont-block h2{
+    max-width: 100%;
+  }
 }
 @media (min-width: 1850px) {
   .container {
@@ -1270,6 +1277,7 @@
 .articles-blog .layout--onecol:first-of-type .block:last-of-type{
 	transform: translateY(-710%);
 }
+
 }
 @media (max-width: 1280px) {
 	.text-article-d {
