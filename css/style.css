@@ -4235,14 +4235,14 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 	font-weight: 700;
 }
 /**Aliados*/
-.aliados {
+.aliados-p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 	border-bottom: 2px solid #fdda24;
 }
-.cont-33{
+.aliados-p .cont-33{
   margin: 0 0 0 0;
   padding: 2em 5em;
   -webkit-box-flex: 1;
@@ -4250,7 +4250,7 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
   flex: 1 1 33.3%;
   max-width: 33.3%;
 }
-.cont-33 h3, .cont-33 span, .cont-33 p{
+.aliados-p .cont-33 h3, .aliados-p .cont-33 span, .aliados-p .cont-33 p{
 	color:#272422
 }
 div[id*="bumbum-theme-aliado"].block{
@@ -4266,22 +4266,22 @@ div[id*="bumbum-theme-aliado"].block{
     padding: 0 100px;
 	max-width: 50%;
 }
-.spb-popup-main-wrapper .owl-carousel .owl-stage-outer {
+.spb-popup-main-wrapper .aliado-carousel .owl-stage-outer {
     height: 100%;
 }
-.spb-popup-main-wrapper .owl-carousel .owl-item {
+.spb-popup-main-wrapper .aliado-carousel .owl-item {
     margin: 0 2em;
 }
-.spb-popup-main-wrapper .owl-carousel .owl-nav {
+.spb-popup-main-wrapper .aliado-carousel .owl-nav {
     display: block;
 }
-.spb-popup-main-wrapper .owl-carousel .owl-prev {
+.spb-popup-main-wrapper .aliado-carousel .owl-prev {
 	font-size: 3em;
     position: absolute;
     top: 45%;
     left: 0;
 }
-.spb-popup-main-wrapper .owl-carousel .owl-next {
+.spb-popup-main-wrapper .aliado-carousel .owl-next {
 	font-size: 3em;
     position: absolute;
     top: 45%;
