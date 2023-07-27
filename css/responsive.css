@@ -1922,7 +1922,14 @@ div[id*='talleres'] {
 		flex: 1 1 100%;
 		max-width: 100%;
 	}
-	
+	.cont-33 {
+		margin: 0 0 0 0;
+		padding: 2em 4em;
+		-webkit-box-flex: 1;
+		-ms-flex: 1 1 33.3%;
+		flex: 1 1 100%;
+		max-width: 100%;
+	}
 }
 @media (max-width: 736px) {
 	.articles-blog .layout{
