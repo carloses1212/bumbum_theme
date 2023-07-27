@@ -70,6 +70,7 @@ jQuery(document).ready(function ($) {
     }
   })
   $(".articles-blog .layout--onecol:last-of-type .block .block-content .node-taxonomy-container").children('ul').addClass("article-carousel owl-carousel owl-theme purple-background");
+  $(".spb-popup-main-wrapper .node-taxonomy-container").children('ul').addClass("aliado-carousel owl-carousel owl-theme");
   /*if($("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div").find("div[class*='media-image']").length !== 0){
 	$("#block-bumbum-theme-views-block-articulos-destacados-block-1 .block-content div").children('.taxonomy-terms').addClass("article-d owl-carousel owl-theme");  
   }*/
@@ -187,6 +188,25 @@ jQuery(document).ready(function ($) {
       },
       1000: {
         items: 4
+      }
+    }
+  })
+  //Carrusel Aliados
+  var owla = $('.taxonomy-terms.aliado-carousel');
+  owla.owlCarousel({
+    margin: 10,
+    nav: true,
+	dots: false,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+	  1000: {
+        items: 1
       }
     }
   })
