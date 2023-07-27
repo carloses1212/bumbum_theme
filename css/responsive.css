@@ -1906,6 +1906,9 @@ div[id*='talleres'] {
 	.como-llegar .layout__region{
 		flex-direction: column;
 	}
+	.como-llegar .field--type-text-with-summary, .como-llegar .field--type-text-long {
+		padding-left: 0;
+	}
 	.faq {
 		padding: 50px 50px 50px 50px;
 	}
@@ -1919,6 +1922,7 @@ div[id*='talleres'] {
 		flex: 1 1 100%;
 		max-width: 100%;
 	}
+	
 }
 @media (max-width: 736px) {
 	.articles-blog .layout{
