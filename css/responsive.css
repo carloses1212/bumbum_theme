@@ -1738,6 +1738,9 @@ div[id*='lineup'] .layout__region {
 div[id*='talleres'] {
     padding: 25px;
 }
+div[id*='talleres'] .layout__region {
+    padding: 0 0px 0 0px;
+}
  div[id*='mobile'] {
 	display:block;
 }
@@ -1928,6 +1931,10 @@ div[id*='talleres'] {
 		-webkit-box-flex: 1;
 		-ms-flex: 1 1 33.3%;
 		flex: 1 1 100%;
+		max-width: 100%;
+	}
+	.spb-popup-main-wrapper .layout__region {
+		padding: 0 50px;
 		max-width: 100%;
 	}
 }
