@@ -4228,6 +4228,25 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .content-faq .fa-solid {
 	font-weight: 700;
 }
+/**Aliados*/
+.aliados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cont-33{
+  margin: 0 0 0 0;
+  padding: 1em 2em;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 33.3%;
+  flex: 1 1 33.3%;
+  max-width: 33.3%;
+}
+div[id*="aliado-modal"]{
+	display:none;
+}
+
 /* Animation
 -------------------------------------------- */
 /*slide up */
