@@ -4250,10 +4250,21 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .cont-33 h3, .cont-33 span, .cont-33 p{
 	color:#272422
 }
-div[id*="bumbum-theme-aliado"]{
+div[id*="bumbum-theme-aliado"].block{
 	display:none;
 }
-
+.spb-popup-main-wrapper{
+  max-width: 100%;
+}
+.spb-popup-main-wrapper .layout__region {
+    padding: 0 100px;
+}
+.spb-popup-main-wrapper .node-taxonomy-container h3{
+	display:none;
+}
+.spb-popup-main-wrapper h2, .spb-popup-main-wrapper h3{
+  color:#272422
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
