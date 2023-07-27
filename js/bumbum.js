@@ -192,8 +192,8 @@ jQuery(document).ready(function ($) {
     }
   })
   //Carrusel Aliados
-  var owla = $('.taxonomy-terms.aliado-carousel');
-  owla.owlCarousel({
+  var owlal = $('.taxonomy-terms.aliado-carousel');
+  owlal.owlCarousel({
     margin: 10,
     nav: true,
 	dots: false,
