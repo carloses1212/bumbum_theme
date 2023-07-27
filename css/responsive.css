@@ -1925,17 +1925,19 @@ div[id*='talleres'] .layout__region {
 		flex: 1 1 100%;
 		max-width: 100%;
 	}
-	.cont-33 {
-		margin: 0 0 0 0;
+	.aliados-p .cont-33 {
 		padding: 2em 4em;
 		-webkit-box-flex: 1;
-		-ms-flex: 1 1 33.3%;
+		-ms-flex: 1 1 100%;
 		flex: 1 1 100%;
 		max-width: 100%;
 	}
 	.spb-popup-main-wrapper .layout__region {
 		padding: 0 50px;
 		max-width: 100%;
+	}
+	.spb-popup-main-wrapper .layout__region:last-child {
+		padding-right: 50px;
 	}
 }
 @media (max-width: 736px) {

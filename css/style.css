@@ -4259,6 +4259,15 @@ div[id*="bumbum-theme-aliado"].block{
 .spb-popup-main-wrapper{
   max-width: 100%;
 }
+.spb_close {
+    cursor: pointer;
+    float: right;
+    margin: 3px;
+    padding: 20px 100px 0 10px;
+    color: #000;
+    background: #fff;
+    font-size: 3em;
+}
 .spb-popup-main-wrapper .block {
     padding: 1em 0;
 }
@@ -4266,11 +4275,20 @@ div[id*="bumbum-theme-aliado"].block{
     padding: 0 100px;
 	max-width: 50%;
 }
+.spb-popup-main-wrapper .layout__region:last-child {
+    padding-right: 300px;
+}
 .spb-popup-main-wrapper .owl-carousel .owl-stage-outer {
     height: 100%;
 }
+.spb-popup-main-wrapper .owl-carousel .owl-stage{
+	display: flex;
+}
 .spb-popup-main-wrapper .owl-carousel .owl-item {
-    margin: 0 2em;
+    padding: 0 2em;
+	display: flex;
+    flex: 1 0 auto;
+    height: 100%;
 }
 .spb-popup-main-wrapper .owl-carousel .owl-nav {
     display: block;
