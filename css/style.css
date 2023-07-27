@@ -4169,6 +4169,9 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
 .como-llegar .field--type-text-with-summary, .como-llegar .field--type-text-long{
 	padding-left: 3em;
 }
+.mapa-como-llegar .rev-head h2 {
+    padding-top: 0;
+}
 .faq{
 	padding: 100px 200px 100px 100px;
 }
@@ -4234,16 +4237,20 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+	border-bottom: 2px solid #fdda24;
 }
 .cont-33{
   margin: 0 0 0 0;
-  padding: 1em 2em;
+  padding: 2em 5em;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 33.3%;
   flex: 1 1 33.3%;
   max-width: 33.3%;
 }
-div[id*="aliado-modal"]{
+.cont-33 h3, .cont-33 span, .cont-33 p{
+	color:#272422
+}
+div[id*="bumbum-theme-aliado"]{
 	display:none;
 }
 
