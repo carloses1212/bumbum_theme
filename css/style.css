@@ -3534,7 +3534,7 @@ a.button-link, .button-link a {
 /*Registro*/
 #block-bumbum-theme-registroheader{
 	display: flex;
-    height: 100vh;
+    height: 600px;
     width: 100%;
     margin-top: 2em;
 }
@@ -3546,7 +3546,7 @@ a.button-link, .button-link a {
 }
 #block-bumbum-theme-registroheader .taxonomy-term{
 	width: 90%;
-    height: 100vh;
+    height: 600px;
 }
 #block-bumbum-theme-registroheader .taxonomy-term img{
 	width: 100%;
@@ -3554,7 +3554,7 @@ a.button-link, .button-link a {
     object-fit: cover;
 }
 #block-bumbum-theme-registroheader .field--name-field-titulo{
-	transform: translateY(-615%);
+	transform: translateY(-415%);
 }
 #block-bumbum-theme-registroheader .field--name-field-titulo h2{
     font-size: 3em;
