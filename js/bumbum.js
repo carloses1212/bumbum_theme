@@ -292,43 +292,43 @@ jQuery(document).ready(function ($) {
   function onMouseOver(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Biblioteca%20P%C3%BAblica%20Julio%20Mario%20Santo%20Domingo%20-%20Foto%20Juan%20Diego%20Castillo.jpg'>")
+		.setContent("<img src='/sites/default/files/2023-07/Biblioteca%20P%C3%BAblica%20Julio%20Mario%20Santo%20Domingo%20-%20Foto%20Juan%20Diego%20Castillo.jpg'>")
 		.openOn(map);
   }
   function onMouseOver2(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Cinemateca%20al%20Parque%20-%20Foto%20Cinemateca%20de%20Bogota.jpg'>")
+		.setContent("<img src='/sites/default/files/2023-07/Cinemateca%20al%20Parque%20-%20Foto%20Cinemateca%20de%20Bogota.jpg'>")
 		.openOn(map);
   }
   function onMouseOver3(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Parque%20San%20Jos%C3%A9%20de%20Bavaria%20-%20Foto%20Germ%C3%A1n%20Gonz%C3%A1lez.JPG'>")
+		.setContent("<img src='/sites/default/files/2023-07/Parque%20San%20Jos%C3%A9%20de%20Bavaria%20-%20Foto%20Germ%C3%A1n%20Gonz%C3%A1lez.JPG'>")
 		.openOn(map);
   }
   function onMouseOver4(e) {
 	tooltip
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Al%20parque%20con%20mi%20pa%20-%20Foto%20Nidos%20-%20Idartes.jpg'>")
+		.setContent("<img src='/sites/default/files/2023-07/Al%20parque%20con%20mi%20pa%20-%20Foto%20Nidos%20-%20Idartes.jpg'>")
 		.openOn(map);
   }
   function onMouseOver5(e) {
 	tooltip2
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/La%20Cueva%20-%20Foto%20La%20Cueva.jpg'>")
+		.setContent("<img src='/sites/default/files/2023-07/La%20Cueva%20-%20Foto%20La%20Cueva.jpg'>")
 		.openOn(map2);
   }
   function onMouseOver6(e) {
 	tooltip2
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/Museo%20del%20Carnaval%20-%20Foto%20Alcald%C3%ADa%20de%20Barranquilla.jpeg'>")
+		.setContent("<img src='/sites/default/files/2023-07/Museo%20del%20Carnaval%20-%20Foto%20Alcald%C3%ADa%20de%20Barranquilla.jpeg'>")
 		.openOn(map2);
   }
   function onMouseOver7(e) {
 	tooltip2
 		.setLatLng(e.latlng)
-		.setContent("<img src='https://qa.bumbumfest.org/sites/default/files/2023-07/CLENA%20-%20Foto%20CLENA.jpg'>")
+		.setContent("<img src='/sites/default/files/2023-07/Aduana.png'>")
 		.openOn(map2);
   }
    //Mapas Artistas - Debe crearse uno por cada artista y conforme su ID
