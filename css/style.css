@@ -1377,7 +1377,8 @@ div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
 }
 .field--name-field-hora1 p, .field--name-field-hora2 p, .field--name-field-hora3 p,
 .field--name-field-hora4 p, .field--name-field-hora5 p, .field--name-field-hora6 p,
-.field--name-field-hora7 p, .field--name-field-hora8 p{
+.field--name-field-hora7 p, .field--name-field-hora8 p, .field--name-field-hora9 p,
+.field--name-field-hora10 p, .field--name-field-hora11 p{
 	color:#272422;
 	font-weight: 700;
 	line-height: 1.2;
