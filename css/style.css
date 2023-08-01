@@ -4459,7 +4459,16 @@ div[id*='despliegue'] .field--name-body{
     margin-bottom: 1em;
     margin: 0 auto 2em auto;
 }
-div[id*='despliegue'] .field--name-body p{
+div[id*='despliegue'] .field--name-field-subtitulo1{
+	font-size: 1.5em;
+}
+div[id*='despliegue'] .field--name-field-subtitulo1,
+div[id*='despliegue'] .field--name-field-descripcion-lugar1 {
+	width: 85%;
+	margin: 0 auto;
+}
+div[id*='despliegue'] .field--name-body p, 
+div[id*='despliegue'] .field--name-field-descripcion-lugar1 strong{
 	color: #272422;
 }
 div[id*='despliegue'] .layout--onecol:last-of-type a {
