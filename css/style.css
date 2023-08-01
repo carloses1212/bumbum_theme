@@ -1248,6 +1248,7 @@ div[id*='talleres'] .layout__region{
 }
 div[id*='talleres'] h3{
 	color:#272422;
+	line-height: 1;
 }
 div[id*='reproductor']{
 	padding: 0px;
@@ -1375,29 +1376,20 @@ div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
     display: flex;
     color: #fdda24;
 }
-.field--name-field-hora1 p, .field--name-field-hora2 p, .field--name-field-hora3 p,
-.field--name-field-hora4 p, .field--name-field-hora5 p, .field--name-field-hora6 p,
-.field--name-field-hora7 p, .field--name-field-hora8 p, .field--name-field-hora9 p,
-.field--name-field-hora10 p, .field--name-field-hora11 p{
+div[class*='name-field-hora'] p{
 	color:#272422;
 	font-weight: 700;
 	line-height: 1.2;
 }
-.field--name-field-hora1 p span, .field--name-field-hora2 p span, .field--name-field-hora3 p span,
-.field--name-field-hora4 p span, .field--name-field-hora5 p span, .field--name-field-hora6 p span,
-.field--name-field-hora7 p span, .field--name-field-hora8 p span{
+div[class*='name-field-hora'] p span{
 	font-size: 0.8em;
 }
-.field--name-field-descripcionline1 p, .field--name-field-descripcionline2 p, .field--name-field-descripcionline3 p,
-.field--name-field-descripcionline4 p, .field--name-field-descripcionline5 p, .field--name-field-descripcionline6 p,
-.field--name-field-descripcionline7 p, .field--name-field-descripcionline8 p{
+div[class*='name-field-descripcionline'] p{
 	color:#272422;
 	line-height: 1.2;
 	margin: 0 0 2em 0;
 }
-.field--name-field-descripcionline1 strong, .field--name-field-descripcionline2 strong, .field--name-field-descripcionline3 strong,
-.field--name-field-descripcionline4 strong, .field--name-field-descripcionline5 strong, .field--name-field-descripcionline6 strong,
-.field--name-field-descripcionline7 strong, .field--name-field-descripcionline8 strong{
+div[class*='name-field-descripcionline'] strong{
 	color:#272422;
 	font-size: 1.1em;
 }
@@ -4341,21 +4333,73 @@ div[id*="bumbum-theme-aliado"].block{
     display: flex;
 }
 .tour-sub .layout__region:first-of-type .block:last-of-type{
-	padding: 100px;
+	padding: 0 100px;
 }
 .tour-sub .layout__region:last-of-type .taxonomy-terms {
 	margin: 0;
+	height: 100%;
 }
 .tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term{
 	width: 100%;
+	height: 100%;
     padding: 0;
+}
+.tour-sub .layout__region:last-of-type .block,
+.tour-sub .layout__region:last-of-type .block-content,
+.tour-sub .layout__region:last-of-type .node-taxonomy-container,
+.tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term .contextual-region,
+.tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term .field--name-field-media-image,
+.tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term .field--name-field-media-image .field-item{
+	height: 100%;
 }
 .tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term img{
 	width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
+.tour-calendar{
+	border-bottom: 2px solid #fdda24;
+}
+.tour-calendar .item-dos-tercios{
+	padding: 50px 150px;
+}
+.tour-calendar .city-tour{
+	display:flex;
+	border-bottom: 1px solid #272422;
+}
+.tour-calendar .title-c-tour{
+	width: 25%;
+}
+.tour-calendar .fechas-c-tour{
+	width: 75%;
+}
+.tour-calendar .fechas-c-tour div{
+	display: flex;
+    align-items: center;
+}
+.tour-calendar .title-c-tour h3, .tour-calendar .fechas-c-tour b, .tour-calendar .fechas-c-tour a{
+	color:#272422;
+}
+.tour-calendar .num-fecha{
+	font-size: 2em;
+	font-weight: 700;
+}
+.tour-calendar .com-fecha{
+	display: inline-block;
+    line-height: 1;
+    font-size: 0.7em;
+    margin-right: 1.5em;
+}
+.tour-calendar .artist{
+	font-weight: 700;
+}
+.tour-calendar .fechas-c-tour div a {
+	margin-left: auto;
+    order: 2;
+    border-radius: 20px;
+    border: 1px solid #272422;
+    padding: 0 10px;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
