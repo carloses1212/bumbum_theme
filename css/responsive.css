@@ -292,6 +292,14 @@
     text-align: left;
     padding-left: 10px;
   }
+  div[id*='despliegue'] .layout--twocol-section .layout__region--first{
+    text-align: right;
+    padding-right: 10px;
+  }
+  div[id*='despliegue'] .layout--twocol-section .layout__region--second{
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -2275,6 +2283,33 @@ div[id*='reproductor'] .layout--onecol:nth-child(2) {
     padding: 0 20px;
     transform: translateY(-5%);
 }
+div[id*='despliegue'] .layout--onecol:last-of-type{
+	transform: none;
+	padding: 0 0 0px 0;
+}
+div[id*='despliegue'] .layout--twocol-section{
+	transform: none;
+	padding: 0 0 0px 0;
+}
+div[id*='despliegue'] .layout--onecol:last-of-type a {
+    position: absolute;
+    top: 6%;
+    font-size: 0.7em;
+}
+div[id*='despliegue'] .layout--twocol-section a {
+    position: absolute;
+    top: 6%;
+    font-size: 0.7em;
+}
+div[id*='despliegue'] .layout--twocol-section .layout__region--second a {
+    position: absolute;
+    top: 10%;
+    font-size: 0.7em;
+}
+div[id*='despliegue'] .layout--onecol:nth-child(2) {
+    padding: 0 20px;
+    transform: translateY(-5%);
+}
 .audio-platforms p {
     margin: 0 1em;
 }
@@ -2434,6 +2469,15 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 		line-height: 1;
 	}
 	div[id*='reproductor'] .layout--twocol-section .layout__region--second a {
+		top: 9.7%;
+	}
+	div[id*='despliegue'] .layout--onecol:nth-child(2) .layout__region--content {
+		padding: 15px;
+	}
+	div[id*='despliegue'] .field--name-field-titulo h1 {
+		line-height: 1;
+	}
+	div[id*='despliegue'] .layout--twocol-section .layout__region--second a {
 		top: 9.7%;
 	}
 	#block-bumbum-theme-registrobogota .layout__region--second, 
