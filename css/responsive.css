@@ -1652,7 +1652,11 @@ div[id*='lineup'] .layout__region {
   #block-bumbum-theme-views-block-ima-lar-y-tex-header-tall-2023-block-1 h2,
   #block-bumbum-theme-views-block-ima-lar-y-tex-header-tall-2023-block-1 p,
   #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 h2,
-  #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 p{
+  #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 p,
+  #block-bumbum-theme-views-block-ima-lar-tex-header-aliados-block-1 h2,
+  #block-bumbum-theme-views-block-ima-lar-tex-header-aliados-block-1 p,
+  #block-bumbum-theme-views-block-ima-lar-tex-header-tour-block-1 h2,
+  #block-bumbum-theme-views-block-ima-lar-tex-header-tour-block-1 h3{
 	color: #272422;
     text-align: left;  
   }
@@ -1965,6 +1969,21 @@ div[id*='talleres'] .layout__region {
 	.spb-popup-main-wrapper .layout__region:last-child {
 		padding-right: 50px;
 		flex: 0 1 100%;
+	}
+	.tour-sub .layout--twocol-section {
+		flex-direction:column-reverse;
+	}
+	.tour-sub .layout__region:first-of-type .block:last-of-type {
+		padding: 0;
+	}
+	.tour-calendar .item-dos-tercios {
+		padding: 50px 5px;
+	}
+	.tour-calendar .title-c-tour h3{
+		font-size: 1.3em;
+	}
+	.tour-calendar .artist {
+		max-width: 60%;
 	}
 }
 @media (max-width: 736px) {
@@ -2339,6 +2358,15 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 }
 	.votacion-section iframe{
 		height: 775px;
+	}
+	.tour-calendar .city-tour {
+		flex-direction: column;
+	}
+	.tour-calendar .fechas-c-tour {
+		width: 100%;
+	}
+	.tour-calendar .artist {
+		max-width: 100%;
 	}
 }
 @media (max-width: 540px) {
