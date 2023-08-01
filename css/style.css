@@ -4400,6 +4400,101 @@ div[id*="bumbum-theme-aliado"].block{
     border: 1px solid #272422;
     padding: 0 10px;
 }
+div[id*='despliegue']{
+	padding: 0px;
+}
+div[id*='despliegue'] .taxonomy-term{
+	width: 100%;
+	padding: 0 2% 0 2%;
+}
+div[id*='despliegue'] .block-content img{
+	width: 100%;
+    object-fit: cover;
+}
+div[id*='despliegue'] .layout--onecol:nth-child(2){
+	margin: 0px;
+    width: 100%;
+    height: fit-content;
+    z-index: 16;
+    padding: 0 50px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    display: flex;
+    transform: translateY(-20%);
+}
+div[id*='despliegue'] .layout--onecol:nth-child(2) .layout__region--content{
+	max-width: 95%;
+    margin: 0 auto;
+    background: #f5b6cd;
+    padding: 50px;
+}
+div[id*='despliegue'] .layout--onecol:nth-child(2) .layout__region--content .block-content{
+	padding: 0px;
+}
+div[id*='despliegue'] .layout--onecol:last-of-type{
+	border-bottom: 2px solid #fdda24;
+    padding: 0 0 50px 0;
+    transform: translateY(-20%);
+    display: flex;
+}
+div[id*='despliegue'] .layout--onecol:last-of-type .layout__region--content{
+	text-align: center;
+}
+div[id*='despliegue'] .field--name-field-titulo-lugar-1{
+	color: #272422;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1em;
+}
+div[id*='despliegue'] .field--name-field-titulo{
+	text-align: center;
+    margin-bottom: 1em;
+}
+div[id*='despliegue'] .field--name-field-titulo h1{
+	color: #272422;
+}
+div[id*='despliegue'] .field--name-body{
+	width: 85%;
+    text-align: center;
+    margin-bottom: 1em;
+    margin: 0 auto 2em auto;
+}
+div[id*='despliegue'] .field--name-body p{
+	color: #272422;
+}
+div[id*='despliegue'] .layout--onecol:last-of-type a {
+	color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+div[id*='despliegue'] .layout--twocol-section{
+	border-bottom: 2px solid #fdda24;
+    padding: 0 0 50px 0;
+    transform: translateY(-20%);
+    display: flex;
+}
+div[id*='despliegue'] .layout--twocol-section .layout__region{
+	text-align: center;
+}
+div[id*='despliegue'] .layout--twocol-section a {
+	color: #272422;
+    background: #fdda24;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
+div[id*='despliegue'] .layout--twocol-section .layout__region--second a {
+	color: #272422;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    width: fit-content;
+}
 /* Animation
 -------------------------------------------- */
 /*slide up */
