@@ -1976,6 +1976,12 @@ div[id*='talleres'] .layout__region {
 	.tour-sub .layout__region:first-of-type .block:last-of-type {
 		padding: 0;
 	}
+	.tour-sub .layout__region:first-of-type {
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 7em;
+	}
 	.tour-calendar .item-dos-tercios {
 		padding: 50px 5px;
 	}
