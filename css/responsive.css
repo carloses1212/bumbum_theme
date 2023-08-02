@@ -1307,6 +1307,9 @@
 	.s-head p{
 		padding-left: 7em;
 	}
+	div[id*='talleres'] .layout__region {
+		padding: 0 50px 0 0px;
+	}
 }
 @media (max-width: 1145px) {
 	.text-article-d {
@@ -1317,6 +1320,9 @@
 	}
 	.spb_close {
     	padding: 20px 50px 0 10px;
+	}
+	div[id*='talleres'] .layout__region {
+		padding: 0 15px 0 0px;
 	}
 }
 @media (max-width: 992px) {
@@ -1370,10 +1376,13 @@
   }
   #block-bumbum-theme-talleres2022 .layout__region, #block-bumbum-theme-talleres2022cali .layout__region,
   #block-bumbum-theme-talleresbogota2023 .layout__region, #block-bumbum-theme-talleres2023barranquilla .layout__region{
-    padding: 0 35px 0 0px;
+    padding: 0 15px 0 0px;
 }
 div[id*='lineup'] .layout__region {
     padding: 0 35px 0 0px;
+}
+div[id*='talleres'] {
+    padding: 5px;
 }
 .audio-platforms a {
     width: 36px;
