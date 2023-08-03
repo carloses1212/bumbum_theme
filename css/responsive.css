@@ -1253,6 +1253,12 @@
 .articles-blog .layout--onecol:first-of-type .block:last-of-type{
 	transform: translateY(-670%);
 }
+.portatil-pc{
+	display:none;
+}
+.mov-desk{
+	display:block;
+}
 }
 @media (max-width: 1366px) {
 	.ses-head a.button-link {
@@ -1269,6 +1275,12 @@
 	}
 	.title-c-tour h3{
 		font-size: 1.5em;
+	}
+	.portatil-pc{
+		display:block;
+	}
+	.mov-desk{
+		display:none;
 	}
 }
 @media (max-width: 1349px) {
@@ -2011,6 +2023,12 @@ div[id*='talleres'] .layout__region {
 	}
 	.tour-calendar .artist {
 		max-width: 60%;
+	}
+	.portatil-pc{
+		display:none;
+	}
+	.mov-desk{
+		display:block;
 	}
 }
 @media (max-width: 736px) {
