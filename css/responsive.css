@@ -1226,6 +1226,9 @@
 	.image-article-d img{
 		height: 306px !important;
 	}
+	.title-c-tour h3{
+		font-size: 1.5em;
+	}
 }
 @media (max-width: 1465px) {
 	.text-article-d {
@@ -1263,6 +1266,9 @@
 	}
 	.spb-popup-main-wrapper .layout__region:last-child {
 		padding-right: 200px;
+	}
+	.title-c-tour h3{
+		font-size: 1.5em;
 	}
 }
 @media (max-width: 1349px) {
@@ -1323,6 +1329,9 @@
 	}
 	div[id*='talleres'] .layout__region {
 		padding: 0 15px 0 0px;
+	}
+	.title-c-tour h3{
+		font-size: 1.1em;
 	}
 }
 @media (max-width: 992px) {
@@ -1414,6 +1423,9 @@ div[id*='talleres'] {
 	}
 	.spb-popup-main-wrapper .layout__region:last-child {
 		padding-right: 90px;
+	}
+	.tour-calendar .item-dos-tercios {
+		padding: 50px 20px;
 	}
 }
 @media (max-width: 768px) {
