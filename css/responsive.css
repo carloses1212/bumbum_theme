@@ -1285,6 +1285,9 @@
 	.title-c-tour h3{
 		font-size: 1.5em;
 	}
+	.tour-sub .layout__region:first-of-type {
+		padding: 70px;
+	}
 	.tour-calendar .item-dos-tercios {
 		padding: 50px 100px;
 	}
