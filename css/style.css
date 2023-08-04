@@ -3821,6 +3821,10 @@ fieldset[id*='edit-que-edades-tienen-los-ninos'] .fieldset-wrapper .form-item{
     color:#272422;
 	padding: 50px;
 }
+.text-article-r h1{
+	font-size: 2em;
+    line-height: 1;
+}
 .text-article-r h1, .text-article-r strong, .text-article-r em{
 	color:#272422;
 }
