@@ -892,16 +892,18 @@
     padding: 65px 60px;
 }
 }
-@media (min-width: 1440px) {
-.item-55 .cont-block h2{
-    max-width: 100%;
-  }
-  .portatil-pc{
+@media (min-width: 1367px) {
+	.portatil-pc{
 		display:none;
 	}
 	.mov-desk{
 		display:block;
 	}
+}
+@media (min-width: 1440px) {
+.item-55 .cont-block h2{
+    max-width: 100%;
+  }
 }
 @media (min-width: 1850px) {
   .container {
