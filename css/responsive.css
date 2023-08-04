@@ -2492,6 +2492,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	.tour-sub .layout__region:first-of-type {
 		margin-top: 1em;
 	}
+	.tour-calendar .artist {
+		max-width: 60%;
+	}
 }
 @media (max-width: 420px) {
 	#block-bumbum-theme-registrobogota .layout--twocol-section--33-67, #block-bumbum-theme-registrobarranquilla .layout--twocol-section--33-67 {
@@ -2650,6 +2653,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	.article-d.owl-carousel .owl-nav .owl-next {
 		right: 30px;
 	}
+	.tour-calendar .artist {
+		max-width: 55%;
+	}
 }
 @media (max-width: 320px) {
 	.articles-blog .layout{
@@ -2667,6 +2673,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	#block-bumbum-theme-registrobogota .layout__region--second, 
 	#block-bumbum-theme-registrobarranquilla .layout__region--second {
 		padding: 0px;
+	}
+	.tour-calendar .artist {
+		max-width: 50%;
 	}
 }
 @media (max-width: 280px) {
