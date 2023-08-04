@@ -4360,6 +4360,7 @@ div[id*="bumbum-theme-aliado"].block{
 .tour-sub .layout__region:last-of-type .block,
 .tour-sub .layout__region:last-of-type .block-content,
 .tour-sub .layout__region:last-of-type .node-taxonomy-container,
+.tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term div,
 .tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term .contextual-region,
 .tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term .field--name-field-media-image,
 .tour-sub .layout__region:last-of-type .taxonomy-terms .taxonomy-term .field--name-field-media-image .field-item{
