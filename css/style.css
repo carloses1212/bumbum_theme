@@ -4340,6 +4340,7 @@ div[id*="bumbum-theme-aliado"].block{
 #block-bumbum-theme-views-block-ima-lar-tex-header-tour-block-1 h3,
 .tour-sub h2{
 	color:#272422;
+	text-align:left;
 }
 .tour-sub .layout__region:first-of-type{
 	padding: 100px;
