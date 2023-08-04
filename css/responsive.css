@@ -1285,6 +1285,9 @@
 	.title-c-tour h3{
 		font-size: 1.5em;
 	}
+	.tour-calendar .item-dos-tercios {
+		padding: 50px 100px;
+	}
 }
 @media (max-width: 1349px) {
 	.page-header #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 .item-dos-tercios img {
