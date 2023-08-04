@@ -1331,6 +1331,12 @@
 	div[id*='talleres'] .layout__region {
 		padding: 0 50px 0 0px;
 	}
+	.tour-sub .layout__region:first-of-type {
+		padding: 50px;
+	}
+	.tour-calendar .item-dos-tercios {
+		padding: 50px 50px;
+	}
 }
 @media (max-width: 1145px) {
 	.text-article-d {
@@ -1347,6 +1353,20 @@
 	}
 	.title-c-tour h3{
 		font-size: 1.1em;
+	}
+}
+@media (max-width: 1024px) {
+	.tour-sub .layout__region:first-of-type {
+		padding: 20px;
+	}
+	.tour-calendar .item-dos-tercios {
+		padding: 50px 20px;
+	}
+	.tour-calendar .title-c-tour {
+		width: 20%;
+	}
+	.tour-calendar .fechas-c-tour {
+		width: 80%;
 	}
 }
 @media (max-width: 992px) {
@@ -1375,7 +1395,7 @@
     margin: 0 0 0 0;
     padding: 0;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 33.3%;
+    -ms-flex: 1 1 45%;
     flex: 1 1 45%;
     max-width: 45%;
 }
@@ -1383,7 +1403,7 @@
     margin: 0 0 0 0;
     padding: 0;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 66.6%;
+    -ms-flex: 1 1 55%;
     flex: 1 1 55%;
     max-width: 55%;
 }
@@ -1441,6 +1461,18 @@ div[id*='talleres'] {
 	}
 	.tour-calendar .item-dos-tercios {
 		padding: 50px 20px;
+		-ms-flex: 1 1 66.6%;
+		flex: 1 1 66.6%;
+		max-width: 66.6%;
+	}
+	.tour-calendar .item-un-tercio {
+		-ms-flex: 1 1 33.3%;
+		flex: 1 1 33.3%;
+		max-width: 33.3%;
+	}
+	.tour-sub .layout__region:first-of-type {
+		padding: 20px;
+		flex-direction: column;
 	}
 }
 @media (max-width: 768px) {
@@ -2016,7 +2048,7 @@ div[id*='talleres'] .layout__region {
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		margin-top: 7em;
+		margin-top: 12em;
 	}
 	.tour-calendar .item-dos-tercios {
 		padding: 50px 5px;
@@ -2070,6 +2102,9 @@ div[id*='talleres'] .layout__region {
 }
 	.votacion-section .layout--onecol:first-of-type .field--name-body p {
 		max-width: 80%;
+	}
+	.tour-sub .layout__region:first-of-type {
+		margin-top: 9em;
 	}
 }
 @media (max-width: 640px) {
@@ -2416,6 +2451,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 	.tour-calendar .artist {
 		max-width: 100%;
 	}
+	.tour-sub .layout__region:first-of-type {
+		margin-top: 7em;
+	}
 }
 @media (max-width: 540px) {
 	.articles-blog .layout{
@@ -2444,6 +2482,9 @@ div[id*='edades-tienen-los-ninos'] .fieldset-wrapper{
 }
 	.articles-blog .layout--onecol:first-of-type .block:last-of-type{
 		transform: translateY(-1025%);
+	}
+	.tour-sub .layout__region:first-of-type {
+		margin-top: 1em;
 	}
 }
 @media (max-width: 420px) {
