@@ -1261,6 +1261,15 @@
 		transform: translateY(-670%);
 	}
 }
+@media (max-width: 1440px) {
+	.aliados-p .cont-33 {
+		margin: 0px 0 2em 0;
+		padding: 2em 3em;
+	}
+	.aliados-p .cont-33 h3{
+		font-size: 1.5em;
+	}
+}
 @media (max-width: 1420px) {
 	.portatil-pc{
 		display:block;
