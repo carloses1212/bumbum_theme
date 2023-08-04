@@ -892,7 +892,7 @@
     padding: 65px 60px;
 }
 }
-@media (min-width: 1367px) {
+@media (min-width: 1421px) {
 	.portatil-pc{
 		display:none;
 	}
@@ -1261,6 +1261,14 @@
 		transform: translateY(-670%);
 	}
 }
+@media (max-width: 1420px) {
+	.portatil-pc{
+		display:block;
+	}
+	.mov-desk{
+		display:none;
+	}
+}
 @media (max-width: 1366px) {
 	.ses-head a.button-link {
 		padding: 0.6em 1em;
@@ -1276,12 +1284,6 @@
 	}
 	.title-c-tour h3{
 		font-size: 1.5em;
-	}
-	.portatil-pc{
-		display:block;
-	}
-	.mov-desk{
-		display:none;
 	}
 }
 @media (max-width: 1349px) {
