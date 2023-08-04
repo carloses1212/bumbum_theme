@@ -1291,6 +1291,13 @@
 	.tour-calendar .item-dos-tercios {
 		padding: 50px 100px;
 	}
+	.aliados-p .cont-33 {
+		margin: 0 0 2em 0;
+		padding: 1em 2em;
+	}
+	.aliados-p .cont-33 h3{
+		font-size: 1.5em;
+	}
 }
 @media (max-width: 1349px) {
 	.page-header #block-bumbum-theme-views-block-imagen-y-texto-header-territ-block-1 .item-dos-tercios img {
@@ -1479,6 +1486,11 @@ div[id*='talleres'] {
 	.tour-sub .layout__region:first-of-type {
 		padding: 20px;
 		flex-direction: column;
+	}
+	.aliados-p .cont-33 {
+		-ms-flex: 1 1 50%;
+		flex: 1 1 50%;
+		max-width: 50%;
 	}
 }
 @media (max-width: 768px) {
