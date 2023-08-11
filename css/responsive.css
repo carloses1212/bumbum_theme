@@ -1269,6 +1269,9 @@
 	.aliados-p .cont-33 h3{
 		font-size: 1.5em;
 	}
+	.tour-calendar .artist {
+		max-width: 65%;
+	}
 }
 @media (max-width: 1420px) {
 	.portatil-pc{
