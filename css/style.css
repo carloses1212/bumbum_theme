@@ -4526,8 +4526,12 @@ div[id*='despliegue'] .layout--twocol-section .layout__region--second a {
     border: none;
     width: fit-content;
 }
-div[id*='despliegue'] .field--name-body em, div[id*='despliegue'] .field--name-body strong{
+div[id*='despliegue'] .field--name-body em{
 	color: #272422;
+}
+div[id*='despliegue'] .field--name-body strong{
+	color: #272422;
+	font-weight:700;
 }
 /* Animation
 -------------------------------------------- */
